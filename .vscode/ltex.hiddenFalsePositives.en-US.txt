@@ -1,0 +1,1 @@
+{"rule":"EN_COMPOUNDS_SUB_DOMAIN","sentence":"^\\QNow thanks to mdtasnim who introduced me back to blogging, this time hosting on my own server & own sub-domain.\\E$"}
