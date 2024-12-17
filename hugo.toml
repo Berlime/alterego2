@@ -1,10 +1,10 @@
-baseURL = 'alterego.berlime.com/'
+baseURL = 'https://alterego.berlime.com/'
 languageCode = 'en-us'
 title = 'Alter Ego 2'
 theme = 'gokarna'
 
 # Automatically generate robots.txt
-enableRobotsTXT = false
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
