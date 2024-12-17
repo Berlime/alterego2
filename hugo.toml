@@ -7,7 +7,7 @@ theme = 'gokarna'
 enableRobotsTXT = false
 
 [menu]
-   [[menu.main]]
+  [[menu.main]]
     # Unique identifier for a menu item
     identifier = "posts"
 
@@ -32,7 +32,7 @@ enableRobotsTXT = false
     weight = 2
     pre = "<span data-feather='tag'></span>"
 
-[[menu.main]]
+  [[menu.main]]
     identifier = 'github'
     url = "https://github.com/Berlime/hugo"
     weight = 3
@@ -47,7 +47,7 @@ enableRobotsTXT = false
     # Without using feather-icons
     pre = "<span data-feather='coffee'></span>" 
 
-    [params]
+[params]
   # URL for the avatar on homepage
   avatarURL = "/images/avatar/gokarna.jpg"
 
