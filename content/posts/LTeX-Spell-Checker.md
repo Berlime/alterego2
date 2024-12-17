@@ -5,7 +5,7 @@ date: 2024-12-16
 lastmod: 2024-12-16
 showTableOfContents: true
 tags: ["dev"]
-title: "LTeX - Spell Checker"
+title: "LTeX5555- Spell Checker"
 type: "post"
 ---
 
