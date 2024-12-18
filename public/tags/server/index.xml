@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on Alter Ego 2</title>
+    <link>http://localhost:1313/tags/server/</link>
+    <description>Recent content in Server on Alter Ego 2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Up Space Ubuntu</title>
+      <link>http://localhost:1313/posts/free-up-space-ubuntu/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/free-up-space-ubuntu/</guid>
+      <description>&lt;p&gt;A good article I found &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

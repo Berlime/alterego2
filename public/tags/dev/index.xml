@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on Alter Ego 2</title>
+    <link>http://localhost:1313/tags/dev/</link>
+    <description>Recent content in Dev on Alter Ego 2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Up Space Ubuntu</title>
+      <link>http://localhost:1313/posts/free-up-space-ubuntu/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/free-up-space-ubuntu/</guid>
+      <description>&lt;p&gt;A good article I found &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LTeX- Spell Checker</title>
+      <link>http://localhost:1313/posts/ltex-spell-checker/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ltex-spell-checker/</guid>
+      <description>&lt;p&gt;So ni kire dia sync?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;16th Dec 2024 - Updated Hugo Version&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;15th Aug 2024 - Publish Date&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>WCPA Circle Shape</title>
+      <link>http://localhost:1313/posts/wcpa-circle-shape/</link>
+      <pubDate>Tue, 10 Dec 2024 20:47:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/wcpa-circle-shape/</guid>
+      <description>&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;&#xA;&lt;p&gt;We will now strategise and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;&#xA;&lt;p&gt;Below is what we need to accomplish&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Syntax&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Header&lt;/td&gt;&#xA;          &lt;td&gt;Title&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Paragraph&lt;/td&gt;&#xA;          &lt;td&gt;Text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

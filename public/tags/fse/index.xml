@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FSE on Alter Ego 2</title>
+    <link>http://localhost:1313/tags/fse/</link>
+    <description>Recent content in FSE on Alter Ego 2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jan 2024 20:25:16 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nurusysyabab</title>
+      <link>http://localhost:1313/posts/nurusysyabab/</link>
+      <pubDate>Sun, 21 Jan 2024 20:25:16 +0800</pubDate>
+      <guid>http://localhost:1313/posts/nurusysyabab/</guid>
+      <description>&lt;h2 id=&#34;a-different-approach&#34;&gt;A different approach&lt;/h2&gt;&#xA;&lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I quickly discovered that there are bunch of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used realesed a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
