@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agency on Alter Ego 2</title>
-    <link>http://localhost:1313/tags/agency/</link>
+    <link>https://alterego.berlime.com/tags/agency/</link>
     <description>Recent content in Agency on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 20:47:15 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/agency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://alterego.berlime.com/tags/agency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rounded Corners</title>
+      <link>https://alterego.berlime.com/posts/rounded-corners/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://alterego.berlime.com/posts/rounded-corners/</guid>
+      <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders.&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements.&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WCPA Circle Shape</title>
-      <link>http://localhost:1313/posts/wcpa-circle-shape/</link>
+      <link>https://alterego.berlime.com/posts/wcpa-circle-shape/</link>
       <pubDate>Tue, 10 Dec 2024 20:47:15 +0800</pubDate>
-      <guid>http://localhost:1313/posts/wcpa-circle-shape/</guid>
+      <guid>https://alterego.berlime.com/posts/wcpa-circle-shape/</guid>
       <description>&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;&#xA;&lt;p&gt;We will now strategise and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;&#xA;&lt;p&gt;Below is what we need to accomplish&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Syntax&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Header&lt;/td&gt;&#xA;          &lt;td&gt;Title&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Paragraph&lt;/td&gt;&#xA;          &lt;td&gt;Text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>Huermermemre</title>
-      <link>http://localhost:1313/posts/huermermemre/</link>
+      <link>https://alterego.berlime.com/posts/huermermemre/</link>
       <pubDate>Tue, 10 Dec 2024 10:52:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/huermermemre/</guid>
+      <guid>https://alterego.berlime.com/posts/huermermemre/</guid>
       <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with Github.&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about Github was some sort of a place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightined me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what Github is, I kind of get the idea but do not know how it works, what is it for, etcetra.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SEO Partnership</title>
-      <link>http://localhost:1313/posts/seo-partnership/</link>
+      <link>https://alterego.berlime.com/posts/seo-partnership/</link>
       <pubDate>Thu, 22 Aug 2024 22:46:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/seo-partnership/</guid>
+      <guid>https://alterego.berlime.com/posts/seo-partnership/</guid>
       <description>&lt;h2 id=&#34;new-seo-service&#34;&gt;New SEO Service&lt;/h2&gt;&#xA;&lt;p&gt;Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency&amp;rsquo;s core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skillset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notion</title>
-      <link>http://localhost:1313/posts/notion/</link>
+      <link>https://alterego.berlime.com/posts/notion/</link>
       <pubDate>Wed, 24 Jan 2024 23:25:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/notion/</guid>
+      <guid>https://alterego.berlime.com/posts/notion/</guid>
       <description>&lt;h2 id=&#34;notionso---the-superpower-i-stumble-upon&#34;&gt;Notion.so - The Superpower I Stumble Upon&lt;/h2&gt;&#xA;&lt;p&gt;Notion is an app that you can decide on how do you want it to be. It is generally a note taking app. On steroids, if you want it.&#xA;You can choose to make it as simple as a regular note taking app, or you can also turn it into a &lt;em&gt;&amp;ldquo;super app&amp;rdquo;&lt;/em&gt; like how I did, to run my agency.&lt;/p&gt;&#xA;&lt;p&gt;I also run an internal finance insights for my agency. You see, having an accountant running a business is a must have. Even when you subscribe a software to comply with the regulations. You still have some sort of limitation in manipulating your finance like setting aside budgets, create internal accounts for a certain category of stuffs. Well, Notion allows me to do that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Funnel</title>
-      <link>http://localhost:1313/posts/funnel/</link>
+      <link>https://alterego.berlime.com/posts/funnel/</link>
       <pubDate>Wed, 24 Jan 2024 13:08:31 +0800</pubDate>
-      <guid>http://localhost:1313/posts/funnel/</guid>
+      <guid>https://alterego.berlime.com/posts/funnel/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Original Post date: 19th June 2024.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;first-berlimes-funnel-tofu-aka-top-of-the-funnel&#34;&gt;First Berlime&amp;rsquo;s Funnel (TOFU &lt;em&gt;a.k.a Top Of the Funnel&lt;/em&gt;)&lt;/h2&gt;&#xA;&lt;p&gt;You can read more about Tofu &lt;a href=&#34;https://getwpfunnels.com/top-of-the-funnel/&#34;&gt;here&lt;/a&gt;. A funnel is basically a terminology used to generate leads. It is basically a way to filter through visitors or people that captures their attention into your business. Eventually turning them into paying visitors.&lt;/p&gt;&#xA;&lt;p&gt;So, Tofu is exactly how it sounds like. We first bring people into the funnel which is the widest part of the funnel. The wide part of the funnel, is called &amp;rsquo;top of the funnel&amp;quot;. Which essentially what people see when they first enter your funnel.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nurusysyabab</title>
-      <link>http://localhost:1313/posts/nurusysyabab/</link>
+      <link>https://alterego.berlime.com/posts/nurusysyabab/</link>
       <pubDate>Sun, 21 Jan 2024 20:25:16 +0800</pubDate>
-      <guid>http://localhost:1313/posts/nurusysyabab/</guid>
+      <guid>https://alterego.berlime.com/posts/nurusysyabab/</guid>
       <description>&lt;h2 id=&#34;a-different-approach&#34;&gt;A different approach&lt;/h2&gt;&#xA;&lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I quickly discovered that there are bunch of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used realesed a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Agency</title>
-      <link>http://localhost:1313/posts/my-agency/</link>
+      <link>https://alterego.berlime.com/posts/my-agency/</link>
       <pubDate>Tue, 16 Jan 2024 13:08:31 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-agency/</guid>
+      <guid>https://alterego.berlime.com/posts/my-agency/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Original Post date: 12th May 2024&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hello there, this is the first post that I will be sharing about my agency.&lt;/p&gt;&#xA;&lt;p&gt;I run a web design and development agenncy. I started out small by creating a website for my wedding business. This was before the Covid-19 pandemic.&#xA;My sole purpose to create a website for my wedding business is to seamlessly connect multiple providers with customers without having to communicate with me the wedding planner.&lt;/p&gt;</description>
     </item>
   </channel>
