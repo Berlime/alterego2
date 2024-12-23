@@ -13,7 +13,7 @@
       <link>https://alterego.berlime.com/posts/free-up-space-ubuntu/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/free-up-space-ubuntu/</guid>
-      <description>&lt;p&gt;A good article I found &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;1-clear-the-apt-cache&#34;&gt;1. Clear the APT Cache&lt;/h2&gt;&#xA;&lt;p&gt;Find out how large is the apt package cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -sh /var/cache/apt/archives&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Clear the cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get clean&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;2-remove-old-kernels&#34;&gt;2. Remove Old Kernels&lt;/h2&gt;&#xA;&lt;p&gt;Not sure how it works, really but here we go,&lt;/p&gt;&#xA;&lt;p&gt;Proceed with caution:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get autoremove --purge&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;3-last-stay-up-to-date&#34;&gt;3. Last, stay up to date&lt;/h2&gt;&#xA;&lt;p&gt;Do this regularly&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; upgrade&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;You can read the full article where I found the above commands &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

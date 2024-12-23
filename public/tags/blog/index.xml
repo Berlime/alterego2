@@ -6,22 +6,8 @@
     <description>Recent content in Blog on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://alterego.berlime.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Huermermemre</title>
-      <link>https://alterego.berlime.com/posts/huermermemre/</link>
-      <pubDate>Tue, 10 Dec 2024 10:52:29 +0800</pubDate>
-      <guid>https://alterego.berlime.com/posts/huermermemre/</guid>
-      <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with Github.&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about Github was some sort of a place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightined me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what Github is, I kind of get the idea but do not know how it works, what is it for, etcetra.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Food Delivery Rider</title>
-      <link>https://alterego.berlime.com/posts/food-delivery-rider/</link>
-      <pubDate>Fri, 13 Sep 2024 12:43:53 +0800</pubDate>
-      <guid>https://alterego.berlime.com/posts/food-delivery-rider/</guid>
-      <description>&lt;h2 id=&#34;lets-compare-between-working-fulltime--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Fulltime &amp;amp; Being a Food Delivery Rider, Also Full Time.&lt;/h2&gt;&#xA;&lt;p&gt;If Panda for 21 days, which is the same as working fulltime at about 7 to 8 hours per day with around 1 hour break &amp;amp; small breaks in between.&lt;/p&gt;&#xA;&lt;p&gt;Per day average $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, if work fulltime with 2100 after deduction (2625). For at least 8 hours.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>White Loaf</title>
       <link>https://alterego.berlime.com/posts/white-loaf/</link>
@@ -42,6 +28,13 @@
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/alter-ego-2/</guid>
       <description>&lt;p&gt;When I was 16, I launched my blog site with blogpost.com (now blogger.com).&lt;/p&gt;&#xA;&lt;p&gt;You say why I blog? Well, my parents did not manage to get a hold of a computer yet during that period. So what I did was, wrote a journal but wouldn’t call it a journal.&lt;/p&gt;&#xA;&lt;p&gt;You see, the way I did it was to write in a ‘magazine’ look and format where there will be so-called “ads” for the stuff I find interesting. There are 3 versions of this which will remain offline for keepsake and nostalgic moments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Food Delivery Rider</title>
+      <link>https://alterego.berlime.com/posts/food-delivery-rider/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://alterego.berlime.com/posts/food-delivery-rider/</guid>
+      <description>&lt;h2 id=&#34;lets-compare-between-working-full-time--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Full-time &amp;amp; Being a Food Delivery Rider, Also Full Time&lt;/h2&gt;&#xA;&lt;p&gt;Working as a Foodpanda food delivery rider for 21 days, which is the same as working full-time at about 7 to excluding lunch &amp;amp; small breaks.&lt;/p&gt;&#xA;&lt;p&gt;On average per day $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, this equals to a salary of $2624 working full-time with a take home cash of $2100 after deduction.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog.</title>

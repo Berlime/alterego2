@@ -18,22 +18,22 @@
 
     
     <title>Free Up Space Ubuntu</title>
-    <meta name="description" content="Itiretions of the format of my journals.">
+    <meta name="description" content="Ubuntu 24.04">
     <meta name="keywords" content='blog, gokarna, hugo, dev, server'>
 
     <meta property="og:url" content="https://alterego.berlime.com/posts/free-up-space-ubuntu/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Free Up Space Ubuntu">
-    <meta property="og:description" content="Itiretions of the format of my journals.">
-    <meta property="og:image" content="https://alterego.berlime.com/images/gokarna.jpg">
-    <meta property="og:image:secure_url" content="https://alterego.berlime.com/images/gokarna.jpg">
+    <meta property="og:description" content="Ubuntu 24.04">
+    <meta property="og:image" content="https://alterego.berlime.com/images/avatar.webp">
+    <meta property="og:image:secure_url" content="https://alterego.berlime.com/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Free Up Space Ubuntu">
-    <meta name="twitter:description" content="Itiretions of the format of my journals.">
+    <meta name="twitter:description" content="Ubuntu 24.04">
     <meta property="twitter:domain" content="https://alterego.berlime.com/posts/free-up-space-ubuntu/">
     <meta property="twitter:url" content="https://alterego.berlime.com/posts/free-up-space-ubuntu/">
-    <meta name="twitter:image" content="https://alterego.berlime.com/images/gokarna.jpg">
+    <meta name="twitter:image" content="https://alterego.berlime.com/images/avatar.webp">
 
     
     <link rel="canonical" href="https://alterego.berlime.com/posts/free-up-space-ubuntu/">
@@ -63,7 +63,7 @@
         
         <div class="avatar">
             <a href="https://alterego.berlime.com/">
-                <img src='/images/gokarna.jpg' alt="avatar">
+                <img src='/images/avatar.webp' alt="avatar">
             </a>
         </div>
         
@@ -155,7 +155,7 @@
 	
 
 	
-          <small role="doc-subtitle">Itiretions of the format of my journals.</small>
+          <small role="doc-subtitle">Ubuntu 24.04</small>
 	
 
 	
@@ -178,7 +178,32 @@
     </div>
 
     <div class="post-content">
-        <p>A good article I found <a href="https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu">here</a>.</p>
+        <h2 id="1-clear-the-apt-cache">1. Clear the APT Cache</h2>
+<p>Find out how large is the apt package cache:</p>
+<pre><code>du -sh /var/cache/apt/archives
+</code></pre>
+<p>Clear the cache:</p>
+<pre><code>sudo apt-get clean
+</code></pre>
+<h2 id="2-remove-old-kernels">2. Remove Old Kernels</h2>
+<p>Not sure how it works, really but here we go,</p>
+<p>Proceed with caution:</p>
+<pre><code>sudo apt-get autoremove --purge
+</code></pre>
+<h2 id="3-last-stay-up-to-date">3. Last, stay up to date</h2>
+<p>Do this regularly</p>
+<pre><code>sudo apt update &amp;&amp; upgrade
+</code></pre>
+<p>You can read the full article where I found the above commands <a href="https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu">here</a>.</p>
+<blockquote>
+<ul>
+<li><em>Post Changelogs</em>
+<ul>
+<li><em>17th Aug 2024 - Publish Date</em></li>
+</ul>
+</li>
+</ul>
+</blockquote>
 
         
     </div>
@@ -219,7 +244,13 @@
 
 <aside class="post-toc">
     <nav id="toc">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-clear-the-apt-cache">1. Clear the APT Cache</a></li>
+    <li><a href="#2-remove-old-kernels">2. Remove Old Kernels</a></li>
+    <li><a href="#3-last-stay-up-to-date">3. Last, stay up to date</a></li>
+  </ul>
+</nav>
     </nav>
 </aside>
 

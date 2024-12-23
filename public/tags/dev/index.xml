@@ -13,14 +13,14 @@
       <link>https://alterego.berlime.com/posts/rounded-corners/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/rounded-corners/</guid>
-      <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders.&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements.&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Free Up Space Ubuntu</title>
       <link>https://alterego.berlime.com/posts/free-up-space-ubuntu/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/free-up-space-ubuntu/</guid>
-      <description>&lt;p&gt;A good article I found &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;1-clear-the-apt-cache&#34;&gt;1. Clear the APT Cache&lt;/h2&gt;&#xA;&lt;p&gt;Find out how large is the apt package cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -sh /var/cache/apt/archives&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Clear the cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get clean&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;2-remove-old-kernels&#34;&gt;2. Remove Old Kernels&lt;/h2&gt;&#xA;&lt;p&gt;Not sure how it works, really but here we go,&lt;/p&gt;&#xA;&lt;p&gt;Proceed with caution:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get autoremove --purge&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;3-last-stay-up-to-date&#34;&gt;3. Last, stay up to date&lt;/h2&gt;&#xA;&lt;p&gt;Do this regularly&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; upgrade&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;You can read the full article where I found the above commands &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LTeX- Spell Checker</title>
@@ -35,6 +35,13 @@
       <pubDate>Tue, 10 Dec 2024 20:47:15 +0800</pubDate>
       <guid>https://alterego.berlime.com/posts/wcpa-circle-shape/</guid>
       <description>&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;&#xA;&lt;p&gt;We will now strategise and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;&#xA;&lt;p&gt;Below is what we need to accomplish&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Syntax&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Header&lt;/td&gt;&#xA;          &lt;td&gt;Title&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Paragraph&lt;/td&gt;&#xA;          &lt;td&gt;Text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://alterego.berlime.com/posts/github/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://alterego.berlime.com/posts/github/</guid>
+      <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with Github&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about GitHub was some sort of place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightened me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what GitHub is, I kind of get the idea but do not know how it works, what is it for, etcetera.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

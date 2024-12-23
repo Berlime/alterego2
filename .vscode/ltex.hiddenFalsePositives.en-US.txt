@@ -1,0 +1,3 @@
+{"rule":"HOUR_HYPHEN","sentence":"^\\QIf Panda for 21 days, which is the same as working fulltime at about 7 to 8 hours per day with around 1 hour break & small breaks in between.\\E$"}
+{"rule":"PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT","sentence":"^\\QSo, the minimum take home pay should be $2288, which is $2860 monthly salary.\\E$"}
+{"rule":"PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT","sentence":"^\\QSo, the minimum take home pay should be $2288, which is $2860 monthly salary if on payroll.\\E$"}

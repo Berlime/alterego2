@@ -6,21 +6,21 @@
     <description>Recent content on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://alterego.berlime.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rounded Corners</title>
       <link>https://alterego.berlime.com/posts/rounded-corners/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/rounded-corners/</guid>
-      <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders.&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements.&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Free Up Space Ubuntu</title>
       <link>https://alterego.berlime.com/posts/free-up-space-ubuntu/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/free-up-space-ubuntu/</guid>
-      <description>&lt;p&gt;A good article I found &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;1-clear-the-apt-cache&#34;&gt;1. Clear the APT Cache&lt;/h2&gt;&#xA;&lt;p&gt;Find out how large is the apt package cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -sh /var/cache/apt/archives&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Clear the cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get clean&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;2-remove-old-kernels&#34;&gt;2. Remove Old Kernels&lt;/h2&gt;&#xA;&lt;p&gt;Not sure how it works, really but here we go,&lt;/p&gt;&#xA;&lt;p&gt;Proceed with caution:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get autoremove --purge&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;3-last-stay-up-to-date&#34;&gt;3. Last, stay up to date&lt;/h2&gt;&#xA;&lt;p&gt;Do this regularly&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; upgrade&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;You can read the full article where I found the above commands &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LTeX- Spell Checker</title>
@@ -37,18 +37,11 @@
       <description>&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;&#xA;&lt;p&gt;We will now strategise and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;&#xA;&lt;p&gt;Below is what we need to accomplish&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Syntax&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Header&lt;/td&gt;&#xA;          &lt;td&gt;Title&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Paragraph&lt;/td&gt;&#xA;          &lt;td&gt;Text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
-      <title>Huermermemre</title>
-      <link>https://alterego.berlime.com/posts/huermermemre/</link>
-      <pubDate>Tue, 10 Dec 2024 10:52:29 +0800</pubDate>
-      <guid>https://alterego.berlime.com/posts/huermermemre/</guid>
-      <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with Github.&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about Github was some sort of a place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightined me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what Github is, I kind of get the idea but do not know how it works, what is it for, etcetra.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Food Delivery Rider</title>
-      <link>https://alterego.berlime.com/posts/food-delivery-rider/</link>
-      <pubDate>Fri, 13 Sep 2024 12:43:53 +0800</pubDate>
-      <guid>https://alterego.berlime.com/posts/food-delivery-rider/</guid>
-      <description>&lt;h2 id=&#34;lets-compare-between-working-fulltime--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Fulltime &amp;amp; Being a Food Delivery Rider, Also Full Time.&lt;/h2&gt;&#xA;&lt;p&gt;If Panda for 21 days, which is the same as working fulltime at about 7 to 8 hours per day with around 1 hour break &amp;amp; small breaks in between.&lt;/p&gt;&#xA;&lt;p&gt;Per day average $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, if work fulltime with 2100 after deduction (2625). For at least 8 hours.&lt;/p&gt;</description>
+      <title>Github</title>
+      <link>https://alterego.berlime.com/posts/github/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://alterego.berlime.com/posts/github/</guid>
+      <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with Github&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about GitHub was some sort of place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightened me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what GitHub is, I kind of get the idea but do not know how it works, what is it for, etcetera.&lt;/p&gt;</description>
     </item>
     <item>
       <title>White Loaf</title>
@@ -70,6 +63,13 @@
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://alterego.berlime.com/posts/alter-ego-2/</guid>
       <description>&lt;p&gt;When I was 16, I launched my blog site with blogpost.com (now blogger.com).&lt;/p&gt;&#xA;&lt;p&gt;You say why I blog? Well, my parents did not manage to get a hold of a computer yet during that period. So what I did was, wrote a journal but wouldn’t call it a journal.&lt;/p&gt;&#xA;&lt;p&gt;You see, the way I did it was to write in a ‘magazine’ look and format where there will be so-called “ads” for the stuff I find interesting. There are 3 versions of this which will remain offline for keepsake and nostalgic moments.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Food Delivery Rider</title>
+      <link>https://alterego.berlime.com/posts/food-delivery-rider/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://alterego.berlime.com/posts/food-delivery-rider/</guid>
+      <description>&lt;h2 id=&#34;lets-compare-between-working-full-time--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Full-time &amp;amp; Being a Food Delivery Rider, Also Full Time&lt;/h2&gt;&#xA;&lt;p&gt;Working as a Foodpanda food delivery rider for 21 days, which is the same as working full-time at about 7 to excluding lunch &amp;amp; small breaks.&lt;/p&gt;&#xA;&lt;p&gt;On average per day $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, this equals to a salary of $2624 working full-time with a take home cash of $2100 after deduction.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog.</title>

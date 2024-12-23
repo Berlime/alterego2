@@ -18,22 +18,22 @@
 
     
     <title>Rounded Corners</title>
-    <meta name="description" content="WCPA Rounded corners for custom wood orders. First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the …">
+    <meta name="description" content="WCPA Rounded corners for custom wood orders First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the …">
     <meta name="keywords" content='blog, gokarna, hugo, dev, agency'>
 
     <meta property="og:url" content="https://alterego.berlime.com/posts/rounded-corners/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Rounded Corners">
-    <meta property="og:description" content="WCPA Rounded corners for custom wood orders. First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the …">
-    <meta property="og:image" content="https://alterego.berlime.com/images/gokarna.jpg">
-    <meta property="og:image:secure_url" content="https://alterego.berlime.com/images/gokarna.jpg">
+    <meta property="og:description" content="WCPA Rounded corners for custom wood orders First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the …">
+    <meta property="og:image" content="https://alterego.berlime.com/images/avatar.webp">
+    <meta property="og:image:secure_url" content="https://alterego.berlime.com/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Rounded Corners">
-    <meta name="twitter:description" content="WCPA Rounded corners for custom wood orders. First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the …">
+    <meta name="twitter:description" content="WCPA Rounded corners for custom wood orders First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the …">
     <meta property="twitter:domain" content="https://alterego.berlime.com/posts/rounded-corners/">
     <meta property="twitter:url" content="https://alterego.berlime.com/posts/rounded-corners/">
-    <meta name="twitter:image" content="https://alterego.berlime.com/images/gokarna.jpg">
+    <meta name="twitter:image" content="https://alterego.berlime.com/images/avatar.webp">
 
     
     <link rel="canonical" href="https://alterego.berlime.com/posts/rounded-corners/">
@@ -63,7 +63,7 @@
         
         <div class="avatar">
             <a href="https://alterego.berlime.com/">
-                <img src='/images/gokarna.jpg' alt="avatar">
+                <img src='/images/avatar.webp' alt="avatar">
             </a>
         </div>
         
@@ -178,19 +178,24 @@
     </div>
 
     <div class="post-content">
-        <h2 id="wcpa-rounded-corners-for-custom-wood-orders">WCPA Rounded corners for custom wood orders.</h2>
+        <h2 id="wcpa-rounded-corners-for-custom-wood-orders">WCPA Rounded corners for custom wood orders</h2>
 <p>First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.
 The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.</p>
-<h2 id="we-need-to-start-from-the-4-sided-measurements">We need to start from the 4 sided measurements.</h2>
+<h2 id="we-need-to-start-from-the-4-sided-measurements">We need to start from the 4 sided measurements</h2>
 <p>First, we need to identify the mid-point variable where,</p>
 <ul>
 <li>length: {value/2}</li>
 <li>width: = {value/2}</li>
 </ul>
 <p>With this, we now have 4 mid-points, 1 on each side.</p>
-<h2 id="determine-the-label-of-each-corner">Determine the label of each corner.</h2>
+<h2 id="determine-the-label-of-each-corner">Determine the label of each corner</h2>
 <p>We will now need users to imagine if the longer side is perpendicular with a surface, where the longer side is standing and not laying flat.
 For this, we need to display an image as HTML as a guide, on which field, false into which corner.</p>
+<h2 id="determine-wcpa-form-context">Determine WCPA form context</h2>
+<p>Now we will decide if the WCPA form is handled globally or locally.</p>
+<p>If <strong>Global</strong>, each field for the corner radius value will need to have a conditional logic set to, &lsquo;{product,productSize,productThickness,productWidth,ProductLength}&rsquo;</p>
+<p>There are hundreds of wood products that have multiple combinations of variations. Hence, this will render the Global WCPA form obsolete as there will be so many rules involved.</p>
+<p>To mitigate this, we will locally scope the Rounded Corners field in each product.</p>
 
         
     </div>
