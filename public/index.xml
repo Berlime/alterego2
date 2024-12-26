@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alter Ego 2</title>
-    <link>http://localhost:1313/</link>
+    <link>http://alterego.berlime.com/</link>
     <description>Recent content on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://alterego.berlime.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rounded Corners</title>
-      <link>http://localhost:1313/posts/rounded-corners/</link>
+      <link>http://alterego.berlime.com/posts/rounded-corners/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/rounded-corners/</guid>
+      <guid>http://alterego.berlime.com/posts/rounded-corners/</guid>
       <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Free Up Space Ubuntu</title>
-      <link>http://localhost:1313/posts/free-up-space-ubuntu/</link>
+      <link>http://alterego.berlime.com/posts/free-up-space-ubuntu/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/free-up-space-ubuntu/</guid>
+      <guid>http://alterego.berlime.com/posts/free-up-space-ubuntu/</guid>
       <description>&lt;h2 id=&#34;1-clear-the-apt-cache&#34;&gt;1. Clear the APT Cache&lt;/h2&gt;&#xA;&lt;p&gt;Find out how large is the apt package cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -sh /var/cache/apt/archives&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Clear the cache:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get clean&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;2-remove-old-kernels&#34;&gt;2. Remove Old Kernels&lt;/h2&gt;&#xA;&lt;p&gt;Not sure how it works, really but here we go,&lt;/p&gt;&#xA;&lt;p&gt;Proceed with caution:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt-get autoremove --purge&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;3-last-stay-up-to-date&#34;&gt;3. Last, stay up to date&lt;/h2&gt;&#xA;&lt;p&gt;Do this regularly&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; upgrade&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;You can read the full article where I found the above commands &lt;a href=&#34;https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LTeX- Spell Checker</title>
-      <link>http://localhost:1313/posts/ltex-spell-checker/</link>
+      <link>http://alterego.berlime.com/posts/ltex-spell-checker/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ltex-spell-checker/</guid>
+      <guid>http://alterego.berlime.com/posts/ltex-spell-checker/</guid>
       <description>&lt;p&gt;So ni kire dia sync?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;16th Dec 2024 - Updated Hugo Version&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;15th Aug 2024 - Publish Date&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>WCPA Circle Shape</title>
-      <link>http://localhost:1313/posts/wcpa-circle-shape/</link>
+      <link>http://alterego.berlime.com/posts/wcpa-circle-shape/</link>
       <pubDate>Tue, 10 Dec 2024 20:47:15 +0800</pubDate>
-      <guid>http://localhost:1313/posts/wcpa-circle-shape/</guid>
+      <guid>http://alterego.berlime.com/posts/wcpa-circle-shape/</guid>
       <description>&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;&#xA;&lt;p&gt;We will now strategise and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;&#xA;&lt;p&gt;Below is what we need to accomplish&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Syntax&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Header&lt;/td&gt;&#xA;          &lt;td&gt;Title&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Paragraph&lt;/td&gt;&#xA;          &lt;td&gt;Text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:1313/posts/github/</link>
+      <link>http://alterego.berlime.com/posts/github/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/github/</guid>
+      <guid>http://alterego.berlime.com/posts/github/</guid>
       <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with Github&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about GitHub was some sort of place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightened me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what GitHub is, I kind of get the idea but do not know how it works, what is it for, etcetera.&lt;/p&gt;</description>
     </item>
     <item>
       <title>White Loaf</title>
-      <link>http://localhost:1313/posts/white-loaf/</link>
+      <link>http://alterego.berlime.com/posts/white-loaf/</link>
       <pubDate>Sat, 07 Sep 2024 00:35:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/white-loaf/</guid>
+      <guid>http://alterego.berlime.com/posts/white-loaf/</guid>
       <description>&lt;h2 id=&#34;sour-dough&#34;&gt;Sour Dough&lt;/h2&gt;&#xA;&lt;p&gt;My wife recently is interested to make her own sourdough, thanks to B.E.N (You can refer to the post I talk about B.E.N, a grocery store. Click &lt;a href=&#34;https://alterego.berlime.com/posts/ben/&#34;&gt;Here&lt;/a&gt;) Sourdough have a lot of variety, types, shape, taste &amp;amp; purpose.&lt;/p&gt;&#xA;&lt;p&gt;I recommend Goat Cheese Sandwhich to go with. It is a classic sandwhich that consists of a slice of sour dough, a thick slice of goat cheese, drizzle with olive oil and season it with some salt and black pepper. Toast it for about 5 minutes, and for the extra touch, blow torch the top surface to have some smoked/charred taste. Or if you somehow have a &lt;a href=&#34;https://www.webstaurantstore.com/guide/969/what-is-a-salamander-oven.html&#34;&gt;salamander&lt;/a&gt;, a cooking equipment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SEO Partnership</title>
-      <link>http://localhost:1313/posts/seo-partnership/</link>
+      <link>http://alterego.berlime.com/posts/seo-partnership/</link>
       <pubDate>Thu, 22 Aug 2024 22:46:14 +0800</pubDate>
-      <guid>http://localhost:1313/posts/seo-partnership/</guid>
+      <guid>http://alterego.berlime.com/posts/seo-partnership/</guid>
       <description>&lt;h2 id=&#34;new-seo-service&#34;&gt;New SEO Service&lt;/h2&gt;&#xA;&lt;p&gt;Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency&amp;rsquo;s core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skillset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alter Ego 2 - First Post</title>
-      <link>http://localhost:1313/posts/alter-ego-2/</link>
+      <link>http://alterego.berlime.com/posts/alter-ego-2/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/alter-ego-2/</guid>
+      <guid>http://alterego.berlime.com/posts/alter-ego-2/</guid>
       <description>&lt;p&gt;When I was 16, I launched my blog site with blogpost.com (now blogger.com).&lt;/p&gt;&#xA;&lt;p&gt;You say why I blog? Well, my parents did not manage to get a hold of a computer yet during that period. So what I did was, wrote a journal but wouldn’t call it a journal.&lt;/p&gt;&#xA;&lt;p&gt;You see, the way I did it was to write in a ‘magazine’ look and format where there will be so-called “ads” for the stuff I find interesting. There are 3 versions of this which will remain offline for keepsake and nostalgic moments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Food Delivery Rider</title>
-      <link>http://localhost:1313/posts/food-delivery-rider/</link>
+      <link>http://alterego.berlime.com/posts/food-delivery-rider/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/food-delivery-rider/</guid>
+      <guid>http://alterego.berlime.com/posts/food-delivery-rider/</guid>
       <description>&lt;h2 id=&#34;lets-compare-between-working-full-time--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Full-time &amp;amp; Being a Food Delivery Rider, Also Full Time&lt;/h2&gt;&#xA;&lt;p&gt;Working as a Foodpanda food delivery rider for 21 days, which is the same as working full-time at about 7 to excluding lunch &amp;amp; small breaks.&lt;/p&gt;&#xA;&lt;p&gt;On average per day $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, this equals to a salary of $2624 working full-time with a take home cash of $2100 after deduction.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog.</title>
-      <link>http://localhost:1313/posts/hugo/</link>
+      <link>http://alterego.berlime.com/posts/hugo/</link>
       <pubDate>Tue, 30 Jan 2024 20:37:34 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hugo/</guid>
+      <guid>http://alterego.berlime.com/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-is-a-static-site-generator&#34;&gt;Hugo is a static site generator.&lt;/h2&gt;&#xA;&lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the Holy Grail of web development. &lt;em&gt;buzzz!!&lt;/em&gt; nope. I was totally wrong.&lt;/p&gt;&#xA;&lt;p&gt;Tasnim, actually first started using Hugo for his own personal blog. He thought me a lot about how VSCODE works, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>B.E.N!</title>
-      <link>http://localhost:1313/posts/ben/</link>
+      <link>http://alterego.berlime.com/posts/ben/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ben/</guid>
+      <guid>http://alterego.berlime.com/posts/ben/</guid>
       <description>&lt;p&gt;I live in Johor Bahru, Malaysia. Specifically, Western part of Johor. Near Legoland Malaysia.&#xA;In my area, there aren&amp;rsquo;t many groceries store around, there about 6 supermarkets nearby (at least 10-30 mins). Further than that, I do not consider it nearby.&lt;/p&gt;&#xA;&lt;p&gt;6 supermarkets may sound a lot for some. But not to me because most of them sell the same things. Say for an example, I could not find any natural sea salt in most of the supermarket.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notion</title>
-      <link>http://localhost:1313/posts/notion/</link>
+      <link>http://alterego.berlime.com/posts/notion/</link>
       <pubDate>Wed, 24 Jan 2024 23:25:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/notion/</guid>
+      <guid>http://alterego.berlime.com/posts/notion/</guid>
       <description>&lt;h2 id=&#34;notionso---the-superpower-i-stumble-upon&#34;&gt;Notion.so - The Superpower I Stumble Upon&lt;/h2&gt;&#xA;&lt;p&gt;Notion is an app that you can decide on how do you want it to be. It is generally a note taking app. On steroids, if you want it.&#xA;You can choose to make it as simple as a regular note taking app, or you can also turn it into a &lt;em&gt;&amp;ldquo;super app&amp;rdquo;&lt;/em&gt; like how I did, to run my agency.&lt;/p&gt;&#xA;&lt;p&gt;I also run an internal finance insights for my agency. You see, having an accountant running a business is a must have. Even when you subscribe a software to comply with the regulations. You still have some sort of limitation in manipulating your finance like setting aside budgets, create internal accounts for a certain category of stuffs. Well, Notion allows me to do that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Funnel</title>
-      <link>http://localhost:1313/posts/funnel/</link>
+      <link>http://alterego.berlime.com/posts/funnel/</link>
       <pubDate>Wed, 24 Jan 2024 13:08:31 +0800</pubDate>
-      <guid>http://localhost:1313/posts/funnel/</guid>
+      <guid>http://alterego.berlime.com/posts/funnel/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Original Post date: 19th June 2024.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;first-berlimes-funnel-tofu-aka-top-of-the-funnel&#34;&gt;First Berlime&amp;rsquo;s Funnel (TOFU &lt;em&gt;a.k.a Top Of the Funnel&lt;/em&gt;)&lt;/h2&gt;&#xA;&lt;p&gt;You can read more about Tofu &lt;a href=&#34;https://getwpfunnels.com/top-of-the-funnel/&#34;&gt;here&lt;/a&gt;. A funnel is basically a terminology used to generate leads. It is basically a way to filter through visitors or people that captures their attention into your business. Eventually turning them into paying visitors.&lt;/p&gt;&#xA;&lt;p&gt;So, Tofu is exactly how it sounds like. We first bring people into the funnel which is the widest part of the funnel. The wide part of the funnel, is called &amp;rsquo;top of the funnel&amp;quot;. Which essentially what people see when they first enter your funnel.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nurusysyabab</title>
-      <link>http://localhost:1313/posts/nurusysyabab/</link>
+      <link>http://alterego.berlime.com/posts/nurusysyabab/</link>
       <pubDate>Sun, 21 Jan 2024 20:25:16 +0800</pubDate>
-      <guid>http://localhost:1313/posts/nurusysyabab/</guid>
+      <guid>http://alterego.berlime.com/posts/nurusysyabab/</guid>
       <description>&lt;h2 id=&#34;a-different-approach&#34;&gt;A different approach&lt;/h2&gt;&#xA;&lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I quickly discovered that there are bunch of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used realesed a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WP Meet Up</title>
-      <link>http://localhost:1313/posts/wp-meet-up/</link>
+      <link>http://alterego.berlime.com/posts/wp-meet-up/</link>
       <pubDate>Fri, 19 Jan 2024 22:56:44 +0800</pubDate>
-      <guid>http://localhost:1313/posts/wp-meet-up/</guid>
+      <guid>http://alterego.berlime.com/posts/wp-meet-up/</guid>
       <description>&lt;p&gt;Hello there! Before we start on the topic. This is the first backtracked post. It was a draft I while developing this new Hugo site.&#xA;Let me bring you back in time. The post date you see above is the event or the moment happened. The real date that I post a backtracked blog is under &amp;ldquo;Published Date&amp;rdquo; (See example below)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Changelog&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Publish Date: 19th June 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Restructure: 21th June 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The changelog(s) will be&lt;em&gt;grayed out&lt;/em&gt; and placed in the bottom of every blog post. With added a little bit of context what are the changes is made to the particular posts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Agency</title>
-      <link>http://localhost:1313/posts/my-agency/</link>
+      <link>http://alterego.berlime.com/posts/my-agency/</link>
       <pubDate>Tue, 16 Jan 2024 13:08:31 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-agency/</guid>
+      <guid>http://alterego.berlime.com/posts/my-agency/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Original Post date: 12th May 2024&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hello there, this is the first post that I will be sharing about my agency.&lt;/p&gt;&#xA;&lt;p&gt;I run a web design and development agenncy. I started out small by creating a website for my wedding business. This was before the Covid-19 pandemic.&#xA;My sole purpose to create a website for my wedding business is to seamlessly connect multiple providers with customers without having to communicate with me the wedding planner.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Room Updates</title>
-      <link>http://localhost:1313/posts/room-updates/</link>
+      <link>http://alterego.berlime.com/posts/room-updates/</link>
       <pubDate>Fri, 05 Jan 2024 16:51:17 +0800</pubDate>
-      <guid>http://localhost:1313/posts/room-updates/</guid>
+      <guid>http://alterego.berlime.com/posts/room-updates/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Original Post date: 13th May 2024&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Ever since my late mom bought the house I currently live in, it is still in the original, unadorned state. My late mom did not opt for any renovations or even fancy decorations and pieces of furniture.&lt;/p&gt;&#xA;&lt;p&gt;The only thing that my mom did was the kitchen cabinet and countertop which was not included when we got this house.&lt;/p&gt;&#xA;&lt;p&gt;Oh yeah, we got it first-hand, brand new back in around 2014.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/posts/untitled/</link>
+      <link>http://alterego.berlime.com/posts/untitled/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/untitled/</guid>
+      <guid>http://alterego.berlime.com/posts/untitled/</guid>
       <description></description>
     </item>
   </channel>

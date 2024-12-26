@@ -1,4 +1,4 @@
-baseURL = 'https://alterego.berlime.com/'
+baseURL = 'https://berlime.netlify.app/'
 languageCode = 'en-us'
 title = 'Alter Ego 2'
 theme = 'gokarna'
@@ -74,6 +74,8 @@ enableRobotsTXT = true
   # or "" (do not display, default option)
   showPostsOnHomePage = "recent"
   numberPostsOnHomePage = 10
+
+  togglePreviousAndNextButtons = "true"
 
   # Footer text
   footer = "The Marauders"
