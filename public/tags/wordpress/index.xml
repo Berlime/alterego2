@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Alter Ego 2</title>
+    <link>/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Alter Ego 2</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rounded Corners</title>
+      <link>/posts/rounded-corners/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/rounded-corners/</guid>
+      <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SEO Partnership</title>
+      <link>/posts/seo-partnership/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/seo-partnership/</guid>
+      <description>&lt;h2 id=&#34;new-seo-service&#34;&gt;New SEO Service&lt;/h2&gt;&#xA;&lt;p&gt;Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency&amp;rsquo;s core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skill set.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NurusySyabab</title>
+      <link>/posts/nurusysyabab/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/nurusysyabab/</guid>
+      <description>&lt;h2 id=&#34;a-different-approach&#34;&gt;A different approach&lt;/h2&gt;&#xA;&lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I quickly discovered that there are bunches of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used released a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WP Meet Up</title>
+      <link>/posts/wp-meet-up/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/wp-meet-up/</guid>
+      <description>&lt;p&gt;Hello there! Before we start on the topic. This is the first backtracked post. It was a draft I while developing this new Hugo site.&#xA;Let me bring you back in time. The post date you see above is the event or the moment happened. The real date that I post a backtracked blog is under &amp;ldquo;Published Date&amp;rdquo; (See example below)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Changelog&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Publish Date: 19th June 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Restructure: 21st June 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The changelog(s) will be &lt;em&gt;grayed out&lt;/em&gt; and placed in the bottom of every blog post. With added a little bit of context what are the changes is made to the particular posts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,4 +1,4 @@
-baseURL = 'https://alterego2.vercel.app/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Alter Ego 2'
 theme = 'gokarna'
@@ -48,7 +48,7 @@ enableRobotsTXT = true
     {name = "instagram", url = "https://www.instagram.com/Berlime"},
     {name = "linkedin", url = "https://www.linkedin.com/in/berlime-solutions/"},
     {name = "email", url = "mailto:kamel@berlime.com"},
-    {name = "x", url = "https://x.com/berlime"},
+    {name = "twitter", url = "https://x.com/berlime"},
   ]
 
   description = "A continuation from berlime5.blogspot.com"

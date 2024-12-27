@@ -1,11 +1,11 @@
 ---
+title: "Rounded Corners"
 date: 2024-12-18
-description: ""
+description: "Utilises WCPA to the max."
 # image: ""
 lastmod: 2024-12-18
 showTableOfContents: false
-tags: ["agency", "dev"]
-title: "Rounded Corners"
+tags: ["dev", "wordpress"]
 type: "post"
 ---
 
@@ -37,3 +37,6 @@ If **Global**, each field for the corner radius value will need to have a condit
 There are hundreds of wood products that have multiple combinations of variations. Hence, this will render the Global WCPA form obsolete as there will be so many rules involved.
 
 To mitigate this, we will locally scope the Rounded Corners field in each product.
+
+> - *Changelogs*
+>   - *18th Dec 2024 - First Publish*

@@ -1,16 +1,15 @@
 ---
-title: "Github"
+title: "GitHub"
 date: 2024-10-29
 description: "A noob perspective"
 # image: ""
-lastmod: 
+lastmod: 2024-12-27
 showTableOfContents: true
 tags: ["agency", "dev"]
 type: "post"
 ---
 
-
-## My first encounter with Github
+## My first encounter with GitHub
 
 All I knew about GitHub was some sort of place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightened me what it really was.
 See, of course I've watched a few YouTube videos of what GitHub is, I kind of get the idea but do not know how it works, what is it for, etcetera.
@@ -32,8 +31,6 @@ This is ultimately the core basics needed, for someone like me who serve clients
 
 The reason I post this, I want to convey a message that 'It is never too late to start.', even you think you are already doing great on something; you will be surprised how much of the fundamentals that you missed. Thanks to the technology today that makes it efficient and easy, which makes us not knowing how things work from the ground up. Don't get me wrong, technology is great, so does knowledge and practice. While these tools serves us a productivity workflow, it is also essential to know how it works, at least for me.
 
-## Practices makes us, agency save money.
-
-
 > - *Changelogs*
->   - *Publish Date: 17th Dec 2024*
+>   - *27th Dec 2024 - Updated Hugo Version & added description*
+>   - *15th Aug 2024 - Publish Date*

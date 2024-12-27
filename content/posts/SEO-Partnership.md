@@ -1,14 +1,17 @@
-+++
-title = 'SEO Partnership'
-date = 2024-08-22T22:46:14+08:00
-draft = false
-type = 'post'
-tags = ['blog', 'agency']
-+++
+---
+title: "SEO Partnership"
+date: 2024-08-22
+description: "Utilizes WCPA to the max."
+# image: ""
+lastmod: 2024-12-27
+showTableOfContents: false
+tags: ["dev", "wordpress"]
+type: "post"
+---
 
 ## New SEO Service
 
-Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency's core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skillset.
+Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency's core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skill set.
 
 I have been drafting the core features for SEO Services only to realize that I am not really proficient in this field. Sure, I know some terms and best practices, but to truly delve into it and provide quality services is beyond my capacity. It's not that I am not capable or unwilling to develop a new skill; rather, I choose to stay focused, efficient, and improve on my own forte.
 
@@ -30,7 +33,7 @@ Our last resort is to offer three months instead of six months in terms of payme
 
 Thanks to [Cloud Captor](https://cloudcaptor.com/), our partner agency providing SEO services to my pool of clients and my agency offering web development services for their clients. I believe this way we can together bring a lot of value to many more people, helping young businesses thrive and possibly outshine the big players.
 
-# Outsourcing Isn't Necessarily a Bad Thing
+## Outsourcing Isn't Necessarily a Bad Thing
 
 In this complicated field of industry, Berlime Solutions Pte. Ltd. has a set of criteria to be eligible to work with. These criteria look for industry-standard structure, skill level, past projects, and much more.
 
@@ -38,6 +41,5 @@ This is to ensure that Berlime Solutions Pte. Ltd. provides world-class results,
 
 In the ideal world, Berlime Solutions Pte. Ltd. aims to help startups focus more on their core workflows and let Berlime Solutions Pte. Ltd. handle the front-end. This helps startups save their resources while effectively gaining traffic, credibility, and outreach.
 
-> - *Changelog*
->   - *Publish Date: 22nd Aug 2024*
->   - *Amendments & added context: 22nd Aug 2024*
+> - *Changelogs*
+>   - *22nd Aug 2024 - First Publish*
