@@ -1,5 +1,5 @@
 [build.environment]
-HUGO_VERSION = "0.139.5"
+HUGO_VERSION = "0.140.2"
 TZ = "America/Los_Angeles"
 
 [build]
