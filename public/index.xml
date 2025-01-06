@@ -6,8 +6,15 @@
     <description>Recent content on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Woo Commerce Icons</title>
+      <link>/posts/woo-commerce-icons/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/woo-commerce-icons/</guid>
+      <description>&lt;h2 id=&#34;use-case&#34;&gt;Use case&lt;/h2&gt;&#xA;&lt;p&gt;Client requested a custom order status, for context, there are a lot of ways to do this.&#xA;I recommend getting plug-ins from Yith which obviously adds up to their commitment.&lt;/p&gt;&#xA;&lt;p&gt;I wasn&amp;rsquo;t sure if they are okay with the add ons, so I just went ahead and create a low fidelity order status and send customer note when the order the status changes.&lt;/p&gt;&#xA;&lt;p&gt;I will share the code some other time but for now.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Reference When Publishing a Blog</title>
       <link>/posts/my-reference-when-publishing-a-blog/</link>

@@ -3,13 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-12-28T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dev/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts/woo-commerce-icons/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/my-reference-when-publishing-a-blog/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
@@ -17,14 +26,8 @@
     <loc>/tags/static/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/rounded-corners/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/wordpress/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/free-up-space-ubuntu/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
