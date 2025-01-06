@@ -61,7 +61,14 @@ enableRobotsTXT = true
 
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+  customHeadHTML = '''
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H622P192V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6H622P192V');
+</script>'''
 
 # date format
  dateFormat = "2 January, 2006"
