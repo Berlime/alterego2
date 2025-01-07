@@ -17,26 +17,26 @@
     
 
     
-    <title>Server</title>
-    <meta name="description" content="A continuation from berlime5.blogspot.com">
-    <meta name="keywords" content='blog, gokarna, hugo, dev'>
+    <title>Regex</title>
+    <meta name="description" content="First Encounter With Regex">
+    <meta name="keywords" content='blog, gokarna, hugo, dev, Dev, WordPress'>
 
-    <meta property="og:url" content="//localhost:1313/tags/server/">
+    <meta property="og:url" content="//localhost:1313/posts/regex/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Server">
-    <meta property="og:description" content="A continuation from berlime5.blogspot.com">
+    <meta property="og:title" content="Regex">
+    <meta property="og:description" content="First Encounter With Regex">
     <meta property="og:image" content="//localhost:1313/images/avatar.webp">
     <meta property="og:image:secure_url" content="//localhost:1313/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Server">
-    <meta name="twitter:description" content="A continuation from berlime5.blogspot.com">
-    <meta property="twitter:domain" content="//localhost:1313/tags/server/">
-    <meta property="twitter:url" content="//localhost:1313/tags/server/">
+    <meta name="twitter:title" content="Regex">
+    <meta name="twitter:description" content="First Encounter With Regex">
+    <meta property="twitter:domain" content="//localhost:1313/posts/regex/">
+    <meta property="twitter:url" content="//localhost:1313/posts/regex/">
     <meta name="twitter:image" content="//localhost:1313/images/avatar.webp">
 
     
-    <link rel="canonical" href="//localhost:1313/tags/server/">
+    <link rel="canonical" href="//localhost:1313/posts/regex/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -145,31 +145,152 @@
     </nav>
 </header>
 <main id="content">
-    <div class="container list-posts">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Regex</h1>
 
-    <h1 class="list-title"></h1>
+        
 
-    
+        
+	
+	
+	
+	
+        
 
-    <h2 class="posts-year">2024</h2><div class="post-title">
-     <a href="//localhost:1313/posts/free-up-space-ubuntu/" class="post-link">Free Up Space Ubuntu</a>
-     
-     
-     
-     
+	
 
-     
+	
 
-     
-      <div class="flex-break"></div>
-      <span class="post-date">17 December, 2024</span>
-     
+	
+          <small role="doc-subtitle">First Encounter With Regex</small>
+	
+
+	
+          <p class="post-date">7 January, 2025
+           
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="//localhost:1313/tags/dev">Dev</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="//localhost:1313/tags/wordpress">WordPress</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>Previously, I posted about <a href="/WCPA">Woo Commerce Products Add-Ons</a> on using a formula to determine the value of a wood radius that needs to be cut.</p>
+<p>Today, while developing a client&rsquo;s site, I realize that phone number fields requires some special characters like &lsquo;()&rsquo; and &ldquo;+&rdquo; and of course spaces.</p>
+<p>I use CoPilot to create for me that Regex, and my prompt was:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Give me an example of a regex pattern that includes symbols
+</span></span></code></pre></div><p>To create a regex pattern that allows alphanumeric characters, specific symbols like @, #, $, %, and &amp;, as well as spaces, you can use the following pattern:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>^<span style="color:#f92672">[</span>a-zA-Z0-9@#$%&amp;<span style="color:#ae81ff">\s</span><span style="color:#f92672">]</span>+$
+</span></span></code></pre></div><p>Here&rsquo;s the breakdown of the pattern:</p>
+<ul>
+<li>
+<p><code>^</code> asserts the position at the start of the string.</p>
+</li>
+<li>
+<p><code>[a-zA-Z0-9@#$%&amp;\s]</code> matches any letter (both uppercase and lowercase), digit (0-9), the specified symbols (<code>@</code>, <code>#</code>, <code>$</code>, <code>%</code>, <code>&amp;</code>), or a whitespace character (<code>\s</code>).</p>
+</li>
+<li>
+<p><code>+</code> ensures that the pattern occurs one or more times.</p>
+</li>
+<li>
+<p><code>$</code> asserts the position at the end of the string.</p>
+</li>
+</ul>
+<p>This pattern will match any string that contains a mix of the allowed letters, digits, symbols, and spaces.</p>
+<blockquote>
+<ul>
+<li><em>Post Changelogs</em>
+<ul>
+<li><em>7th Jan 2025 - Publish Date</em></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+            
+                
+<div class="prev-post">
+    <p>
+        <a href="/posts/woo-commerce-icons/">
+            &#8592;
+            Previous:
+            Woo Commerce Icons
+        </a>
+    </p>
+    <p class="prev-post-date">
+        6 January, 2025
+    </p>
 </div>
 
-    
 
+
+<div class="next-post">
+    <p>
+        <a href="/posts/2024/">
+            Next:
+            2024
+            &#8594;
+        </a>
+    </p>
+        <p class="next-post-date">
+            7 January, 2025
+        </p>
 </div>
 
+
+            
+        
+    </div>
+
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+    
+</div>
+
+
+
+    
 
         </main><footer class="footer">
     

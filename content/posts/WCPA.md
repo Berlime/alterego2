@@ -1,13 +1,12 @@
 ---
-title: "WCPA Circle Shape"
-date: 2024-12-10
-description: "Utilizes WCPA to the max."
+title: "WCPA"
+# description: ""
+date: 2024-12-17
 # image: ""
-lastmod: 2024-12-27
+lastmod: 2025-01-07
 showTableOfContents: false
-tags: ["wordpress"]
+tags: ["wordpress",]
 type: "post"
-draft: true
 ---
 
 ## Planning
@@ -21,5 +20,6 @@ Below is what we need to accomplish
 | Header | Title |
 | Paragraph | Text |
 
-> - *Changelogs*
->   - *TBC Aug 2024 - First Publish*
+
+> - *Post Changelogs*
+>   - *17th Dec 2024 - Live Draft*

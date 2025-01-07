@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Alter Ego 2</title>
-    <link>/tags/software/</link>
+    <link>//localhost:1313/tags/software/</link>
     <description>Recent content in Software on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notion</title>
-      <link>/posts/notion/</link>
+      <link>//localhost:1313/posts/notion/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/notion/</guid>
+      <guid>//localhost:1313/posts/notion/</guid>
       <description>&lt;h2 id=&#34;notionso---the-superpower-i-stumble-upon&#34;&gt;Notion.so - The Superpower I Stumble Upon&lt;/h2&gt;&#xA;&lt;p&gt;Notion is an app that you can decide on how do you want it to be. It is generally a note-taking app. On steroids, if you want it.&#xA;You can choose to make it as simple as a regular note-taking app, or you can also turn it into a &lt;em&gt;&amp;ldquo;super app&amp;rdquo;&lt;/em&gt; like how I did, to run my agency.&lt;/p&gt;&#xA;&lt;p&gt;I also run an internal finance insights for my agency. You see, having an accountant running a business is a must-have. Even when you subscribe a software to comply with the regulations. You still have some sort of limitation in manipulating your finance like setting aside budgets, create internal accounts for a certain category of stuffs. Well, Notion allows me to do that.&lt;/p&gt;</description>
     </item>
   </channel>

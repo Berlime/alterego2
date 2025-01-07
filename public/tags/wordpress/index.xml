@@ -2,45 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wordpress on Alter Ego 2</title>
-    <link>/tags/wordpress/</link>
+    <link>//localhost:1313/tags/wordpress/</link>
     <description>Recent content in Wordpress on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regex</title>
+      <link>//localhost:1313/posts/regex/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/regex/</guid>
+      <description>&lt;p&gt;Previously, I posted about &lt;a href=&#34;//localhost:1313/WCPA&#34;&gt;Woo Commerce Products Add-Ons&lt;/a&gt; on using a formula to determine the value of a wood radius that needs to be cut.&lt;/p&gt;&#xA;&lt;p&gt;Today, while developing a client&amp;rsquo;s site, I realize that phone number fields requires some special characters like &amp;lsquo;()&amp;rsquo; and &amp;ldquo;+&amp;rdquo; and of course spaces.&lt;/p&gt;&#xA;&lt;p&gt;I use CoPilot to create for me that Regex, and my prompt was:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Give me an example of a regex pattern that includes symbols&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To create a regex pattern that allows alphanumeric characters, specific symbols like @, #, $, %, and &amp;amp;, as well as spaces, you can use the following pattern:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Woo Commerce Icons</title>
-      <link>/posts/woo-commerce-icons/</link>
+      <link>//localhost:1313/posts/woo-commerce-icons/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/woo-commerce-icons/</guid>
+      <guid>//localhost:1313/posts/woo-commerce-icons/</guid>
       <description>&lt;h2 id=&#34;use-case&#34;&gt;Use case&lt;/h2&gt;&#xA;&lt;p&gt;Client requested a custom order status, for context, there are a lot of ways to do this.&#xA;I recommend getting plug-ins from Yith which obviously adds up to their commitment.&lt;/p&gt;&#xA;&lt;p&gt;I wasn&amp;rsquo;t sure if they are okay with the add ons, so I just went ahead and create a low fidelity order status and send customer note when the order the status changes.&lt;/p&gt;&#xA;&lt;p&gt;I will share the code some other time but for now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rounded Corners</title>
-      <link>/posts/rounded-corners/</link>
+      <link>//localhost:1313/posts/rounded-corners/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/rounded-corners/</guid>
+      <guid>//localhost:1313/posts/rounded-corners/</guid>
       <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;we-need-to-start-from-the-4-sided-measurements&#34;&gt;We need to start from the 4 sided measurements&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to identify the mid-point variable where,&lt;/p&gt;</description>
     </item>
     <item>
+      <title>WCPA</title>
+      <link>//localhost:1313/posts/wcpa/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/wcpa/</guid>
+      <description>&lt;h2 id=&#34;planning&#34;&gt;Planning&lt;/h2&gt;&#xA;&lt;p&gt;We will now strategize and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;&#xA;&lt;p&gt;Below is what we need to accomplish&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Syntax&lt;/th&gt;&#xA;          &lt;th&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Header&lt;/td&gt;&#xA;          &lt;td&gt;Title&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Paragraph&lt;/td&gt;&#xA;          &lt;td&gt;Text&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;TBC Aug 2024 - First Publish&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;15th Aug 2024 - Publish Date&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
       <title>SEO Partnership</title>
-      <link>/posts/seo-partnership/</link>
+      <link>//localhost:1313/posts/seo-partnership/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/seo-partnership/</guid>
+      <guid>//localhost:1313/posts/seo-partnership/</guid>
       <description>&lt;h2 id=&#34;new-seo-service&#34;&gt;New SEO Service&lt;/h2&gt;&#xA;&lt;p&gt;Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency&amp;rsquo;s core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skill set.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NurusySyabab</title>
-      <link>/posts/nurusysyabab/</link>
+      <link>//localhost:1313/posts/nurusysyabab/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/nurusysyabab/</guid>
+      <guid>//localhost:1313/posts/nurusysyabab/</guid>
       <description>&lt;h2 id=&#34;a-different-approach&#34;&gt;A different approach&lt;/h2&gt;&#xA;&lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I quickly discovered that there are bunches of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used released a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WP Meet Up</title>
-      <link>/posts/wp-meet-up/</link>
+      <link>//localhost:1313/posts/wp-meet-up/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/wp-meet-up/</guid>
+      <guid>//localhost:1313/posts/wp-meet-up/</guid>
       <description>&lt;p&gt;Hello there! Before we start on the topic. This is the first backtracked post. It was a draft I while developing this new Hugo site.&#xA;Let me bring you back in time. The post date you see above is the event or the moment happened. The real date that I post a backtracked blog is under &amp;ldquo;Published Date&amp;rdquo; (See example below)&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Changelog&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Publish Date: 19th June 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;Restructure: 21st June 2024&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The changelog(s) will be &lt;em&gt;grayed out&lt;/em&gt; and placed in the bottom of every blog post. With added a little bit of context what are the changes is made to the particular posts.&lt;/p&gt;</description>
     </item>
   </channel>

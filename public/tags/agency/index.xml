@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agency on Alter Ego 2</title>
-    <link>/tags/agency/</link>
+    <link>//localhost:1313/tags/agency/</link>
     <description>Recent content in Agency on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/agency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/agency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024</title>
+      <link>//localhost:1313/posts/2024/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/2024/</guid>
+      <description>&lt;h2 id=&#34;learned-a-lot&#34;&gt;Learned A Lot&lt;/h2&gt;&#xA;&lt;p&gt;2024 was the most productive year. Ever since I got my agency incorporated in 2023, it somehow changed the way I work. I tend to do things much more careful.&lt;/p&gt;&#xA;&lt;p&gt;It opens up to how I approach things, from a whole new perspective to be sustainable and enough room to grow.&lt;/p&gt;&#xA;&lt;p&gt;There are many iterations of workflow templates, as I am wearing a lot of hats. Most of us would probably start hiring already at least getting freelancers to help out if not hiring on payroll.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Agency</title>
-      <link>/posts/my-agency/</link>
+      <link>//localhost:1313/posts/my-agency/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/my-agency/</guid>
+      <guid>//localhost:1313/posts/my-agency/</guid>
       <description>&lt;p&gt;Hello there, this is the first blog post about my agency.&lt;/p&gt;&#xA;&lt;p&gt;I run a web design and development agency. I started out small by creating a website for my wedding business. This was before the Covid-19 pandemic.&lt;/p&gt;&#xA;&lt;p&gt;The sole purpose to create a website for my wedding business is to seamlessly connect multiple providers and customers without having to communicate with me as a middle-man.&lt;/p&gt;&#xA;&lt;p&gt;It is a system I developed. The goal is to create &lt;a href=&#34;https://www.techtarget.com/searchcloudcomputing/definition/Software-as-a-Service&#34;&gt;an app a.k.a SaaS&lt;/a&gt; for everyone to use, basically a all in one web portal for weddings. This needs a lot of hours for research and development. I would probably scrap this idea for now as it is not practical for me and my agency at the moment. More on that some other time, keep a look-out at my &amp;ldquo;agency&amp;rdquo; tagged blog post for updates.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>/posts/github/</link>
+      <link>//localhost:1313/posts/github/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/github/</guid>
+      <guid>//localhost:1313/posts/github/</guid>
       <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with GitHub&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about GitHub was some sort of place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightened me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what GitHub is, I kind of get the idea but do not know how it works, what is it for, etcetera.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog</title>
-      <link>/posts/hugo/</link>
+      <link>//localhost:1313/posts/hugo/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/hugo/</guid>
+      <guid>//localhost:1313/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-is-a-static-site-generator&#34;&gt;Hugo is a static site generator&lt;/h2&gt;&#xA;&lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the &amp;lsquo;Holy Grail&amp;rsquo; of web development. &lt;em&gt;buzzz!!&lt;/em&gt; Nope. I was totally wrong.&lt;/p&gt;&#xA;&lt;p&gt;Tasnim, actually first started using &lt;a href=&#34;https://gethugo.io&#34;&gt;Hugo&lt;/a&gt; for his own personal blog. He thought me a lot about how VS Code works, this is the point where I discovered the term IDE, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Funnel</title>
-      <link>/posts/funnel/</link>
+      <link>//localhost:1313/posts/funnel/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/funnel/</guid>
+      <guid>//localhost:1313/posts/funnel/</guid>
       <description>&lt;h2 id=&#34;first-berlimes-funnel-tofu-aka-top-of-the-funnel&#34;&gt;First Berlime&amp;rsquo;s Funnel (TOFU &lt;em&gt;a.k.a Top Of the Funnel&lt;/em&gt;)&lt;/h2&gt;&#xA;&lt;p&gt;You can read more about Tofu &lt;a href=&#34;https://getwpfunnels.com/top-of-the-funnel/&#34;&gt;here&lt;/a&gt;. A funnel is basically a terminology used to generate leads. It is basically a way to filter through visitors or people that captures their attention into your business. Eventually turning them into paying visitors. It&amp;rsquo;s an abbreviation for &amp;ldquo;Top Of the Funnel&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;So, Tofu is exactly how it sounds like. We first bring people into the funnel which is the widest and &amp;rsquo;top&amp;rsquo; of the funnel. Which essentially what people see when they first enter your funnel.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Notion</title>
-      <link>/posts/notion/</link>
+      <link>//localhost:1313/posts/notion/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/notion/</guid>
+      <guid>//localhost:1313/posts/notion/</guid>
       <description>&lt;h2 id=&#34;notionso---the-superpower-i-stumble-upon&#34;&gt;Notion.so - The Superpower I Stumble Upon&lt;/h2&gt;&#xA;&lt;p&gt;Notion is an app that you can decide on how do you want it to be. It is generally a note-taking app. On steroids, if you want it.&#xA;You can choose to make it as simple as a regular note-taking app, or you can also turn it into a &lt;em&gt;&amp;ldquo;super app&amp;rdquo;&lt;/em&gt; like how I did, to run my agency.&lt;/p&gt;&#xA;&lt;p&gt;I also run an internal finance insights for my agency. You see, having an accountant running a business is a must-have. Even when you subscribe a software to comply with the regulations. You still have some sort of limitation in manipulating your finance like setting aside budgets, create internal accounts for a certain category of stuffs. Well, Notion allows me to do that.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NurusySyabab</title>
-      <link>/posts/nurusysyabab/</link>
+      <link>//localhost:1313/posts/nurusysyabab/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/nurusysyabab/</guid>
+      <guid>//localhost:1313/posts/nurusysyabab/</guid>
       <description>&lt;h2 id=&#34;a-different-approach&#34;&gt;A different approach&lt;/h2&gt;&#xA;&lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I quickly discovered that there are bunches of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used released a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,96 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/posts/2024/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/tags/agency/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/dev/</loc>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/dev/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/regex/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/wordpress/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/woo-commerce-icons/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/woo-commerce-icons/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/wordpress/</loc>
-    <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/my-reference-when-publishing-a-blog/</loc>
+    <loc>//localhost:1313/posts/my-reference-when-publishing-a-blog/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/static/</loc>
+    <loc>//localhost:1313/tags/static/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/rounded-corners/</loc>
+    <loc>//localhost:1313/posts/rounded-corners/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/free-up-space-ubuntu/</loc>
+    <loc>//localhost:1313/posts/free-up-space-ubuntu/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/server/</loc>
+    <loc>//localhost:1313/tags/server/</loc>
     <lastmod>2024-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/agency/</loc>
+    <loc>//localhost:1313/posts/wcpa/</loc>
+    <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/backtracked/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/backtracked/</loc>
+    <loc>//localhost:1313/posts/ltex-spell-checker/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/ltex-spell-checker/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/my-agency/</loc>
+    <loc>//localhost:1313/posts/my-agency/</loc>
     <lastmod>2024-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/github/</loc>
+    <loc>//localhost:1313/posts/github/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/lifestyle/</loc>
+    <loc>//localhost:1313/tags/lifestyle/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/white-loaf/</loc>
+    <loc>//localhost:1313/posts/white-loaf/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/seo-partnership/</loc>
+    <loc>//localhost:1313/posts/seo-partnership/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/alter-ego-2/</loc>
+    <loc>//localhost:1313/posts/alter-ego-2/</loc>
     <lastmod>2024-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
+    <loc>//localhost:1313/tags/blog/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/food-delivery-rider/</loc>
+    <loc>//localhost:1313/posts/food-delivery-rider/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/hugo/</loc>
+    <loc>//localhost:1313/posts/hugo/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/ben/</loc>
+    <loc>//localhost:1313/posts/ben/</loc>
     <lastmod>2024-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/funnel/</loc>
+    <loc>//localhost:1313/posts/funnel/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/notion/</loc>
+    <loc>//localhost:1313/posts/notion/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/software/</loc>
+    <loc>//localhost:1313/tags/software/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/nurusysyabab/</loc>
+    <loc>//localhost:1313/posts/nurusysyabab/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/wp-meet-up/</loc>
+    <loc>//localhost:1313/posts/wp-meet-up/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/room-updates/</loc>
+    <loc>//localhost:1313/posts/room-updates/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url>
 </urlset>
