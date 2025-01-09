@@ -86,3 +86,11 @@ enableRobotsTXT = true
 
   # Footer text
   footer = "The Marauders"
+
+  [[module.mounts]]
+  source = 'static'
+  target = 'static'
+
+  [[module.mounts]]
+  source = 'images'
+  target = 'static/images'

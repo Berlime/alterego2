@@ -15,11 +15,5 @@ We will now strategize and plan how to execute the WCPA fields based on each pro
 
 Below is what we need to accomplish
 
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-
 > - *Post Changelogs*
 >   - *17th Dec 2024 - Live Draft*

@@ -3,7 +3,7 @@ title: "Rounded Corners"
 date: 2024-12-18
 description: "Utilises WCPA to the max."
 # image: ""
-lastmod: 2024-12-18
+lastmod: 2025-01-10
 showTableOfContents: false
 tags: ["dev", "wordpress"]
 type: "post"
@@ -14,9 +14,9 @@ type: "post"
 First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.
 The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.
 
-## We need to start from the 4 sided measurements
+## Start from the 4 sided measurements
 
-First, we need to identify the mid-point variable where,
+Identify the mid-point variable where,
 
 - length: {value/2}
 - width: = {value/2}
@@ -38,5 +38,35 @@ There are hundreds of wood products that have multiple combinations of variation
 
 To mitigate this, we will locally scope the Rounded Corners field in each product.
 
+## Step 1 - Shape
+
+First, we need to set the rounded corner fields conditional to square or rectangle shape and not circle shape due to obvious reasons.
+
+Also, for better user experience, we also include that the thickness must not be empty to reveal the rounded corner fields.
+
+We will do this from the section level, so all the fields within the section will inherit the conditional settings:
+
+![screenshot](/images/roundedcorners.avif)
+
+Set the condition as previously mentioned:
+
+![screenshot](/images/roundedcorners2.avif)
+
+
+Now we can create the field in the Rounded Corners section, however, I've come to realize that there will be two fields in this section which is relative to the {length} and {width} as mentioned earlier in this post.
+
+There are two ways to do this:-
+
+1. Create the fields in each thickness variation
+2. Create one section for each thickness variation.
+
+Let's go for option two for easy access when we revisit this form (in case we can't remember where the fields are). So let's rename the section according to each variation and set the conditions correctly:
+
+![screenshot](/images/roundedcorners2.avif)
+
+
+...to be continued
+
 > - *Changelogs*
 >   - *18th Dec 2024 - First Publish*
+>   - *10th Jan 2024 - Step 1*
