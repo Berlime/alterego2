@@ -6,8 +6,15 @@
     <description>Recent content in Agency on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/agency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter Traffic in GA4</title>
+      <link>/posts/filter-traffic-in-ga4/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/filter-traffic-in-ga4/</guid>
+      <description>&lt;p&gt;I used WordPress the most, setting up Google Analytics is easy with WordPress, thanks to the Google Site Kit plug-ins,&#xA;or any other plug-ins that can easily integrate with Google Analytics.&lt;/p&gt;&#xA;&lt;p&gt;One of the new goals in 2025 is to revamp my agency&amp;rsquo;s main &lt;a href=&#34;https://berlime.com&#34;&gt;website&lt;/a&gt; with entirely new stacks. Meaning&#xA;it does not run on WordPress like before, just for that sake of exploring more options and learn new things. More on that in another post.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024</title>
       <link>/posts/2024/</link>

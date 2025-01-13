@@ -6,13 +6,27 @@
     <description>Recent content in Tags on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agency</title>
+      <link>/tags/agency/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/agency/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dev</title>
       <link>/tags/dev/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>/tags/dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>/tags/wordpress/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +34,6 @@
       <link>/tags/web-design/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       <guid>/tags/web-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agency</title>
-      <link>/tags/agency/</link>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/agency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wordpress</title>
-      <link>/tags/wordpress/</link>
-      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>

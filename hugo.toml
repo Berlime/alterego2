@@ -5,6 +5,7 @@ theme = 'gokarna'
 
 # Automatically generate robots.txt
 enableRobotsTXT = true
+enableEmoji = true
 
 [menu]
   [[menu.main]]

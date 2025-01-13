@@ -17,26 +17,26 @@
     
 
     
-    <title>CSS Grid</title>
-    <meta name="description" content="A very cool CSS Generator Website">
-    <meta name="keywords" content='blog, gokarna, hugo, dev, web-design'>
+    <title>Filter Traffic in GA4</title>
+    <meta name="description" content="Do not track traffic from internal.">
+    <meta name="keywords" content='blog, gokarna, hugo, dev, agency'>
 
-    <meta property="og:url" content="/posts/css-grid/">
+    <meta property="og:url" content="/posts/filter-traffic-in-ga4/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="CSS Grid">
-    <meta property="og:description" content="A very cool CSS Generator Website">
+    <meta property="og:title" content="Filter Traffic in GA4">
+    <meta property="og:description" content="Do not track traffic from internal.">
     <meta property="og:image" content="/images/avatar.webp">
     <meta property="og:image:secure_url" content="/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CSS Grid">
-    <meta name="twitter:description" content="A very cool CSS Generator Website">
-    <meta property="twitter:domain" content="/posts/css-grid/">
-    <meta property="twitter:url" content="/posts/css-grid/">
+    <meta name="twitter:title" content="Filter Traffic in GA4">
+    <meta name="twitter:description" content="Do not track traffic from internal.">
+    <meta property="twitter:domain" content="/posts/filter-traffic-in-ga4/">
+    <meta property="twitter:url" content="/posts/filter-traffic-in-ga4/">
     <meta name="twitter:image" content="/images/avatar.webp">
 
     
-    <link rel="canonical" href="/posts/css-grid/">
+    <link rel="canonical" href="/posts/filter-traffic-in-ga4/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -147,7 +147,7 @@
 <main id="content">
     <div class="post container">
     <div class="post-header-section">
-        <h1>CSS Grid</h1>
+        <h1>Filter Traffic in GA4</h1>
 
         
 
@@ -163,12 +163,12 @@
 	
 
 	
-          <small role="doc-subtitle">A very cool CSS Generator Website</small>
+          <small role="doc-subtitle">Do not track traffic from internal.</small>
 	
 
 	
-          <p class="post-date">9 January, 2025
-           
+          <p class="post-date">12 January, 2025
+            | Updated 13 January, 2025
           </p>
 	
 
@@ -179,38 +179,37 @@
            
          
            
-             <li class="post-tag"><a href="/tags/web-design">web-design</a></li>
+             <li class="post-tag"><a href="/tags/agency">agency</a></li>
            
          
         </ul>
     </div>
 
     <div class="post-content">
-        <h2 id="discovering-the-ultimate-grid-tool-css-grid-generator">Discovering the Ultimate Grid Tool: CSS Grid Generator</h2>
-<p>Hey everyone!</p>
-<p>I can&rsquo;t contain my excitement—I just stumbled upon a gem: the CSS Grid Generator tool from <a href="https://cssgridgenerator.io/">cssgridgenerator.io</a>. 🎉</p>
-<p>As someone diving deep into grid layouts with Bricks Builder and ACSS, this discovery feels like a revelation. For weeks, I&rsquo;ve been meticulously crafting grid structures, optimizing every pixel, and striving for that perfect layout. You can imagine my delight when I found a tool that simplifies the entire process without compromising the creative freedom I cherish.</p>
-<h3 id="why-css-grid-generator-is-a-game-changer">Why CSS Grid Generator is a Game Changer</h3>
-<ol>
-<li>
-<p><strong>User-Friendly Interface</strong>: The intuitive drag-and-drop interface makes it incredibly easy to visualize and create complex grid structures. No more endless tweaking of code—I can now see changes in real-time.</p>
-</li>
-<li>
-<p><strong>Customization Galore</strong>: Whether it&rsquo;s adjusting the number of columns and rows, tweaking gaps, or positioning elements, the tool offers a plethora of options. It caters to every need, making it an essential companion for my grid adventures.</p>
-</li>
-<li>
-<p><strong>Efficiency Boost</strong>: The ability to generate clean, efficient HTML and CSS code with just a few clicks is a lifesaver. It ensures I spend more time on designing and less on debugging.</p>
-</li>
-</ol>
-<h3 id="integrating-with-bricks-builder-and-acss">Integrating with Bricks Builder and ACSS</h3>
-<p>For those of us using Bricks Builder with ACSS (Automatic CSS), this tool is pure gold. The CSS Grid Generator&rsquo;s output integrates seamlessly with our workflows, allowing us to focus on what truly matters—creating stunning, responsive designs that impress clients and users alike.</p>
-<p>In conclusion, the CSS Grid Generator has redefined how I approach grid layouts. It&rsquo;s not just a tool; it&rsquo;s a trusted ally in my design journey. If you&rsquo;re into grids, do yourself a favor and check it out. You&rsquo;ll thank me later!</p>
-<p>Happy designing! 🌟</p>
+        <p>I used WordPress the most, setting up Google Analytics is easy with WordPress, thanks to the Google Site Kit plug-ins,
+or any other plug-ins that can easily integrate with Google Analytics.</p>
+<p>One of the new goals in 2025 is to revamp my agency&rsquo;s main <a href="https://berlime.com">website</a> with entirely new stacks. Meaning
+it does not run on WordPress like before, just for that sake of exploring more options and learn new things. More on that in another post.</p>
+<p>I recently look into how do I add Google Analytics in this blog, <a href="/posts/hugo">hugo</a>.
+It quite straight forward thanks to this theme&rsquo;s <a href="https://gokarna-hugo.netlify.app/posts/theme-documentation-advanced/#analytics">guide</a>.</p>
+<h2 id="remove-internal-traffic">Remove internal traffic</h2>
+<p>Sure, you want to track some traffic on your websites, but how do we not track traffic from our own devices.</p>
+<p>I just did a simple Google search on &ldquo;how to not track my own device in Google Analytics?&rdquo;</p>
+<p>Then, this article from Google appeared on the top. <a href="https://support.google.com/analytics/answer/10104470?hl=en">Click here to see the Google&rsquo;s Guide</a>.</p>
+<p>Basically, here is what you can do, not only that you filter out your own visits:</p>
+<ul>
+<li>You can set to not track the whole network, in my case, it is my house. Filter out tracking from any traffic that comes from my house, which if the device is connected to my house Wi-Fi.</li>
+<li>You can even filter out traffic on an individual device level. It won&rsquo;t track if you use a device, regardless of what internet network you are connected to. In my case, I set it to not track from my mobile phone.</li>
+<li>I also set to not track my IPv6 addresses, just in case.</li>
+</ul>
+<h2 id="this-is-entirely-great-for-much-more-accurate-analytics">This is entirely great for much more accurate analytics</h2>
+<p>My agency provides SEO services. These small things contributes to the value on what my agency can offer, not just blatantly slapping keywords and stuffs.
+Believe me, there are a lot of agencies that just say what you want to here and literally did nothing at the back end. Because they would say &ldquo;nah, you don&rsquo;t need this&rdquo; &#x1f525; &#x1f937;&zwj;&#x2642;&#xfe0f;</p>
 <blockquote>
 <ul>
 <li><em>Post Changelogs</em>
 <ul>
-<li><em>9th Jan 2025 - Publish Date</em></li>
+<li><em>12th Jan 2025 - Publish Date</em></li>
 </ul>
 </li>
 </ul>
@@ -225,31 +224,18 @@
                 
 <div class="prev-post">
     <p>
-        <a href="/posts/2024/">
+        <a href="/posts/jet-engine/">
             &#8592;
             Previous:
-            2024
+            JetEngine
         </a>
     </p>
     <p class="prev-post-date">
-        7 January, 2025
+        10 January, 2025
     </p>
 </div>
 
 
-
-<div class="next-post">
-    <p>
-        <a href="/posts/jet-engine/">
-            Next:
-            JetEngine
-            &#8594;
-        </a>
-    </p>
-        <p class="next-post-date">
-            10 January, 2025
-        </p>
-</div>
 
 
             

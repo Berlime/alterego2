@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter Traffic in GA4</title>
+      <link>/posts/filter-traffic-in-ga4/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/filter-traffic-in-ga4/</guid>
+      <description>&lt;p&gt;I used WordPress the most, setting up Google Analytics is easy with WordPress, thanks to the Google Site Kit plug-ins,&#xA;or any other plug-ins that can easily integrate with Google Analytics.&lt;/p&gt;&#xA;&lt;p&gt;One of the new goals in 2025 is to revamp my agency&amp;rsquo;s main &lt;a href=&#34;https://berlime.com&#34;&gt;website&lt;/a&gt; with entirely new stacks. Meaning&#xA;it does not run on WordPress like before, just for that sake of exploring more options and learn new things. More on that in another post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JetEngine</title>
+      <link>/posts/jet-engine/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/jet-engine/</guid>
+      <description>&lt;h2 id=&#34;meta-box&#34;&gt;Meta Box&lt;/h2&gt;&#xA;&lt;p&gt;From WordPress Dashboard, hover to &lt;code&gt;JetEngine&lt;/code&gt; &amp;gt; &lt;code&gt;Meta Boxes&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add custom fields to built in WordPress post types (e.g. posts, users, categories, pages etc.)&lt;/li&gt;&#xA;&lt;li&gt;Structure Hierarchy &amp;gt; Meta Box Name &amp;gt; Meta Fields.&lt;/li&gt;&#xA;&lt;li&gt;Additional to custom field to Taxonomy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;💡&lt;/p&gt;&#xA;&lt;p&gt;#1 Use case: add additional data in Customers in Users.&lt;/p&gt;&#xA;&lt;p&gt;#2 Use case: Able to add Galleries in Category/Taxonomies.&lt;/p&gt;&#xA;&lt;p&gt;Useful video tutorial&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=fa1ezuf7HUQ&amp;amp;list=PLTbrc9HXDstrLg449hcWQvx8kOXhjyovV&amp;amp;index=4&#34;&gt;https://www.youtube.com/watch?v=fa1ezuf7HUQ&amp;amp;list=PLTbrc9HXDstrLg449hcWQvx8kOXhjyovV&amp;amp;index=4&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;listings&#34;&gt;Listings&lt;/h2&gt;&#xA;&lt;p&gt;From WordPress &lt;code&gt;Dashboard&lt;/code&gt;, hover to &lt;code&gt;JetEngine&lt;/code&gt; &amp;gt; &lt;code&gt;Meta Boxes&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CSS Grid</title>
       <link>/posts/css-grid/</link>
