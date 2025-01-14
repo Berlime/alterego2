@@ -6,8 +6,15 @@
     <description>Recent content in Dev on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Command</title>
+      <link>/posts/sql-command/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/sql-command/</guid>
+      <description>&lt;h2 id=&#34;elementor-field&#34;&gt;Elementor field&lt;/h2&gt;&#xA;&lt;p&gt;Particularly with the &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag.&#xA;In this case, I have stopped subscribing to Elementor Pro which made my slider template gone, including the content.&lt;/p&gt;&#xA;&lt;p&gt;Elementor does not allow you to view the content in the admin area without renewing the license.&#xA;However, it seems that the content is still available in the database, and below is to comment to find contents you insert with the Elementor elements.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;`&lt;/span&gt;wp_posts&lt;span style=&#34;color:#f92672&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;WHERE&lt;/span&gt; post_content &lt;span style=&#34;color:#66d9ef&#34;&gt;LIKE&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%&amp;lt;!-- wp:paragraph --&amp;gt;%&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;Replace &lt;code&gt;&#39;wp_posts&#39;&lt;/code&gt; to whatever database you want to find from.&lt;/li&gt;&#xA;&lt;li&gt;Replace &lt;code&gt;post_content&lt;/code&gt; to filter through the columns in the table.&lt;/li&gt;&#xA;&lt;li&gt;Replace &lt;code&gt;&#39;%&amp;lt;!-- wp:paragraph --&amp;gt;%&#39;&lt;/code&gt; to find the content, be sure that it starts and ends with &lt;code&gt;%&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;14th Jan 2025 - Publish Date, find Elementor Field&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Filter Traffic in GA4</title>
       <link>/posts/filter-traffic-in-ga4/</link>

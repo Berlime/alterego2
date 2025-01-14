@@ -4,3 +4,4 @@
 {"rule":"WHOLE_LOT","sentence":"^\\QSee, without prior experience the way I develop is whole lot of mess.\\E$"}
 {"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QThis also revamps the pricing range and how our agency can provide seamless maintenance with less headaches on client sides especially in terms of understanding ang changing the technical aspects by themselves.\\E$"}
 {"rule":"A_UNCOUNTABLE","sentence":"^\\QOr if you somehow have a salamander, a cooking equipment.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QReplace \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q to find the content, be sure that it starts and ends with \\E(?:Dummy|Ina|Jimmy-|Dummy-|Maniquí-|Maniquíes-)[0-9]+\\Q.\\E$"}

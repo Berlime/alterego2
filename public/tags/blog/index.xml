@@ -6,7 +6,7 @@
     <description>Recent content in Blog on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alter Ego 2 - First Post</title>
@@ -21,6 +21,13 @@
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       <guid>/posts/food-delivery-rider/</guid>
       <description>&lt;h2 id=&#34;lets-compare-between-working-full-time--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Full-time &amp;amp; Being a Food Delivery Rider, Also Full Time&lt;/h2&gt;&#xA;&lt;p&gt;Working as a Foodpanda food delivery rider for 21 days, which is the same as working full-time at about 7 to excluding lunch &amp;amp; small breaks.&lt;/p&gt;&#xA;&lt;p&gt;On average per day $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, this equals to a salary of $2624 working full-time with a take home cash of $2100 after deduction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I use Hugo for this blog</title>
+      <link>/posts/hugo/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/hugo/</guid>
+      <description>&lt;h2 id=&#34;hugo-is-a-static-site-generator&#34;&gt;Hugo is a static site generator&lt;/h2&gt;&#xA;&lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the &amp;lsquo;Holy Grail&amp;rsquo; of web development. &lt;em&gt;buzzz!!&lt;/em&gt; Nope. I was totally wrong.&lt;/p&gt;&#xA;&lt;p&gt;Tasnim, actually first started using &lt;a href=&#34;https://gethugo.io&#34;&gt;Hugo&lt;/a&gt; for his own personal blog. He thought me a lot about how VS Code works, this is the point where I discovered the term IDE, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>B.E.N!</title>

@@ -19,7 +19,7 @@
     
     <title>I use Hugo for this blog</title>
     <meta name="description" content="Another noob perspective">
-    <meta name="keywords" content='blog, gokarna, hugo, dev, agency'>
+    <meta name="keywords" content='blog, gokarna, hugo, dev, static'>
 
     <meta property="og:url" content="/posts/hugo/">
     <meta property="og:type" content="website">
@@ -168,18 +168,22 @@
 
 	
           <p class="post-date">30 January, 2024
-            | Updated 27 December, 2024
+            | Updated 15 January, 2025
           </p>
 	
 
         <ul class="post-tags">
           
            
-             <li class="post-tag"><a href="/tags/agency">agency</a></li>
+             <li class="post-tag"><a href="/tags/blog">blog</a></li>
            
          
            
              <li class="post-tag"><a href="/tags/dev">dev</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="/tags/static">static</a></li>
            
          
         </ul>
@@ -192,10 +196,21 @@
 <p>Hugo is also easy to get start with well documented tutorials. It has exciting themes to choose from. And here I landed with a theme called Gokarna.</p>
 <p>*Shout out to <a href="https://buymeacoffee.com/avijitgupta">Avijit Gupta</a> for such a great work and the other author and <a href="https://github.com/gokarna-theme/gokarna-hugo">contributors</a>!</p>
 <p>The footer of this blog, and the image remains as to credit the huge amount of work for those who create this theme which is perfect and simple at least according to my design needs.</p>
+<h2 id="image-uploads">Image Uploads</h2>
+<p>I recently discovered how to upload Images in my <a href="/rounded-corners">rounded corners</a>.</p>
+<p>Here is briefly how,</p>
+<p>For some reason, we need to add the following in the config file, in my case it&rsquo;s <code>hugo.toml</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>  [[<span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">mounts</span>]]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">source</span> = <span style="color:#e6db74">&#39;images&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">target</span> = <span style="color:#e6db74">&#39;static/images&#39;</span>
+</span></span></code></pre></div><p>Then, in the <code>markdown</code> file of your post,</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">screenshot</span>](<span style="color:#a6e22e">/images/roundedcorners2.avif</span>)
+</span></span></code></pre></div><p>Just be sure that the <code>target</code> file path is where your images is.</p>
 <blockquote>
 <ul>
 <li><em>Changelogs</em>
 <ul>
+<li><em>15th Jan 2025 - Image Uploads</em></li>
 <li><em>27th Dec 2024 - Fixed context</em></li>
 <li><em>29th Oct 2024 - Publish Date</em></li>
 </ul>
@@ -278,6 +293,7 @@
         <nav id="TableOfContents">
   <ul>
     <li><a href="#hugo-is-a-static-site-generator">Hugo is a static site generator</a></li>
+    <li><a href="#image-uploads">Image Uploads</a></li>
   </ul>
 </nav>
     </nav>
@@ -300,6 +316,9 @@
         
 
         
+            
+            
+        
 
         
         
@@ -309,7 +328,7 @@
     
 
     
-        <span>&copy; 2024 The Marauders</span>
+        <span>&copy; 2024-2025 The Marauders</span>
     
 
     <span>
