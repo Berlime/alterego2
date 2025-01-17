@@ -182,7 +182,8 @@
     </div>
 
     <div class="post-content">
-        <h2 id="meta-box">Meta Box</h2>
+        <h2 id="dynamic-data">Dynamic Data</h2>
+<h3 id="meta-box">Meta Box</h3>
 <p>From WordPress Dashboard, hover to <code>JetEngine</code> &gt; <code>Meta Boxes</code></p>
 <ul>
 <li>Add custom fields to built in WordPress post types (e.g. posts, users, categories, pages etc.)</li>
@@ -196,7 +197,7 @@
 <p>Useful video tutorial</p>
 <p><a href="https://www.youtube.com/watch?v=fa1ezuf7HUQ&amp;list=PLTbrc9HXDstrLg449hcWQvx8kOXhjyovV&amp;index=4">https://www.youtube.com/watch?v=fa1ezuf7HUQ&amp;list=PLTbrc9HXDstrLg449hcWQvx8kOXhjyovV&amp;index=4</a></p>
 </blockquote>
-<h2 id="listings">Listings</h2>
+<h3 id="listings">Listings</h3>
 <p>From WordPress <code>Dashboard</code>, hover to <code>JetEngine</code> &gt; <code>Meta Boxes</code></p>
 <ul>
 <li>Acts like a ‘template’ for archive page from a WordPress builder, but it is based on <code>JetEngine</code></li>
@@ -211,7 +212,7 @@
 <p>Useful video tutorial</p>
 <p><a href="https://youtu.be/pHH_q4fx8g0?si=LV4_gxd42nW4Ol3q">https://youtu.be/pHH_q4fx8g0?si=LV4_gxd42nW4Ol3q</a></p>
 </blockquote>
-<h2 id="glossaries">Glossaries</h2>
+<h3 id="glossaries">Glossaries</h3>
 <p>From WordPress Dashboard, hover to <code>JetEngine</code> &gt; <code>Glossaries</code> &gt; <code>Create New</code></p>
 <ul>
 <li>Generally speed up process if a metadata is used and displayed in multiple areas.</li>
@@ -227,12 +228,34 @@
 <p>Useful video tutorial</p>
 <p><a href="https://www.youtube.com/watch?v=2eZmGtLGTgk&amp;t=12s">https://www.youtube.com/watch?v=2eZmGtLGTgk&amp;t=12s</a></p>
 </blockquote>
+<h3 id="query-builder">Query Builder</h3>
+<p>Query builder is when you have a set of customized data to pull in a listing or an archive page. You can pull from multiple data types (e.g. CPT, CCT, core WordPress posts and even databases). It also allows you to stack the queries, meaning it is not tied to a single data sets like a CPT.</p>
+<blockquote>
+<p>Here is an overview video of query builder by Paul C <a href="https://www.youtube.com/watch?v=n8YmsTLHuRU">https://www.youtube.com/watch?v=n8YmsTLHuRU</a></p>
+</blockquote>
+<p>At the moment with Bricks builder, if you turn on custom query, the other query fields on the left sidebar won&rsquo;t work as the custom query will override them.</p>
+<h3 id="taxonomies">Taxonomies</h3>
+<p>This is when you want to create a category or tags for your CPT.</p>
+<p>When you edit a post, you can select categories with a checkbox. To enable this in the admin area, you need to turn on <code>Hieraricle</code> JetEngine settings.</p>
+<p>If you want to select like a <code>tag</code> style experience, simply turn off the <code>Hieraricle</code> settings which is turned off by default.</p>
+<p>Do not forget to use the Admin filters &amp; admin columns in JetEngine settings when you have a lot of data.</p>
+<h2 id="note-when-using-with-bricks">Note when using with Bricks</h2>
+<ol>
+<li>
+<p>In Bricks builder, you need to turn on Query Loop, then you can choose a Post Type. You can also query multiple Post type.</p>
+<p>This solves the problem when I want to:-</p>
+<ul>
+<li>Create <code>two different post types</code> showing the <code>same metadata</code>.</li>
+<li><code>Create different CPT</code> instead of <code>categories or taxonomies</code>, for ease of use for clients.</li>
+<li>Reduce clicks for non-technical users to create new post.</li>
+</ul>
+</li>
+</ol>
 <blockquote>
 <ul>
-<li><em>Post Changelogs</em>
+<li><em>Changelogs</em>
 <ul>
-<li><em>10th Jan 2025 - Publish Date</em></li>
-<li><em>13th Jan 2025 - Replace Notion format to Hugo&rsquo;s</em></li>
+<li><em>17th Jan 2025 - Added Taxanomies and Bricks Notes</em></li>
 </ul>
 </li>
 </ul>
@@ -307,6 +330,25 @@
     
     
 </div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dynamic-data">Dynamic Data</a>
+      <ul>
+        <li><a href="#meta-box">Meta Box</a></li>
+        <li><a href="#listings">Listings</a></li>
+        <li><a href="#glossaries">Glossaries</a></li>
+        <li><a href="#query-builder">Query Builder</a></li>
+        <li><a href="#taxonomies">Taxonomies</a></li>
+      </ul>
+    </li>
+    <li><a href="#note-when-using-with-bricks">Note when using with Bricks</a></li>
+  </ul>
+</nav>
+    </nav>
+</aside>
 
 
 
