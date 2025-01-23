@@ -28,14 +28,14 @@ Then, this article from Google appeared on the top. [Click here to see the Googl
 
 Basically, here is what you can do, not only that you filter out your own visits:
 
-- You can set to not track the whole network, in my case, it is my house. Filter out tracking from any traffic that comes from my house, which if the device is connected to my house Wi-Fi.
+- You can set to not track the whole network, in my case, it is my house. Filter out tracking from any traffic that comes from my house, if the device is connected to my house Wi-Fi.
 - You can even filter out traffic on an individual device level. It won't track if you use a device, regardless of what internet network you are connected to. In my case, I set it to not track from my mobile phone.
 - I also set to not track my IPv6 addresses, just in case.
 
 ## This is entirely great for much more accurate analytics
 
 My agency provides SEO services. These small things contributes to the value on what my agency can offer, not just blatantly slapping keywords and stuffs.
-Believe me, there are a lot of agencies that just say what you want to here and literally did nothing at the back end. Because they would say "nah, you don't need this" :fire: :man_shrugging:
+Believe me, there are a lot of agencies that just say what you want to hear and literally did nothing at the back end. Because they would say "nah, you don't need this" :fire: :man_shrugging:
 
 > - *Post Changelogs*
 >   - *12th Jan 2025 - Publish Date*

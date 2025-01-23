@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Alter Ego 2'
 theme = 'gokarna'
+timezone = "Asia/Singapore"
 
 # Automatically generate robots.txt
 enableRobotsTXT = true

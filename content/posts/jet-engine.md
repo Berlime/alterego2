@@ -84,6 +84,8 @@ When you edit a post, you can select categories with a checkbox. To enable this 
 
 If you want to select like a `tag` style experience, simply turn off the `Hieraricle` settings which is turned off by default.
 
+Be sure to input the `Capability Type` to category, this will trigger to display in Admin UI.
+
 Do not forget to use the Admin filters & admin columns in JetEngine settings when you have a lot of data.
 
 ## Note when using with Bricks
