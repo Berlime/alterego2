@@ -43,8 +43,78 @@ Then, in the `markdown` file of your post,
 
 Just be sure that the `target` file path is where your images is.
 
+---
+
+## Collapsible Element
+
+I initially use this to create an expandable/collapsible section for long codes.
+
+My prompt in DeepSeek was `In Hugo, how do I create a collapsable markdown element?`
+
+In Hugo, you can create a collapsible Markdown element using HTML within your Markdown content. Since Markdown itself doesn't support collapsible sections, you can use the `<details>` and `<summary>` HTML tags to achieve this functionality.
+
+Here’s how you can do it:
+
+### 1. Using HTML in Markdown
+   You can directly embed HTML in your Markdown files. Use the `<details>` and `<summary>` tags to create a collapsible section.
+
+   ```markdown
+   ## My Section
+
+   This is some regular Markdown content.
+
+   <details>
+     <summary>Click to expand</summary>
+     This content is hidden by default. It will be shown when you click the summary.
+   </details>
+   ```
+
+   When rendered, this will create a collapsible section with the text "Click to expand". Clicking on it will reveal the hidden content.
+
+### 2. Styling the Collapsible Section
+   You can add custom CSS to style the collapsible section. For example, you might want to change the appearance of the `<summary>` element.
+
+   ```markdown
+   <details>
+     <summary style="cursor: pointer; color: blue; font-weight: bold;">Click to expand</summary>
+     This content is hidden by default. It will be shown when you click the summary.
+   </details>
+   ```
+
+### 3. Using Shortcodes (Optional)
+
+   This is the method that I use.
+
+   If you find yourself using collapsible sections frequently, you can create a custom shortcode in Hugo to simplify the process.
+
+   - Create a file named `collapsible.html` in the `layouts/shortcodes/` directory.
+   - Add the following content to the file:
+
+     ```html
+     <details>
+       <summary>{{ .Get 0 }}</summary>
+       {{ .Inner }}
+     </details>
+     ```
+
+   - Now, you can use the shortcode in your Markdown files like this:
+
+      ```markdown
+      {{</* collapsible "Click to expand" */>}}
+      This content is hidden by default. It will be shown when you click the summary.
+      {{</* /collapsible */>}}
+      ```
+
+<!-- If you want to display the code for the shortcode usage without it being rendered in the front end, you can use Hugo's {{</* */>}} syntax to escape the shortcode -->
+
+This approach allows you to reuse the collapsible section structure easily across your conten and works well in Hugo and is compatible with most modern browsers.
+
+---
+
+
 
 > - *Changelogs*
+>   - *29th Jan 2025 - Collapsible Element*
 >   - *15th Jan 2025 - Image Uploads*
 >   - *27th Dec 2024 - Fixed context*
 >   - *29th Oct 2024 - Publish Date*

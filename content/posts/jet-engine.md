@@ -3,7 +3,7 @@ title: "JetEngine"
 description: "I copied this from my Notion notes."
 date: 2025-01-10
 # image: ""
-lastmod: 2025-01-13
+lastmod: 2025-01-24
 showTableOfContents: true
 tags: ["WordPress",]
 type: "post"
@@ -11,13 +11,20 @@ type: "post"
 
 ## Dynamic Data
 
+### Repeater Fields
+
+Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized `name id`.
+
+Then include in the Single Post Template, use JetEngine widget.
+
 ### Meta Box
 
 From WordPress Dashboard, hover to `JetEngine` > `Meta Boxes`
 
-- Add custom fields to built in WordPress post types (e.g. posts, users, categories, pages etc.)
+- Ability to assign custom fields to `any type of content` (e.g. CPT, post, users, categories, pages.)
+- Ability to add custom fields to built in WordPress post types (e.g. posts, users, categories, pages etc.)
 - Structure Hierarchy > Meta Box Name > Meta Fields.
-- Additional to custom field to Taxonomy
+- Ability to add additional to custom field to Taxonomy
 
 > 💡
 >
@@ -86,6 +93,9 @@ If you want to select like a `tag` style experience, simply turn off the `Hierar
 
 Be sure to input the `Capability Type` to category, this will trigger to display in Admin UI.
 
+It was used base on this
+<https://wordpress.org/documentation/article/roles-and-capabilities/>
+
 Do not forget to use the Admin filters & admin columns in JetEngine settings when you have a lot of data.
 
 ## Note when using with Bricks
@@ -101,3 +111,4 @@ Do not forget to use the Admin filters & admin columns in JetEngine settings whe
 
 > - *Changelogs*
 >   - *17th Jan 2025 - Added Taxanomies and Bricks Notes*
+>   - *24th Jan 2025 - Added context in Meta Box*

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,22 +21,22 @@
     <meta name="description" content="Another noob perspective">
     <meta name="keywords" content='blog, gokarna, hugo, dev, static'>
 
-    <meta property="og:url" content="//localhost:1313/posts/hugo/">
+    <meta property="og:url" content="/posts/hugo/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="I use Hugo for this blog">
     <meta property="og:description" content="Another noob perspective">
-    <meta property="og:image" content="//localhost:1313/images/avatar.webp">
-    <meta property="og:image:secure_url" content="//localhost:1313/images/avatar.webp">
+    <meta property="og:image" content="/images/avatar.webp">
+    <meta property="og:image:secure_url" content="/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="I use Hugo for this blog">
     <meta name="twitter:description" content="Another noob perspective">
-    <meta property="twitter:domain" content="//localhost:1313/posts/hugo/">
-    <meta property="twitter:url" content="//localhost:1313/posts/hugo/">
-    <meta name="twitter:image" content="//localhost:1313/images/avatar.webp">
+    <meta property="twitter:domain" content="/posts/hugo/">
+    <meta property="twitter:url" content="/posts/hugo/">
+    <meta name="twitter:image" content="/images/avatar.webp">
 
     
-    <link rel="canonical" href="//localhost:1313/posts/hugo/">
+    <link rel="canonical" href="/posts/hugo/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -70,24 +70,24 @@
 
         
         <div class="avatar">
-            <a href="//localhost:1313/">
+            <a href="/">
                 <img src='/images/avatar.webp' alt="avatar">
             </a>
         </div>
         
 
         <div class="nav-title">
-            <a class="nav-brand" href="//localhost:1313/">Alter Ego 2</a>
+            <a class="nav-brand" href="/">Alter Ego 2</a>
         </div>
 
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="//localhost:1313/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
+                <a href="/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
             </div>
             
             <div class="nav-link">
-                <a href="//localhost:1313/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
+                <a href="/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
             </div>
             
             <div class="nav-link">
@@ -118,11 +118,11 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="//localhost:1313/posts/" ><span data-feather='book'></span> Posts </a>
+                    <a href="/posts/" ><span data-feather='book'></span> Posts </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="//localhost:1313/tags/" ><span data-feather='tag'></span> Tags </a>
+                    <a href="/tags/" ><span data-feather='tag'></span> Tags </a>
                 </li>
                 
                 <li class="nav-item">
@@ -175,15 +175,15 @@
         <ul class="post-tags">
           
            
-             <li class="post-tag"><a href="//localhost:1313/tags/blog">blog</a></li>
+             <li class="post-tag"><a href="/tags/blog">blog</a></li>
            
          
            
-             <li class="post-tag"><a href="//localhost:1313/tags/dev">dev</a></li>
+             <li class="post-tag"><a href="/tags/dev">dev</a></li>
            
          
            
-             <li class="post-tag"><a href="//localhost:1313/tags/static">static</a></li>
+             <li class="post-tag"><a href="/tags/static">static</a></li>
            
          
         </ul>
@@ -206,10 +206,58 @@
 </span></span></code></pre></div><p>Then, in the <code>markdown</code> file of your post,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">screenshot</span>](<span style="color:#a6e22e">/images/roundedcorners2.avif</span>)
 </span></span></code></pre></div><p>Just be sure that the <code>target</code> file path is where your images is.</p>
+<hr>
+<h2 id="collapsible-element">Collapsible Element</h2>
+<p>I initially use this to create an expandable/collapsible section for long codes.</p>
+<p>My prompt in DeepSeek was <code>In Hugo, how do I create a collapsable markdown element?</code></p>
+<p>In Hugo, you can create a collapsible Markdown element using HTML within your Markdown content. Since Markdown itself doesn&rsquo;t support collapsible sections, you can use the <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> HTML tags to achieve this functionality.</p>
+<p>Here’s how you can do it:</p>
+<h3 id="1-using-html-in-markdown">1. Using HTML in Markdown</h3>
+<p>You can directly embed HTML in your Markdown files. Use the <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> tags to create a collapsible section.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#75715e">## My Section
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>This is some regular Markdown content.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">details</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">summary</span>&gt;Click to expand&lt;/<span style="color:#f92672">summary</span>&gt;
+</span></span><span style="display:flex;"><span>  This content is hidden by default. It will be shown when you click the summary.
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">details</span>&gt;
+</span></span></code></pre></div><p>When rendered, this will create a collapsible section with the text &ldquo;Click to expand&rdquo;. Clicking on it will reveal the hidden content.</p>
+<h3 id="2-styling-the-collapsible-section">2. Styling the Collapsible Section</h3>
+<p>You can add custom CSS to style the collapsible section. For example, you might want to change the appearance of the <code>&lt;summary&gt;</code> element.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">details</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">summary</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cursor: pointer; color: blue; font-weight: bold;&#34;</span>&gt;Click to expand&lt;/<span style="color:#f92672">summary</span>&gt;
+</span></span><span style="display:flex;"><span>  This content is hidden by default. It will be shown when you click the summary.
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">details</span>&gt;
+</span></span></code></pre></div><h3 id="3-using-shortcodes-optional">3. Using Shortcodes (Optional)</h3>
+<p>This is the method that I use.</p>
+<p>If you find yourself using collapsible sections frequently, you can create a custom shortcode in Hugo to simplify the process.</p>
+<ul>
+<li>
+<p>Create a file named <code>collapsible.html</code> in the <code>layouts/shortcodes/</code> directory.</p>
+</li>
+<li>
+<p>Add the following content to the file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">details</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">summary</span>&gt;{{ .Get 0 }}&lt;/<span style="color:#f92672">summary</span>&gt;
+</span></span><span style="display:flex;"><span>  {{ .Inner }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">details</span>&gt;
+</span></span></code></pre></div></li>
+<li>
+<p>Now, you can use the shortcode in your Markdown files like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">collapsible</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">expand</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+</span></span><span style="display:flex;"><span>This content is hidden by default. It will be shown when you click the summary.
+</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">collapsible</span> &gt;}}
+</span></span></code></pre></div></li>
+</ul>
+<!-- raw HTML omitted -->
+<p>This approach allows you to reuse the collapsible section structure easily across your conten and works well in Hugo and is compatible with most modern browsers.</p>
+<hr>
 <blockquote>
 <ul>
 <li><em>Changelogs</em>
 <ul>
+<li><em>29th Jan 2025 - Collapsible Element</em></li>
 <li><em>15th Jan 2025 - Image Uploads</em></li>
 <li><em>27th Dec 2024 - Fixed context</em></li>
 <li><em>29th Oct 2024 - Publish Date</em></li>
@@ -294,6 +342,13 @@
   <ul>
     <li><a href="#hugo-is-a-static-site-generator">Hugo is a static site generator</a></li>
     <li><a href="#image-uploads">Image Uploads</a></li>
+    <li><a href="#collapsible-element">Collapsible Element</a>
+      <ul>
+        <li><a href="#1-using-html-in-markdown">1. Using HTML in Markdown</a></li>
+        <li><a href="#2-styling-the-collapsible-section">2. Styling the Collapsible Section</a></li>
+        <li><a href="#3-using-shortcodes-optional">3. Using Shortcodes (Optional)</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </nav>

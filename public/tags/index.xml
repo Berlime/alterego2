@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Alter Ego 2</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dev</title>
-      <link>//localhost:1313/tags/dev/</link>
-      <pubDate>Thu, 23 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/dev/</guid>
+      <title>Wordpress</title>
+      <link>/tags/wordpress/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0800</pubDate>
+      <guid>/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
-      <title>Wordpress</title>
-      <link>//localhost:1313/tags/wordpress/</link>
-      <pubDate>Tue, 21 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/wordpress/</guid>
+      <title>Dev</title>
+      <link>/tags/dev/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0800</pubDate>
+      <guid>/tags/dev/</guid>
       <description></description>
     </item>
     <item>
       <title>Agency</title>
-      <link>//localhost:1313/tags/agency/</link>
+      <link>/tags/agency/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/agency/</guid>
+      <guid>/tags/agency/</guid>
       <description></description>
     </item>
     <item>
       <title>Web-Design</title>
-      <link>//localhost:1313/tags/web-design/</link>
+      <link>/tags/web-design/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/web-design/</guid>
+      <guid>/tags/web-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Static</title>
-      <link>//localhost:1313/tags/static/</link>
+      <link>/tags/static/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/static/</guid>
+      <guid>/tags/static/</guid>
       <description></description>
     </item>
     <item>
       <title>Server</title>
-      <link>//localhost:1313/tags/server/</link>
+      <link>/tags/server/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/server/</guid>
+      <guid>/tags/server/</guid>
       <description></description>
     </item>
     <item>
       <title>Backtracked</title>
-      <link>//localhost:1313/tags/backtracked/</link>
+      <link>/tags/backtracked/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/backtracked/</guid>
+      <guid>/tags/backtracked/</guid>
       <description></description>
     </item>
     <item>
       <title>Lifestyle</title>
-      <link>//localhost:1313/tags/lifestyle/</link>
+      <link>/tags/lifestyle/</link>
       <pubDate>Sat, 07 Sep 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/lifestyle/</guid>
+      <guid>/tags/lifestyle/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>//localhost:1313/tags/blog/</link>
+      <link>/tags/blog/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/blog/</guid>
+      <guid>/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>//localhost:1313/tags/software/</link>
+      <link>/tags/software/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/tags/software/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
   </channel>

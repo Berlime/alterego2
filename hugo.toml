@@ -92,3 +92,8 @@ enableEmoji = true
   [[module.mounts]]
   source = 'images'
   target = 'static/images'
+
+  [markup]
+    [markup.highlight]
+    codeFences = true
+    style = "monokai"
