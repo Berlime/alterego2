@@ -1,0 +1,7 @@
+  <details style="border: 1px solid #ccc; padding: 1rem; border-radius: 5px; background-color: #292C30;">
+      <summary style="cursor: pointer; color: #ccc; font-weight: bold;">{{ .Get 0 }}</summary>
+      {{ .Inner | markdownify }}
+  </details>
+
+
+  <!-- "Markdownify" ensures that Markdown inside the shortcode (collapsible element) is properly rendered, including code blocks. -->
