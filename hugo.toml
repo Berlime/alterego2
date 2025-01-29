@@ -93,7 +93,6 @@ enableEmoji = true
   source = 'images'
   target = 'static/images'
 
-  [markup]
-    [markup.highlight]
+  [markup.highlight]
     codeFences = true
     style = "monokai"
