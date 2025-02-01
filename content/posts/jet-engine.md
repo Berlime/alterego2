@@ -3,7 +3,7 @@ title: "JetEngine"
 description: "I copied this from my Notion notes."
 date: 2025-01-10
 # image: ""
-lastmod: 2025-01-24
+lastmod: 2025-02-01
 showTableOfContents: true
 tags: ["WordPress",]
 type: "post"
@@ -132,5 +132,6 @@ This is very interesting, not only that you can display your `CPT meta data` in 
 
 
 > - *Changelogs*
+>   - *1st Feb 2025 - Added Admin Columns*
 >   - *17th Jan 2025 - Added Taxanomies and Bricks Notes*
 >   - *24th Jan 2025 - Added context in Meta Box*
