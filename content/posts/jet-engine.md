@@ -98,6 +98,28 @@ It was used base on this
 
 Do not forget to use the Admin filters & admin columns in JetEngine settings when you have a lot of data.
 
+---
+
+### Admin Columns
+
+This is very interesting, not only that you can display your `CPT meta data` in the admin area of your CPT. You can also display the `relations` in the admin column.
+
+1. In the "type" section, select `Custom Callback`.
+
+![screenshot](/images/jetengineAdminColumns.avif)
+
+2. Then, in the "Callback" section, click `Select from existing callbacks`
+
+![screenshot](/images/jetengineAdminColumns1.avif)
+
+3. Click on the highlighted text in the `Get related items`.
+
+![screenshot](/images/jetengineAdminColumns3.avif)
+
+4. Select an option, and you are done!
+
+![screenshot](/images/jetengineAdminColumns4.avif)
+
 ## Note when using with Bricks
 
 1. In Bricks builder, you need to turn on Query Loop, then you can choose a Post Type. You can also query multiple Post type.
