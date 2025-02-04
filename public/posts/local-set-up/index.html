@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Local Set Up</title>
+    <meta name="description" content="Local WordPress development environments like Local by WP Engine are typically slower than live hosting for several reasons:
+Resource Limitations: Local runs a …">
+    <meta name="keywords" content='blog, gokarna, hugo, dev, wordpress'>
+
+    <meta property="og:url" content="//localhost:1313/posts/local-set-up/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Local Set Up">
+    <meta property="og:description" content="Local WordPress development environments like Local by WP Engine are typically slower than live hosting for several reasons:
+Resource Limitations: Local runs a …">
+    <meta property="og:image" content="//localhost:1313/images/avatar.webp">
+    <meta property="og:image:secure_url" content="//localhost:1313/images/avatar.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Local Set Up">
+    <meta name="twitter:description" content="Local WordPress development environments like Local by WP Engine are typically slower than live hosting for several reasons:
+Resource Limitations: Local runs a …">
+    <meta property="twitter:domain" content="//localhost:1313/posts/local-set-up/">
+    <meta property="twitter:url" content="//localhost:1313/posts/local-set-up/">
+    <meta name="twitter:image" content="//localhost:1313/images/avatar.webp">
+
+    
+    <link rel="canonical" href="//localhost:1313/posts/local-set-up/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.dce06bccdb48a1e609abd5ddf48171ca09316a6284027f6cc83ac12473b2ea0e.js" integrity="sha256-3OBrzNtIoeYJq9Xd9IFxygkxamKEAn9syDrBJHOy6g4="></script>
+
+    
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H622P192V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6H622P192V');
+</script>
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="//localhost:1313/">
+                <img src='/images/avatar.webp' alt="avatar">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="//localhost:1313/">Alter Ego 2</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="//localhost:1313/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="//localhost:1313/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Berlime/hugo" aria-label="github" ><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://www.buymeacoffee.com/" aria-label="coffee" ><span data-feather='coffee'></span>  </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="//localhost:1313/posts/" ><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="//localhost:1313/tags/" ><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Berlime/hugo" ><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://www.buymeacoffee.com/" ><span data-feather='coffee'></span>  </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Local Set Up</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle"></small>
+	
+
+	
+          <p class="post-date">4 February, 2025
+           
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="//localhost:1313/tags/wordpress">wordpress</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>Local WordPress development environments like Local by WP Engine are typically slower than live hosting for several reasons:</p>
+<ol>
+<li>
+<p>Resource Limitations: Local runs a full server stack (PHP, MySQL, web server) directly on your computer, sharing resources with your operating system and other applications. In contrast, dedicated hosting environments have optimized server resources.</p>
+</li>
+<li>
+<p>Virtualization Overhead: Local uses virtualization technology to create isolated environments, which adds a layer of processing overhead compared to bare metal servers.</p>
+</li>
+<li>
+<p>Development Features: Local includes additional development tools and features (like live reload and debug logging) that can impact performance but aren&rsquo;t present in production environments.</p>
+</li>
+<li>
+<p>Hardware Differences: Most hosting providers use enterprise-grade SSDs, processors, and networking equipment optimized for web serving. Your local machine, while powerful, isn&rsquo;t specifically optimized for running web servers.</p>
+</li>
+<li>
+<p>Caching Differences: Production environments typically have more sophisticated caching setups (like Varnish, Redis, or CDNs) that aren&rsquo;t configured in local environments.</p>
+</li>
+</ol>
+<p>To improve Local&rsquo;s performance, you could:</p>
+<ul>
+<li>Increase the PHP memory limit in Local&rsquo;s settings</li>
+<li>Disable unused services</li>
+<li>Close other resource-intensive applications while developing</li>
+<li>Use the &ldquo;Preferred&rdquo; option instead of &ldquo;Classic&rdquo; in Local&rsquo;s settings</li>
+<li>Consider using an SSD for your Local sites</li>
+</ul>
+<p>Keep in mind that slower local performance is generally acceptable during development since the focus is on functionality rather than speed optimization.</p>
+<p>Copy and paste this code</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#75715e">//Copy this code, go to wp-config.php file
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//and paste it right below define( &#39;WP_ENVIRONMENT_TYPE&#39;, &#39;local&#39; );
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">define</span>( <span style="color:#e6db74">&#39;WP_ENVIRONMENT_TYPE&#39;</span>, <span style="color:#e6db74">&#39;local&#39;</span> ); <span style="color:#75715e">//configured by Local.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#39;WP_MEMORY_LIMIT&#39;</span>, <span style="color:#e6db74">&#39;512M&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#39;WP_MAX_MEMORY_LIMIT&#39;</span>, <span style="color:#e6db74">&#39;512M&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#39;MAX_EXECUTION_TIME&#39;</span>, <span style="color:#e6db74">&#39;300&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#39;UPLOAD_MAX_FILESIZE&#39;</span>, <span style="color:#e6db74">&#39;64M&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#39;POST_MAX_SIZE&#39;</span>, <span style="color:#e6db74">&#39;128M&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">define</span>(<span style="color:#e6db74">&#39;MAX_INPUT_VARS&#39;</span>, <span style="color:#e6db74">&#39;3000&#39;</span>);
+</span></span></code></pre></div><blockquote>
+<ul>
+<li><em>Post Changelogs</em>
+<ul>
+<li><em>Nothing Yet</em></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+            
+                
+<div class="prev-post">
+    <p>
+        <a href="/posts/aam-access-policy/">
+            &#8592;
+            Previous:
+            AAM Access Policy
+        </a>
+    </p>
+    <p class="prev-post-date">
+        28 January, 2025
+    </p>
+</div>
+
+
+
+
+            
+        
+    </div>
+
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+    
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2025 The Marauders</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

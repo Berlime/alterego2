@@ -11,11 +11,18 @@ type: "post"
 
 ## Dynamic Data
 
+This is my notes when using JetEngine with Bricks. I reference to this alot to fit into my context and at least for my thought processes.
+
 ### Repeater Fields
 
 Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized `name id`.
 
 Then include in the Single Post Template, use JetEngine widget.
+
+You can also use native Bricks template system, which does not require JE's Listings/Components.
+To populate in Bricks, set the query to `JE Repeater` it will populate available repeater for the particular Brick's `single` template in the `Template Setting`.
+
+---
 
 ### Meta Box
 
@@ -35,6 +42,8 @@ From WordPress Dashboard, hover to `JetEngine` > `Meta Boxes`
 > Useful video tutorial
 >
 > <https://www.youtube.com/watch?v=fa1ezuf7HUQ&list=PLTbrc9HXDstrLg449hcWQvx8kOXhjyovV&index=4>
+
+---
 
 ### Listings
 

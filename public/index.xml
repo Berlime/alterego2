@@ -6,8 +6,15 @@
     <description>Recent content on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Local Set Up</title>
+      <link>//localhost:1313/posts/local-set-up/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:1313/posts/local-set-up/</guid>
+      <description>&lt;p&gt;Local WordPress development environments like Local by WP Engine are typically slower than live hosting for several reasons:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Resource Limitations: Local runs a full server stack (PHP, MySQL, web server) directly on your computer, sharing resources with your operating system and other applications. In contrast, dedicated hosting environments have optimized server resources.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Virtualization Overhead: Local uses virtualization technology to create isolated environments, which adds a layer of processing overhead compared to bare metal servers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AAM Access Policy</title>
       <link>//localhost:1313/posts/aam-access-policy/</link>
@@ -48,7 +55,7 @@
       <link>//localhost:1313/posts/jet-engine/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
       <guid>//localhost:1313/posts/jet-engine/</guid>
-      <description>&lt;h2 id=&#34;dynamic-data&#34;&gt;Dynamic Data&lt;/h2&gt;&#xA;&lt;h3 id=&#34;repeater-fields&#34;&gt;Repeater Fields&lt;/h3&gt;&#xA;&lt;p&gt;Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized &lt;code&gt;name id&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Then include in the Single Post Template, use JetEngine widget.&lt;/p&gt;&#xA;&lt;h3 id=&#34;meta-box&#34;&gt;Meta Box&lt;/h3&gt;&#xA;&lt;p&gt;From WordPress Dashboard, hover to &lt;code&gt;JetEngine&lt;/code&gt; &amp;gt; &lt;code&gt;Meta Boxes&lt;/code&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ability to assign custom fields to &lt;code&gt;any type of content&lt;/code&gt; (e.g. CPT, post, users, categories, pages.)&lt;/li&gt;&#xA;&lt;li&gt;Ability to add custom fields to built in WordPress post types (e.g. posts, users, categories, pages etc.)&lt;/li&gt;&#xA;&lt;li&gt;Structure Hierarchy &amp;gt; Meta Box Name &amp;gt; Meta Fields.&lt;/li&gt;&#xA;&lt;li&gt;Ability to add additional to custom field to Taxonomy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;💡&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;dynamic-data&#34;&gt;Dynamic Data&lt;/h2&gt;&#xA;&lt;p&gt;This is my notes when using JetEngine with Bricks. I reference to this alot to fit into my context and at least for my thought processes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;repeater-fields&#34;&gt;Repeater Fields&lt;/h3&gt;&#xA;&lt;p&gt;Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized &lt;code&gt;name id&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Then include in the Single Post Template, use JetEngine widget.&lt;/p&gt;&#xA;&lt;p&gt;You can also use native Bricks template system, which does not require JE&amp;rsquo;s Listings/Components.&#xA;To populate in Bricks, set the query to &lt;code&gt;JE Repeater&lt;/code&gt; it will populate available repeater for the particular Brick&amp;rsquo;s &lt;code&gt;single&lt;/code&gt; template in the &lt;code&gt;Template Setting&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSS Grid</title>
