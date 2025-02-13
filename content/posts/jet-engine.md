@@ -9,11 +9,11 @@ tags: ["WordPress",]
 type: "post"
 ---
 
-## Dynamic Data
+## Introduction
 
 This is my notes when using JetEngine with Bricks. I reference to this alot to fit into my context and at least for my thought processes.
 
-### Repeater Fields
+## Repeater Fields
 
 Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized `name id`.
 
@@ -24,7 +24,7 @@ To populate in Bricks, set the query to `JE Repeater` it will populate available
 
 ---
 
-### Meta Box
+## Meta Box
 
 From WordPress Dashboard, hover to `JetEngine` > `Meta Boxes`
 
@@ -45,7 +45,7 @@ From WordPress Dashboard, hover to `JetEngine` > `Meta Boxes`
 
 ---
 
-### Listings
+## Listings
 
 From WordPress `Dashboard`, hover to `JetEngine` > `Meta Boxes`
 
@@ -64,7 +64,15 @@ From WordPress `Dashboard`, hover to `JetEngine` > `Meta Boxes`
 >
 > <https://youtu.be/pHH_q4fx8g0?si=LV4_gxd42nW4Ol3q>
 
-### Glossaries
+---
+
+## Components
+
+Able to create components to be used in different places throughout the website. Especially great if the components have dynamic data enabled.
+
+---
+
+## Glossaries
 
 From WordPress Dashboard, hover to `JetEngine` > `Glossaries` > `Create New`
 
@@ -83,8 +91,9 @@ Useful video tutorial
 >
 > <https://www.youtube.com/watch?v=2eZmGtLGTgk&t=12s>
 
+---
 
-### Query Builder
+## Query Builder
 
 Query builder is when you have a set of customized data to pull in a listing or an archive page. You can pull from multiple data types (e.g. CPT, CCT, core WordPress posts and even databases). It also allows you to stack the queries, meaning it is not tied to a single data sets like a CPT.
 
@@ -92,7 +101,14 @@ Query builder is when you have a set of customized data to pull in a listing or 
 
 At the moment with Bricks builder, if you turn on custom query, the other query fields on the left sidebar won't work as the custom query will override them.
 
-### Taxonomies
+### Show Related Item in SPT
+
+> Here is a great tutorial video of building query by Crocoblock <https://www.youtube.com/watch?v=ZB9gE7JAMAs&t=410s>
+
+1. For this, it may be slightly different from what builder you use.
+2. Note if the items you want to show is `parent` or `children`.
+
+## Taxonomies
 
 This is when you want to create a category or tags for your CPT.
 
@@ -109,7 +125,7 @@ Do not forget to use the Admin filters & admin columns in JetEngine settings whe
 
 ---
 
-### Admin Columns
+## Admin Columns
 
 This is very interesting, not only that you can display your `CPT meta data` in the admin area of your CPT. You can also display the `relations` in the admin column.
 

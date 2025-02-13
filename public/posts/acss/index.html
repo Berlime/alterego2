@@ -18,22 +18,19 @@
 
     
     <title>ACSS</title>
-    <meta name="description" content="Autogrid Variable Method Downside - Uses default aggressive value, unable to pixel perfect control.
-Recipe Method with Custom Class Link to recipes - ACSS …">
+    <meta name="description" content="Everything ACSS & ACSS&#43;WC">
     <meta name="keywords" content='blog, gokarna, hugo, dev, wordpress'>
 
     <meta property="og:url" content="//localhost:1313/posts/acss/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ACSS">
-    <meta property="og:description" content="Autogrid Variable Method Downside - Uses default aggressive value, unable to pixel perfect control.
-Recipe Method with Custom Class Link to recipes - ACSS …">
+    <meta property="og:description" content="Everything ACSS & ACSS&#43;WC">
     <meta property="og:image" content="//localhost:1313/images/avatar.webp">
     <meta property="og:image:secure_url" content="//localhost:1313/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ACSS">
-    <meta name="twitter:description" content="Autogrid Variable Method Downside - Uses default aggressive value, unable to pixel perfect control.
-Recipe Method with Custom Class Link to recipes - ACSS …">
+    <meta name="twitter:description" content="Everything ACSS & ACSS&#43;WC">
     <meta property="twitter:domain" content="//localhost:1313/posts/acss/">
     <meta property="twitter:url" content="//localhost:1313/posts/acss/">
     <meta name="twitter:image" content="//localhost:1313/images/avatar.webp">
@@ -166,12 +163,12 @@ Recipe Method with Custom Class Link to recipes - ACSS …">
 	
 
 	
-          <small role="doc-subtitle"></small>
+          <small role="doc-subtitle">Everything ACSS &amp; ACSS&#43;WC</small>
 	
 
 	
           <p class="post-date">21 January, 2025
-            | Updated 22 January, 2025
+           
           </p>
 	
 
@@ -192,11 +189,31 @@ Recipe Method with Custom Class Link to recipes - ACSS …">
 <p>Link to recipes - <a href="https://automaticcss.com/docs/grid-recipes/">ACSS Recipes</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>@<span style="color:#66d9ef">auto-grid</span>
 </span></span></code></pre></div><p><a href="https://www.youtube.com/watch?v=uPBrrobHm8o&amp;t=776s">https://www.youtube.com/watch?v=uPBrrobHm8o&amp;t=776s</a></p>
+<hr>
+<h2 id="woo-dashboard-template">Woo Dashboard Template</h2>
+<p>For some reason, we will need a workaround to use <code>Frames</code> and <code>ACCS</code> for WooCommerce main dashboard details, and it&rsquo;s child.</p>
+<p>Here is the video from the developer I search in the ACCS&rsquo;s Circle community.</p>
+<p><a href="https://video.tobiashaas.dev/recordings/tdVDMssbPOc0TbOmBZth">https://video.tobiashaas.dev/recordings/tdVDMssbPOc0TbOmBZth</a></p>
+<hr>
+<h2 id="fix-allowed-html-tags">Fix Allowed HTML Tags</h2>
+<p>Frames tends to have it&rsquo;s own HTML tags which needs to use the PHP funcitons to allow the tags, in order for some <code>data-attributes</code> to work particularly for WooCommerce</p>
+<p>Here is the snippet</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-PHP" data-lang="PHP"><span style="display:flex;"><span><span style="color:#a6e22e">add_filter</span>( <span style="color:#e6db74">&#39;bricks/allowed_html_tags&#39;</span>, <span style="color:#66d9ef">function</span>( $allowed_html_tags ) {
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Define the additional tags to be added (e.g. &#39;form&#39; &amp; &#39;select&#39;)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    $additional_tags <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;form&#39;</span>];
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Merge additional tags with the existing allowed tags
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">array_merge</span>( $allowed_html_tags, $additional_tags );
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><p>Source: <a href="https://community.automaticcss.com/c/bricks/bricks-1-10-3-breaks-quantity-field-dynamic-tags-only">https://community.automaticcss.com/c/bricks/bricks-1-10-3-breaks-quantity-field-dynamic-tags-only</a></p>
 <blockquote>
 <ul>
 <li><em>Post Changelogs</em>
 <ul>
-<li><em>Nothing Yet</em></li>
+<li><em>10th Feb - Woo Dashboard Template</em></li>
 </ul>
 </li>
 </ul>
@@ -271,6 +288,23 @@ Recipe Method with Custom Class Link to recipes - ACSS …">
     
     
 </div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#autogrid">Autogrid</a>
+      <ul>
+        <li><a href="#variable-method">Variable Method</a></li>
+        <li><a href="#recipe-method-with-custom-class">Recipe Method with Custom Class</a></li>
+      </ul>
+    </li>
+    <li><a href="#woo-dashboard-template">Woo Dashboard Template</a></li>
+    <li><a href="#fix-allowed-html-tags">Fix Allowed HTML Tags</a></li>
+  </ul>
+</nav>
+    </nav>
+</aside>
 
 
 
