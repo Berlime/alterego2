@@ -108,6 +108,12 @@ At the moment with Bricks builder, if you turn on custom query, the other query 
 1. For this, it may be slightly different from what builder you use.
 2. Note if the items you want to show is `parent` or `children`.
 
+### Nested Query
+
+In a Single Post Template, I want to display the meta-data of the `related items`. In this case, I want to display the form title, the `form` itself is another CPTs.
+
+1. Go to the `Query Builder` > Scroll to `Post Query` section > `Post Page` > `Post In` > `Initial Object ID From (get initial ID here)` must be set to `Current object variable`.
+
 ## Taxonomies
 
 This is when you want to create a category or tags for your CPT.
