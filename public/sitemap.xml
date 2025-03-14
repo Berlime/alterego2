@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-02-25T00:00:00+08:00</lastmod>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/bricks/</loc>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/custom-fonts/</loc>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/my-first-post/</loc>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/bricks-builder/</loc>
     <lastmod>2025-02-25T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-02-25T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>/posts/local-set-up/</loc>
-    <lastmod>2025-02-04T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-02-04T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/wordpress/</loc>
     <lastmod>2025-02-04T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/aam-access-policy/</loc>

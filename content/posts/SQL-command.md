@@ -25,5 +25,7 @@ SELECT * FROM `wp_posts` WHERE post_content LIKE '%<!-- wp:paragraph -->%';
 - Replace `post_content` to filter through the columns in the table.
 - Replace `'%<!-- wp:paragraph -->%'` to find the content, be sure that it starts and ends with ` % `.
 
+https://nitropack.io/blog/post/wordpress-database-cleanup-guide
+
 > - *Post Changelogs*
 >   - *14th Jan 2025 - Publish Date, find Elementor Field*

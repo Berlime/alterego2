@@ -76,7 +76,7 @@ enableEmoji = true
  dateFormat = "2 January, 2006"
 
   # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo", "dev"]
+  metaKeywords = ["blog", "gokarna", "hugo", "dev", "bricks builder", "wordpress"]
 
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
