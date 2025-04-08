@@ -35,7 +35,7 @@ For some reason, we need to add the following in the config file, in my case it'
   target = 'static/images'
 ```
 
-Then, in the `markdown` file of your post, 
+Then, in the `markdown` file of your post,
 
 ```markdown
 ![screenshot](/images/roundedcorners2.avif)
@@ -56,6 +56,7 @@ In Hugo, you can create a collapsible Markdown element using HTML within your Ma
 Here’s how you can do it:
 
 ### 1. Using HTML in Markdown
+
    You can directly embed HTML in your Markdown files. Use the `<details>` and `<summary>` tags to create a collapsible section.
 
    ```markdown
@@ -72,6 +73,7 @@ Here’s how you can do it:
    When rendered, this will create a collapsible section with the text "Click to expand". Clicking on it will reveal the hidden content.
 
 ### 2. Styling the Collapsible Section
+
    You can add custom CSS to style the collapsible section. For example, you might want to change the appearance of the `<summary>` element.
 
    ```markdown

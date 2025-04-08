@@ -112,11 +112,11 @@ At the moment with Bricks builder, if you turn on custom query, the other query 
 
 In this section, the goal is to be able to select Internal Pages URL dynamically from a CPT's meta-field.
 
-1. Create a post query like in the screen shot.
+1. Create a post query like in the screenshot.
 
 ![screenshot](/images/queryPostMetaData.avif)
 
-2. Then in your CPT meta-field:
+2. Then in your CPT meta-field: Define the Value Field and Label Field
 
 ![screenshot](images/queryPostMetaData2.avif)
 
