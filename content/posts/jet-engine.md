@@ -108,6 +108,18 @@ At the moment with Bricks builder, if you turn on custom query, the other query 
 1. For this, it may be slightly different from what builder you use.
 2. Note if the items you want to show is `parent` or `children`.
 
+### Query Post Meta Data
+
+In this section, the goal is to be able to select Internal Pages URL dynamically from a CPT's meta-field.
+
+1. Create a post query like in the screen shot.
+
+![screenshot](/images/queryPostMetaData.avif)
+
+2. Then in your CPT meta-field:
+
+![screenshot](images/queryPostMetaData2.avif)
+
 ### Nested Query
 
 In a Single Post Template, I want to display the meta-data of the `related items`. In this case, I want to display the form title, the `form` itself is another CPTs.

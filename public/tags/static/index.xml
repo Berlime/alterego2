@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static on Alter Ego 2</title>
-    <link>/tags/static/</link>
+    <link>//localhost:1313/tags/static/</link>
     <description>Recent content in Static on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/tags/static/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/static/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Reference When Publishing a Blog</title>
-      <link>/posts/my-reference-when-publishing-a-blog/</link>
+      <link>//localhost:1313/posts/my-reference-when-publishing-a-blog/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/my-reference-when-publishing-a-blog/</guid>
+      <guid>//localhost:1313/posts/my-reference-when-publishing-a-blog/</guid>
       <description>&lt;h2 id=&#34;create-new-post-via-terminal&#34;&gt;Create New Post via Terminal&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Make sure you are at &lt;code&gt;/your_site&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content/posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or simply edit your current blogpost at &lt;code&gt;content/post/your-post.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Save the file and go to terminal, cd to &lt;code&gt;/your_site&lt;/code&gt; and run the command &lt;code&gt;hugo&lt;/code&gt; to regenerate public files&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Now let git check the changed file using this in &lt;code&gt;/your_site&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git status&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;it should display something like this&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Changes to be committed:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;git rm --cached &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to unstage&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        new file:   .gitmodules&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        new file:   themes/gokarna&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Untracked files:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to include in what will be committed&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        .hugo_build.lock&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        archetypes/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        content/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        hugo.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        pub&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;At &lt;code&gt;/public&lt;/code&gt;, add the files, commit (make sure at the selected branch) then push&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alter Ego 2 - First Post</title>
-      <link>/posts/alter-ego-2/</link>
+      <link>//localhost:1313/posts/alter-ego-2/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/alter-ego-2/</guid>
+      <guid>//localhost:1313/posts/alter-ego-2/</guid>
       <description>&lt;p&gt;When I was 16, I launched my blog site with blogpost.com (now blogger.com).&lt;/p&gt;&#xA;&lt;p&gt;You say why I blog? Well, my parents did not manage to get a hold of a computer yet during that period. So what I did was, wrote a journal but wouldn’t call it a journal.&lt;/p&gt;&#xA;&lt;p&gt;You see, the way I did it was to write in a ‘magazine’ look and format where there will be so-called “ads” for the stuff I find interesting. There are 3 versions of this which will remain offline for keepsake and nostalgic moments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog</title>
-      <link>/posts/hugo/</link>
+      <link>//localhost:1313/posts/hugo/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/hugo/</guid>
+      <guid>//localhost:1313/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-is-a-static-site-generator&#34;&gt;Hugo is a static site generator&lt;/h2&gt;&#xA;&lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the &amp;lsquo;Holy Grail&amp;rsquo; of web development. &lt;em&gt;buzzz!!&lt;/em&gt; Nope. I was totally wrong.&lt;/p&gt;&#xA;&lt;p&gt;Tasnim, actually first started using &lt;a href=&#34;https://gethugo.io&#34;&gt;Hugo&lt;/a&gt; for his own personal blog. He thought me a lot about how VS Code works, this is the point where I discovered the term IDE, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
     </item>
   </channel>
