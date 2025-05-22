@@ -11,7 +11,7 @@ type: "post"
 
 ## Introduction
 
-This is my notes when using JetEngine with Bricks. I reference to this alot to fit into my context and at least for my thought processes.
+This is my notes when using JetEngine with Bricks. I reference to this a lot to fit into my context and at least for my thought processes.
 
 ## Repeater Fields
 
@@ -108,17 +108,17 @@ At the moment with Bricks builder, if you turn on custom query, the other query 
 1. For this, it may be slightly different from what builder you use.
 2. Note if the items you want to show is `parent` or `children`.
 
-### Query Post Meta Data
+### Query Post Metadata
 
 In this section, the goal is to be able to select Internal Pages URL dynamically from a CPT's meta-field.
 
-1. Create a post query like in the screenshot.
+1. Create a post query like in the screenshot
 
-![screenshot](/images/queryPostMetaData.avif)
+![query-screenshot](/images/PostMetaData.avif)
 
-2. Then in your CPT meta-field: Define the Value Field and Label Field
+2. Then in your CPT meta-field: Define the Value Field and Label Field.
 
-![screenshot](images/queryPostMetaData2.avif)
+![screenshot](/images/queryPostMetaData2.avif)
 
 ### Nested Query
 
@@ -172,7 +172,6 @@ This is very interesting, not only that you can display your `CPT meta data` in 
     - Create `two different post types` showing the `same metadata`.
     - `Create different CPT` instead of `categories or taxonomies`, for ease of use for clients.
     - Reduce clicks for non-technical users to create new post.
-
 
 > - *Changelogs*
 >   - *1st Feb 2025 - Added Admin Columns*
