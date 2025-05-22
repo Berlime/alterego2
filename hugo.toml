@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Alter Ego 2'
 theme = 'gokarna'
@@ -89,6 +89,7 @@ enableEmoji = true
   # Footer text
   footer = "The Marauders"
 
+[module]
   [[module.mounts]]
   source = 'images'
   target = 'static/images'

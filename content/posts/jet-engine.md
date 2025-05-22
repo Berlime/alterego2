@@ -114,11 +114,11 @@ In this section, the goal is to be able to select Internal Pages URL dynamically
 
 1. Create a post query like in the screenshot
 
-![query-screenshot](/images/PostMetaData.avif)
+![query-screenshot](/images/queryPostMetaData.avif)
 
-2. Then in your CPT meta-field: Define the Value Field and Label Field.
+| 2. Then in your CPT meta-field: Define the Value Field and Label Field.
 
-![screenshot](/images/queryPostMetaData2.avif)
+![query-screenshot](/images/queryPostMetaData2.avif)
 
 ### Nested Query
 
@@ -149,19 +149,19 @@ This is very interesting, not only that you can display your `CPT meta data` in 
 
 1. In the "type" section, select `Custom Callback`.
 
-![screenshot](/images/jetengineAdminColumns.avif)
+![jetengineAdminColumns](/images/jetengineAdminColumns.avif)
 
-2. Then, in the "Callback" section, click `Select from existing callbacks`
+| 2. Then, in the "Callback" section, click `Select from existing callbacks`
 
-![screenshot](/images/jetengineAdminColumns1.avif)
+![jetengineAdminColumns](/images/jetengineAdminColumns1.avif)
 
-3. Click on the highlighted text in the `Get related items`.
+| 3. Click on the highlighted text in the `Get related items`.
 
-![screenshot](/images/jetengineAdminColumns3.avif)
+![jetengineAdminColumns](/images/jetengineAdminColumns3.avif)
 
-4. Select an option, and you are done!
+| 4. Select an option, and you are done!
 
-![screenshot](/images/jetengineAdminColumns4.avif)
+![jetengineAdminColumns](/images/jetengineAdminColumns4.avif)
 
 ## Note when using with Bricks
 
