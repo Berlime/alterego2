@@ -5,7 +5,7 @@ date: 2025-05-23
 # image: ""
 lastmod: 2025-05-23
 showTableOfContents: false
-tags: ["Essay",]
+tags: ["Essay"]
 type: "post"
 ---
 
@@ -34,25 +34,6 @@ Which I also call. The unknown. The future.
 And that is why; humans always wants more. We seek purpose. We seek meaning. We seek to fill the void. We seek to discover the unknown.
 
 It is The Faith.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 > - *Post Changelogs*
 >   - *Nothing Yet*
