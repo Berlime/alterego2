@@ -31,7 +31,7 @@ For each credit card transaction, extract the following fields in this exact ord
 3. **Transaction Amount** (transaction amount - use negative for purchases, positive for payments/credits)
 4. **WHO** (determined by analyzing the transaction - see WHO Assignment Rules below)
 5. **Check List** (default value: "Not Done" for every transaction)
-6. **eStatements** (default value: "Not Done" for every transaction)
+6. **eStatements** (default value: "" for every transaction)
 
 ### 3. WHO Assignment Rules
 **CRITICAL**: Analyze each transaction to determine who it belongs to:
@@ -43,21 +43,22 @@ For each credit card transaction, extract the following fields in this exact ord
 **Priority Order**: Check for "CR" suffix first, then apply other rules if no "CR" is found.
 
 ### 4. Output Format
-Present the data as a **CSV format** (comma-separated values) with these exact column headers:
+Present the data as a **Markdown table** with these exact column headers:
 
-Transaction Description,Transaction Date,Transaction Amount,WHO,Check List,eStatements
-PETRON GAS STATION,2024-01-15,-45.20,KAMIL,Not Done,Not Done
-WALMART SUPERCENTER,2024-01-16,-127.45,,Not Done,Not Done
-COFFEE SHOP DOWNTOWN,2024-01-17,-15.90,KAMIL,Not Done,Not Done
-PAYMENT RECEIVED,2024-01-18,500.00 CR,MINUS,Not Done,Not Done
-PETRON FUEL STOP,2024-01-19,-52.30,KAMIL,Not Done,Not Done
-REFUND PROCESSING,2024-01-20,25.75 CR,MINUS,Not Done,Not Done
+    ```markdown
+    | Transaction Description | Transaction Date | Transaction Amount | WHO   | Check List | eStatements |
+    |-------------------------|------------------|--------------------|-------|------------|-------------|
+    | PETRON GAS STATION      | 2024-01-15       | 45.20              | KAMIL | Not Done   |             |
+    | WALMART SUPERCENTER     | 2024-01-16       | 127.45             |       | Not Done   |             |
+    | COFFEE SHOP DOWNTOWN    | 2024-01-17       | 15.90              | KAMIL | Not Done   |             |
+    | PAYMENT RECEIVED        | 2024-01-18       | 500.00 CR          | MINUS | Not Done   |             |
+    | PETRON FUEL STOP        | 2024-01-19       | 52.30              | KAMIL | Not Done   |             |
+    | REFUND PROCESSING       | 2024-01-20       | 25.75 CR           | MINUS | Not Done   |             |
+    ```
 
-
-**Important**: 
-- Use **commas** as separators (CSV format)
-- Set **"Not Done"** as the default value for both "Check List" and "eStatements" columns for every transaction
-- Ensure proper CSV formatting with quotes around fields containing commas
+**Important**:
+- Set **"Not Done"** as the default value for "Check List" and an **empty string** for "eStatements" columns for every transaction
+- Format as a standard Markdown table.
 
 ### 5. Data Cleaning Instructions
 - Remove currency symbols but **PRESERVE "CR" suffix** in transaction amounts
@@ -89,13 +90,12 @@ REFUND PROCESSING,2024-01-20,25.75 CR,MINUS,Not Done,Not Done
 
 Please provide:
 1. **Summary**: "Found credit card transactions on pages [X, Y, Z] - Extracted [N] total transactions"
-2. **CSV formatted data** (ready for Excel import)
+2. **Markdown table format**
 3. **Notes**: Any irregularities, unclear entries, formatting issues, or pages that contained credit card data
 
 ## Additional Notes
-- The output should be immediately importable into Excel as CSV
-- Use **commas** as separators and proper CSV formatting
+- The output should be immediately copy-pasteable into Excel
+- Use **tabs** between columns for proper Excel formatting
 - If any transaction data is unclear or partially visible, note this separately
 - Maintain chronological order as shown in the original statement
-- **Always include "Not Done" values** for Check List and eStatements columns
-```
+- **Always include "Not Done" values** for Check List and an **empty string** for the eStatements column
