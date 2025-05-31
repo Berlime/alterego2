@@ -28,10 +28,10 @@ Analyze the uploaded PDF bank statement and extract credit card transaction data
 For each credit card transaction, extract the following fields in this exact order:
 1. **Transaction Description** (merchant name/transaction details)
 2. **Transaction Date** (format: YYYY-MM-DD or DD/MM/YYYY - maintain consistency)
-3. **Transaction Amount** (transaction amount - use negative for purchases, positive for payments/credits)
+3. **Transaction Amount** (use negative for purchases; if "CR" suffix is present, make the numerical value negative and retain the "CR" suffix; other payments/credits positive)
 4. **WHO** (determined by analyzing the transaction - see WHO Assignment Rules below)
-5. **Check List** (default value: "Not Done" for every transaction)
-6. **eStatements** (default value: "" for every transaction)
+5. **Check List**
+6. **eStatements**
 
 ### 3. WHO Assignment Rules
 **CRITICAL**: Analyze each transaction to determine who it belongs to:
@@ -48,21 +48,21 @@ Present the data as a **Markdown table** with these exact column headers:
     ```markdown
     | Transaction Description | Transaction Date | Transaction Amount | WHO   | Check List | eStatements |
     |-------------------------|------------------|--------------------|-------|------------|-------------|
-    | PETRON GAS STATION      | 2024-01-15       | 45.20              | KAMIL | Not Done   |             |
-    | WALMART SUPERCENTER     | 2024-01-16       | 127.45             |       | Not Done   |             |
-    | COFFEE SHOP DOWNTOWN    | 2024-01-17       | 15.90              | KAMIL | Not Done   |             |
-    | PAYMENT RECEIVED        | 2024-01-18       | 500.00 CR          | MINUS | Not Done   |             |
-    | PETRON FUEL STOP        | 2024-01-19       | 52.30              | KAMIL | Not Done   |             |
-    | REFUND PROCESSING       | 2024-01-20       | 25.75 CR           | MINUS | Not Done   |             |
+    | PETRON GAS STATION      | 2024-01-15       | 45.20              | KAMIL |            |             |
+    | WALMART SUPERCENTER     | 2024-01-16       | 127.45             |       |            |             |
+    | COFFEE SHOP DOWNTOWN    | 2024-01-17       | 15.90              | KAMIL |            |             |
+    | PAYMENT RECEIVED        | 2024-01-18       | -500.00 CR         | MINUS |            |             |
+    | PETRON FUEL STOP        | 2024-01-19       | 52.30              | KAMIL |            |             |
+    | REFUND PROCESSING       | 2024-01-20       | -25.75 CR          | MINUS |            |             |
     ```
 
 **Important**:
-- Set **"Not Done"** as the default value for "Check List" and an **empty string** for "eStatements" columns for every transaction
 - Format as a standard Markdown table.
 
 ### 5. Data Cleaning Instructions
 - Remove currency symbols but **PRESERVE "CR" suffix** in transaction amounts
 - Ensure consistent date formatting throughout
+- If the **Transaction Amount has a 'CR' suffix**, convert its numerical value to negative but **PRESERVE the 'CR' suffix**.
 - Trim extra spaces from transaction descriptions
 - If amounts are in parentheses (), treat as negative/debit amounts
 - **Apply WHO assignment rules consistently to every transaction**
@@ -98,4 +98,3 @@ Please provide:
 - Use **tabs** between columns for proper Excel formatting
 - If any transaction data is unclear or partially visible, note this separately
 - Maintain chronological order as shown in the original statement
-- **Always include "Not Done" values** for Check List and an **empty string** for the eStatements column
