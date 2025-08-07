@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bricks on Alter Ego 2</title>
-    <link>/tags/bricks/</link>
+    <link>//localhost:1313/tags/bricks/</link>
     <description>Recent content in Bricks on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/tags/bricks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/bricks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom Fonts</title>
-      <link>/posts/custom-fonts/</link>
+      <link>//localhost:1313/posts/custom-fonts/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/custom-fonts/</guid>
+      <guid>//localhost:1313/posts/custom-fonts/</guid>
       <description>&lt;p&gt;I found a video by &lt;a href=&#34;https://www.youtube.com/@mr.matt.eastwood&#34;&gt;Matty Eastwood&lt;/a&gt; on how to upload &lt;code&gt;Custom Fonts&lt;/code&gt; with Bricks Builder.&lt;/p&gt;&#xA;&lt;p&gt;If you uploaded custom fonts before with Bricks Builder, I am sure you understand the hassle to upload the fonts.&#xA;But Matty showed us an easier way to upload custom fonts with a few different ways of how to do it.&lt;/p&gt;&#xA;&lt;p&gt;You can watch the full vide &lt;a href=&#34;https://www.youtube.com/watch?v=I9L9NG2y_W0&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I will use the plug-in method by &lt;a href=&#34;https://www.altmann.de/en/blog-en/code-snippet-custom-fonts/&#34;&gt;altmann.de&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-install-plug-in&#34;&gt;1. Install Plug-In&lt;/h2&gt;&#xA;&lt;p&gt;Note, that this is not your typical plug-in, it is very lightweight in code and does not affect your site speed.&lt;/p&gt;</description>
     </item>
   </channel>
