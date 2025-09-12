@@ -50,12 +50,9 @@
 
     
     
-      
-      <link rel="stylesheet" href="/css/custom.min.css">
-    
 
     
-    <script src="/js/bundle.min.60fe9a4dcb5a42836ec53c446e239a9862be5c1f67da457c275b9bf9681d796b.js" integrity="sha256-YP6aTctaQoNuxTxEbiOamGK&#43;XB9n2kV8J1ub&#43;WgdeWs="></script>
+    <script src="/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js" integrity="sha256-/b&#43;6HgdKy35Ku/TJTrGau3cCSJyWiaJ&#43;5eJKK9SB5Lc="></script>
 
     
     
@@ -231,17 +228,17 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span>This is some regular Markdown content.
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">details</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">summary</span>&gt;Click to expand&lt;/<span style="color:#f92672">summary</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;details&gt;
+</span></span><span style="display:flex;"><span>  &lt;summary&gt;Click to expand&lt;/summary&gt;
 </span></span><span style="display:flex;"><span>  This content is hidden by default. It will be shown when you click the summary.
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">details</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/details&gt;
 </span></span></code></pre></div><p>When rendered, this will create a collapsible section with the text &ldquo;Click to expand&rdquo;. Clicking on it will reveal the hidden content.</p>
 <h3 id="2-styling-the-collapsible-section">2. Styling the Collapsible Section</h3>
 <p>You can add custom CSS to style the collapsible section. For example, you might want to change the appearance of the <code>&lt;summary&gt;</code> element.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;<span style="color:#f92672">details</span>&gt;
-</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">summary</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;cursor: pointer; color: blue; font-weight: bold;&#34;</span>&gt;Click to expand&lt;/<span style="color:#f92672">summary</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>&lt;details&gt;
+</span></span><span style="display:flex;"><span>  &lt;summary style=&#34;cursor: pointer; color: blue; font-weight: bold;&#34;&gt;Click to expand&lt;/summary&gt;
 </span></span><span style="display:flex;"><span>  This content is hidden by default. It will be shown when you click the summary.
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">details</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/details&gt;
 </span></span></code></pre></div><h3 id="3-using-shortcodes-optional">3. Using Shortcodes (Optional)</h3>
 <p>This is the method that I use.</p>
 <p>If you find yourself using collapsible sections frequently, you can create a custom shortcode in Hugo to simplify the process.</p>
@@ -258,12 +255,11 @@
 </span></span></code></pre></div></li>
 <li>
 <p>Now, you can use the shortcode in your Markdown files like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; <span style="color:#f92672">collapsible</span> <span style="color:#960050;background-color:#1e0010">&#34;</span><span style="color:#a6e22e">Click</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">expand</span><span style="color:#960050;background-color:#1e0010">&#34;</span> &gt;}}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>{{&lt; collapsible &#34;Click to expand&#34; &gt;}}
 </span></span><span style="display:flex;"><span>This content is hidden by default. It will be shown when you click the summary.
-</span></span><span style="display:flex;"><span>{{&lt; /<span style="color:#f92672">collapsible</span> &gt;}}
+</span></span><span style="display:flex;"><span>{{&lt; /collapsible &gt;}}
 </span></span></code></pre></div></li>
 </ul>
-<!-- raw HTML omitted -->
 <p>This approach allows you to reuse the collapsible section structure easily across your conten and works well in Hugo and is compatible with most modern browsers.</p>
 <hr>
 <blockquote>
@@ -276,8 +272,7 @@
 <li><em>29th Oct 2024 - Publish Date</em></li>
 </ul>
 </li>
-</ul>
-</blockquote>
+</ul></blockquote>
 
         
     </div>
