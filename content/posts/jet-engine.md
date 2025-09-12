@@ -103,7 +103,7 @@ At the moment with Bricks builder, if you turn on custom query, the other query 
 
 ### Show Related Item in SPT
 
-> Here is a great tutorial video of building query by Crocoblock <https://www.youtube.com/watch?v=ZB9gE7JAMAs&t=410s>
+> Here is a great tutorial video of building query by Crocoblock <https://www.youtube.com/watch?v=ZB9gE7JAMAs&t=300s>
 
 1. For this, it may be slightly different from what builder you use.
 2. Note if the items you want to show is `parent` or `children`.

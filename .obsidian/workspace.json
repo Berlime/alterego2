@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "9cf745ed5a926dec",
+    "id": "acfd423a68bfca0d",
     "type": "split",
     "children": [
       {
-        "id": "125991dfe0f62c03",
+        "id": "d77d8fbabd755969",
         "type": "tabs",
         "children": [
           {
-            "id": "9ebd0e897d441551",
+            "id": "12237686463ee492",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "the-void.md",
+                "file": "content/posts/My-reference-when-publishing-a-blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "the-void"
+              "title": "My-reference-when-publishing-a-blog"
             }
           }
         ]
@@ -27,27 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f869c1d983dca881",
+    "id": "f3628814655b7a84",
     "type": "split",
     "children": [
       {
-        "id": "6300284fa86e27e8",
+        "id": "6eef58b2d0d52aef",
         "type": "tabs",
         "children": [
           {
-            "id": "2f1205db988d4219",
+            "id": "ce0a53846a269564",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "6c849251f44f8b4f",
+            "id": "e7b85c9fc05c88cb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +65,7 @@
             }
           },
           {
-            "id": "b514cb2e0f16d3cc",
+            "id": "2ad0a87b09f8569e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "9f30df2203484330",
+    "id": "deec36a7d9c8bdde",
     "type": "split",
     "children": [
       {
-        "id": "3c61a88fead2db56",
+        "id": "d1ba00eca777a44b",
         "type": "tabs",
         "children": [
           {
-            "id": "7434e170eb50922e",
+            "id": "364dce2083898bfc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alter-Ego-2.md",
+                "file": "content/posts/jet-engine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Alter-Ego-2"
+              "title": "Backlinks for jet-engine"
             }
           },
           {
-            "id": "36e6eafea2b02aa7",
+            "id": "445817abeeb6a409",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alter-Ego-2.md",
+                "file": "content/posts/jet-engine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Alter-Ego-2"
+              "title": "Outgoing links from jet-engine"
             }
           },
           {
-            "id": "e751371ee254f6f1",
+            "id": "7828bdb0929f1e2d",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "71d5c8e4a48e0d1d",
+            "id": "6b832b3ca78b87a2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alter-Ego-2.md"
+                "file": "content/posts/jet-engine.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Alter-Ego-2"
+              "title": "Outline of jet-engine"
             }
           }
         ]
@@ -159,11 +165,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "9ebd0e897d441551",
+  "active": "12237686463ee492",
   "lastOpenFiles": [
-    "Alter-Ego-2.md"
+    "content/posts/Alter-Ego-2.md",
+    "content/posts/Hugo.md",
+    "content/posts/jet-engine.md"
   ]
 }
