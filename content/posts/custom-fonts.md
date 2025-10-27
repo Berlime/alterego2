@@ -1,6 +1,6 @@
 ---
 title: "Custom Fonts"
-description: "For WP Bricks builder"
+description: "For WP Bricks builder, may work with other builders too."
 date: 2025-03-14
 # image: ""
 lastmod: 2025-03-14
@@ -14,7 +14,7 @@ I found a video by [Matty Eastwood](https://www.youtube.com/@mr.matt.eastwood) o
 If you uploaded custom fonts before with Bricks Builder, I am sure you understand the hassle to upload the fonts.
 But Matty showed us an easier way to upload custom fonts with a few different ways of how to do it.
 
-You can watch the full vide [here](https://www.youtube.com/watch?v=I9L9NG2y_W0).
+You can watch the full video [here](https://www.youtube.com/watch?v=I9L9NG2y_W0).
 
 I will use the plug-in method by [altmann.de](https://www.altmann.de/en/blog-en/code-snippet-custom-fonts/).
 

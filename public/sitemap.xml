@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/create-reveal-effect-using-aos-in-wordpress/</loc>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/tags/dev/</loc>
     <lastmod>2025-09-12T00:00:00+08:00</lastmod>
@@ -11,13 +23,7 @@
     <loc>/tags/github/</loc>
     <lastmod>2025-09-12T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>/posts/rename-git-branch/</loc>
-    <lastmod>2025-09-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-09-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/clone-a-repo/</loc>
@@ -39,9 +45,6 @@
     <lastmod>2025-03-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/custom-fonts/</loc>
-    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/wordpress/</loc>
     <lastmod>2025-03-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/bricks-builder/</loc>
@@ -67,6 +70,9 @@
   </url><url>
     <loc>/posts/filter-traffic-in-ga4/</loc>
     <lastmod>2025-01-13T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/dynamic-data/</loc>
+    <lastmod>2025-02-01T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/jet-engine/</loc>
     <lastmod>2025-02-01T00:00:00+08:00</lastmod>

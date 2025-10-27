@@ -5,7 +5,7 @@ date: 2025-01-10
 # image: ""
 lastmod: 2025-02-01
 showTableOfContents: true
-tags: ["WordPress",]
+tags: ["WordPress", "Dynamic Data"]
 type: "post"
 ---
 
