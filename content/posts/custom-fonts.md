@@ -24,7 +24,7 @@ Note, that this is not your typical plug-in, it is very lightweight in code and 
 
 Go to this [blogpost](https://www.altmann.de/en/blog-en/code-snippet-custom-fonts/) of his, scroll down and you will find a source code.
 
-Copy the code and save it as `custom-fonts.php` then upload into the plug-ins folder. Then, when you activate it, it will do it's magic.
+Create a folder, Copy the code and save it as `custom-fonts.php` then upload into the plug-in folder you created. Then, when you activate it, it will do it's magic.
 
 ## 2. Download Fonts
 
@@ -32,8 +32,10 @@ I use <https://webfontloader.altmann.de/> to download Google Fonts.
 
 ## 3. Upload Fonts
 
-Extract the downloaded file, remove unnecessary documents that comes with the downloads, then upload in the `fonts` folder.
+Extract the downloaded file, remove unnecessary documents that comes with the downloads, then upload in the `wp-content/uploads/fonts` folder.
+
+I prefer to use much more modern and lightweight WOFF2 format.
 
 
 > - *Post Changelogs*
->   - *Nothing Yet*
+>   - *28th Oct - 2025 - Added font upload.*
