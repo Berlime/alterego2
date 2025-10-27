@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/My-reference-when-publishing-a-blog.md",
+                "file": "content/posts/clone-a-repo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My-reference-when-publishing-a-blog"
+              "title": "clone-a-repo"
             }
           }
         ]
@@ -171,6 +171,11 @@
   },
   "active": "12237686463ee492",
   "lastOpenFiles": [
+    "content/posts/css-grid.md",
+    "content/posts/rename-git-branch.md",
+    "content/posts/My-reference-when-publishing-a-blog.md",
+    "content/posts/clone-a-repo.md",
+    "content/posts/bricks-component.md",
     "content/posts/Alter-Ego-2.md",
     "content/posts/Hugo.md",
     "content/posts/jet-engine.md"
