@@ -8,6 +8,12 @@
     <loc>/posts/</loc>
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/troubleshoot/</loc>
+    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>/posts/my-first-post/</loc>
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
@@ -15,9 +21,6 @@
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/create-reveal-effect-using-aos-in-wordpress/</loc>
-    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/tags/wordpress/</loc>

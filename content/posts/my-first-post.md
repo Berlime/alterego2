@@ -4,7 +4,7 @@ date: 2025-10-28T07:46:40+08:00
 # image: ""
 lastmod: 2025-10-28
 showTableOfContents: true
-# tags: ["",]
+tags: ["Troubleshoot",]
 title: "Troubleshooting WordPress Plug Ins"
 type: "post"
 ---
