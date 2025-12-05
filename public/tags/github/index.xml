@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Alter Ego 2</title>
-    <link>/tags/github/</link>
+    <link>//localhost:1313/tags/github/</link>
     <description>Recent content in Github on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rename Git Branch</title>
-      <link>/posts/rename-git-branch/</link>
+      <link>//localhost:1313/posts/rename-git-branch/</link>
       <pubDate>Fri, 12 Sep 2025 16:57:01 +0800</pubDate>
-      <guid>/posts/rename-git-branch/</guid>
+      <guid>//localhost:1313/posts/rename-git-branch/</guid>
       <description>&lt;p&gt;To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the remote==. &lt;/p&gt;&#xA;&lt;p&gt;Rename a local-only branch&lt;/p&gt;&#xA;&lt;p&gt;If your branch has not been pushed to the remote repository yet, the process is straightforward. &lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Switch to the branch you want to rename using &lt;code&gt;git checkout&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;sh&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout &amp;lt;old-name&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Use code with caution.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Rename the local branch using the &lt;code&gt;git branch -m&lt;/code&gt; command.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clone a Repo</title>
-      <link>/posts/clone-a-repo/</link>
+      <link>//localhost:1313/posts/clone-a-repo/</link>
       <pubDate>Fri, 12 Sep 2025 16:39:28 +0800</pubDate>
-      <guid>/posts/clone-a-repo/</guid>
+      <guid>//localhost:1313/posts/clone-a-repo/</guid>
       <description>&lt;h2 id=&#34;my-set-up-for-cloning-themes&#34;&gt;My set up for cloning themes.&lt;/h2&gt;&#xA;&lt;p&gt;I first fork a repo into my own GitHub account, then I clone that forked into my local environment.&lt;/p&gt;&#xA;&lt;p&gt;I then create these branches:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Main - I don&amp;rsquo;t change any code in this main branch, the reason being if there is any updates from the repo owner, I can easily bring in the updates.&lt;/li&gt;&#xA;&lt;li&gt;Live - This branch will be the branch that is final&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Some cases, i created another branch for special development by adding a suffix of &lt;code&gt;-hostinger&lt;/code&gt; in this case, it is a label on what hosting/server I use. Particularly for Hostinger, this branch only have the public/dist folder.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Development - This is where I make changes. After I have completed and tested it, this will merge onto the &lt;code&gt;Live&lt;/code&gt; repo.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>

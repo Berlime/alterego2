@@ -51,6 +51,7 @@ yarn.lock
 
 # Personal notes/documentation
 GEMINI.md
+.obsidian/
 
 # Cursor IDE configuration
 .cursor/
