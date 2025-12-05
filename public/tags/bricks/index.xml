@@ -6,8 +6,15 @@
     <description>Recent content in Bricks on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="/tags/bricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anchor Link in Bricks</title>
+      <link>/posts/anchor-link-in-bricks/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>/posts/anchor-link-in-bricks/</guid>
+      <description>&lt;p&gt;Creating anchor links in Bricks is straightforward. You just need to set an ID on the target section and link to it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-up-the-target-section&#34;&gt;Set Up the Target Section&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select the section you want to link to&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Style &amp;gt; CSS &amp;gt; CSS ID&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set an ID (e.g., &lt;code&gt;my-section&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;create-the-link&#34;&gt;Create the Link&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select your button or text element&lt;/li&gt;&#xA;&lt;li&gt;Set the Link type to &lt;strong&gt;External URL&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;For the URL, enter &lt;code&gt;#my-section&lt;/code&gt; (the hash followed by your ID)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;That&amp;rsquo;s it. The link will now jump to that section.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Custom Fonts</title>
       <link>/posts/custom-fonts/</link>

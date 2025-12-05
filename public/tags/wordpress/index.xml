@@ -6,8 +6,15 @@
     <description>Recent content in Wordpress on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bricks, ACSS, Frames set up</title>
+      <link>/posts/bricks-acss-frames-setup/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>/posts/bricks-acss-frames-setup/</guid>
+      <description>&lt;h2 id=&#34;why-this-stack&#34;&gt;Why this stack&lt;/h2&gt;&#xA;&lt;p&gt;Bricks + Automatic.css (ACSS) + Frames is a fast way to ship Bricks sites with consistent styling and ready-made layouts. This post uses the automatic setup flow for ACSS but manual setup is safer when plugin updates land or if you know what you are doing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bricks Builder installed and activated.&lt;/li&gt;&#xA;&lt;li&gt;Automatic.css 2.1+ (ACSS 4.x is fine).&lt;/li&gt;&#xA;&lt;li&gt;Frames plugin download from your account.&lt;/li&gt;&#xA;&lt;li&gt;Ability to upload SVGs in Bricks (turn on for admins).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;acss-setup-automatic&#34;&gt;ACSS setup (automatic)&lt;/h2&gt;&#xA;&lt;p&gt;This is the quickest way to align Bricks defaults to ACSS. For projects that might receive plugin updates soon, keep the manual steps handy in case the import files change.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Create Reveal Effect Using AOS in WordPress</title>
       <link>/posts/create-reveal-effect-using-aos-in-wordpress/</link>

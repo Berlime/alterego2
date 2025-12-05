@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Alter Ego 2</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anchor Link in Bricks</title>
+      <link>/posts/anchor-link-in-bricks/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>/posts/anchor-link-in-bricks/</guid>
+      <description>&lt;p&gt;Creating anchor links in Bricks is straightforward. You just need to set an ID on the target section and link to it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-up-the-target-section&#34;&gt;Set Up the Target Section&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select the section you want to link to&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Style &amp;gt; CSS &amp;gt; CSS ID&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set an ID (e.g., &lt;code&gt;my-section&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;create-the-link&#34;&gt;Create the Link&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select your button or text element&lt;/li&gt;&#xA;&lt;li&gt;Set the Link type to &lt;strong&gt;External URL&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;For the URL, enter &lt;code&gt;#my-section&lt;/code&gt; (the hash followed by your ID)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;That&amp;rsquo;s it. The link will now jump to that section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bricks, ACSS, Frames set up</title>
+      <link>/posts/bricks-acss-frames-setup/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
+      <guid>/posts/bricks-acss-frames-setup/</guid>
+      <description>&lt;h2 id=&#34;why-this-stack&#34;&gt;Why this stack&lt;/h2&gt;&#xA;&lt;p&gt;Bricks + Automatic.css (ACSS) + Frames is a fast way to ship Bricks sites with consistent styling and ready-made layouts. This post uses the automatic setup flow for ACSS but manual setup is safer when plugin updates land or if you know what you are doing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bricks Builder installed and activated.&lt;/li&gt;&#xA;&lt;li&gt;Automatic.css 2.1+ (ACSS 4.x is fine).&lt;/li&gt;&#xA;&lt;li&gt;Frames plugin download from your account.&lt;/li&gt;&#xA;&lt;li&gt;Ability to upload SVGs in Bricks (turn on for admins).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;acss-setup-automatic&#34;&gt;ACSS setup (automatic)&lt;/h2&gt;&#xA;&lt;p&gt;This is the quickest way to align Bricks defaults to ACSS. For projects that might receive plugin updates soon, keep the manual steps handy in case the import files change.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Troubleshooting WordPress Plug Ins</title>
       <link>/posts/my-first-post/</link>

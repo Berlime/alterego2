@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/anchor-link-in-bricks/</loc>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/bricks/</loc>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/posts/bricks-acss-frames-setup/</loc>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
-    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
-    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>/tags/wordpress/</loc>
+    <lastmod>2025-12-05T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/tags/troubleshoot/</loc>
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
@@ -21,9 +33,6 @@
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/create-reveal-effect-using-aos-in-wordpress/</loc>
-    <lastmod>2025-10-28T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/wordpress/</loc>
     <lastmod>2025-10-28T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/tags/dev/</loc>
@@ -49,9 +58,6 @@
   </url><url>
     <loc>/posts/the-void/</loc>
     <lastmod>2025-05-23T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>/tags/bricks/</loc>
-    <lastmod>2025-03-14T00:00:00+08:00</lastmod>
   </url><url>
     <loc>/posts/custom-fonts/</loc>
     <lastmod>2025-03-14T00:00:00+08:00</lastmod>
