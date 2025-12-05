@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Alter Ego 2'
+title = 'Kamil Sharip'
 theme = 'gokarna'
 timezone = "Asia/Singapore"
 
@@ -9,31 +9,38 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [menu]
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  pre = "<span data-feather='home'></span>"
+  weight = 1
+
   [[menu.main]]
     identifier = "posts"
     url = "/posts/"
     pre = "<span data-feather='book'></span>"
     name = "Posts"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
     pre = "<span data-feather='tag'></span>"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     identifier = 'github'
     url = "https://github.com/Berlime/hugo"
-    weight = 3
+    weight = 4
     
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
 
   [[menu.main]]
     identifier = "coffee"
-    url = "https://www.buymeacoffee.com/"
+    url = "https://www.buymeacoffee.com/berlime5"
     weight = 4
     pre = "<span data-feather='coffee'></span>" 
 
@@ -53,7 +60,7 @@ enableEmoji = true
     {name = "twitter", url = "https://x.com/berlime"},
   ]
 
-  description = "A continuation from berlime5.blogspot.com"
+  description = "Welcome to my latest edition, Alter Ego 2. A continuation from berlime5.blogspot.com"
 
   # Accent color is displayed when you hover over <a> tags
   accentColor = "#FF4D4D"
@@ -84,7 +91,7 @@ enableEmoji = true
   showPostsOnHomePage = "recent"
   numberPostsOnHomePage = 10
 
-  togglePreviousAndNextButtons = "true"
+  togglePreviousAndNextButtons = true
 
   # Footer text
   footer = "The Marauders"

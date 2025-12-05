@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Alter Ego 2</title>
-    <link>//localhost:1313/tags/blog/</link>
-    <description>Recent content in Blog on Alter Ego 2</description>
+    <title>Blog on Kamil Sharip</title>
+    <link>/tags/blog/</link>
+    <description>Recent content in Blog on Kamil Sharip</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alter Ego 2 - First Post</title>
-      <link>//localhost:1313/posts/alter-ego-2/</link>
+      <link>/posts/alter-ego-2/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/alter-ego-2/</guid>
+      <guid>/posts/alter-ego-2/</guid>
       <description>&lt;p&gt;When I was 16, I launched my blog site with blogpost.com (now blogger.com).&lt;/p&gt;&#xA;&lt;p&gt;You say why I blog? Well, my parents did not manage to get a hold of a computer yet during that period. So what I did was, wrote a journal but wouldn’t call it a journal.&lt;/p&gt;&#xA;&lt;p&gt;You see, the way I did it was to write in a ‘magazine’ look and format where there will be so-called “ads” for the stuff I find interesting. There are 3 versions of this which will remain offline for keepsake and nostalgic moments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Food Delivery Rider</title>
-      <link>//localhost:1313/posts/food-delivery-rider/</link>
+      <link>/posts/food-delivery-rider/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/food-delivery-rider/</guid>
+      <guid>/posts/food-delivery-rider/</guid>
       <description>&lt;h2 id=&#34;lets-compare-between-working-full-time--being-a-food-delivery-rider-also-full-time&#34;&gt;Let&amp;rsquo;s Compare Between Working Full-time &amp;amp; Being a Food Delivery Rider, Also Full Time&lt;/h2&gt;&#xA;&lt;p&gt;Working as a Foodpanda food delivery rider for 21 days, which is the same as working full-time at about 7 to excluding lunch &amp;amp; small breaks.&lt;/p&gt;&#xA;&lt;p&gt;On average per day $100 * 21 days = $2100&lt;/p&gt;&#xA;&lt;h3 id=&#34;operation-cost--&#34;&gt;Operation cost: -&lt;/h3&gt;&#xA;&lt;pre&gt;&lt;code&gt;Meals: Around $6 per day (Eat in JB, 1 drink in SG). 6*21=126 &#xA;Petrol: $6 per day. 6*21=126 &#xA;Total operation cost: 126+126=336   &#xA;Take home cash: 2100-336=1764 &#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;So, this equals to a salary of $2624 working full-time with a take home cash of $2100 after deduction.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog</title>
-      <link>//localhost:1313/posts/hugo/</link>
+      <link>/posts/hugo/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/hugo/</guid>
+      <guid>/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-is-a-static-site-generator&#34;&gt;Hugo is a static site generator&lt;/h2&gt;&#xA;&lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the &amp;lsquo;Holy Grail&amp;rsquo; of web development. &lt;em&gt;buzzz!!&lt;/em&gt; Nope. I was totally wrong.&lt;/p&gt;&#xA;&lt;p&gt;Tasnim, actually first started using &lt;a href=&#34;https://gethugo.io&#34;&gt;Hugo&lt;/a&gt; for his own personal blog. He thought me a lot about how VS Code works, this is the point where I discovered the term IDE, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>B.E.N!</title>
-      <link>//localhost:1313/posts/ben/</link>
+      <link>/posts/ben/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/ben/</guid>
+      <guid>/posts/ben/</guid>
       <description>&lt;p&gt;I live in Johor Bahru, Malaysia. Specifically, Western part of Johor. Near Legoland Malaysia.&#xA;In my area, there aren&amp;rsquo;t many groceries store around, there about 6 supermarkets nearby (at least 10-30 mins). Further than that, I do not consider it nearby.&lt;/p&gt;&#xA;&lt;p&gt;6 supermarkets may sound a lot for some. But not to me because most of them sell the same things. Say for an example, I could not find any natural sea salt in most of the supermarket.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Room Updates</title>
-      <link>//localhost:1313/posts/room-updates/</link>
+      <link>/posts/room-updates/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/room-updates/</guid>
+      <guid>/posts/room-updates/</guid>
       <description>&lt;p&gt;Ever since my late mom bought the house I currently live in, it is still in the original, unadorned state. My late mom did not opt for any renovations or even fancy decorations and pieces of furniture.&lt;/p&gt;&#xA;&lt;p&gt;The only thing that my mom did was the kitchen cabinet and countertop which was not included when we got this house.&lt;/p&gt;&#xA;&lt;p&gt;Oh yeah, we got it first-hand, brand-new back in around 2014.&lt;/p&gt;</description>
     </item>
   </channel>
