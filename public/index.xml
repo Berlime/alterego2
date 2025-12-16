@@ -6,8 +6,15 @@
     <description>Recent content on Kamil Sharip</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Batch Process Images to WebP Using Affinity</title>
+      <link>/posts/batch-process-images-to-webp-using-affinity/</link>
+      <pubDate>Tue, 16 Dec 2025 09:43:22 +0800</pubDate>
+      <guid>/posts/batch-process-images-to-webp-using-affinity/</guid>
+      <description>&lt;p&gt;I used to queue up a client&amp;rsquo;s asset folder and play whack-a-mole with &lt;a href=&#34;https://squoosh.app/&#34;&gt;Squoosh.app&lt;/a&gt; just to get everything into WebP. Great pixels, awful throughput. I even flirted with Photoshop automation plus a plugin, but the setup felt like building a space program, probably a skill issue on my end, but I wasn&amp;rsquo;t motivated to push through.&lt;/p&gt;&#xA;&lt;p&gt;Canva buying Affinity came with a shiny new release, and tucked inside is a stupidly simple batch workflow. Affinity Photo (the Pixel persona) now does in one pass what took me a whole playlist before.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Anchor Link in Bricks</title>
       <link>/posts/anchor-link-in-bricks/</link>
