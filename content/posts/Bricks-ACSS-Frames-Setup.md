@@ -6,6 +6,7 @@ lastmod: 2025-12-05
 showTableOfContents: true
 tags: ["WordPress"]
 type: "post"
+draft: true
 ---
 
 ## Why this stack

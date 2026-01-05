@@ -6,35 +6,28 @@
     <description>Recent content on Kamil Sharip</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bricks Hotfixes</title>
+      <link>/posts/bricks-hotfixes/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0800</pubDate>
+      <guid>/posts/bricks-hotfixes/</guid>
+      <description>&lt;p&gt;I wanted a single spot for the Bricks fixes I reach for most often, so I merged my setup, checkout padding, anchor link, and checkbox tweaks into this quick notebook. If you are curious about how I prep posts like this, peek at &lt;a href=&#34;/posts/my-reference-when-publishing-a-blog&#34;&gt;My reference when publishing a blog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-bricks-acss-frames-setup&#34;&gt;1. Bricks, ACSS, Frames Setup&lt;/h2&gt;&#xA;&lt;h3 id=&#34;why-this-stack&#34;&gt;Why this stack&lt;/h3&gt;&#xA;&lt;p&gt;Bricks + Automatic.css (ACSS) + Frames is still my fastest path to a styled build. The automatic setup flow is fine when I am in a hurry, but I always keep the manual steps ready in case the import files change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2025</title>
+      <link>/posts/2025/</link>
+      <pubDate>Wed, 31 Dec 2025 19:43:57 +0800</pubDate>
+      <guid>/posts/2025/</guid>
+      <description>&lt;p&gt;2025 felt like the louder sequel to &lt;a href=&#34;/posts/2024&#34;&gt;2024&lt;/a&gt;. I spent most of the year inside WordPress halls, iterating on agency systems, and trying to make healthier defaults stick.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-wordpress-year&#34;&gt;The WordPress Year&lt;/h2&gt;&#xA;&lt;p&gt;2025 turned out to be my biggest WordPress community year yet. I kept stacking roles, events, and conversations until the calendar looked like a fully booked content plan.&lt;/p&gt;&#xA;&lt;p&gt;WordCamp Johor Bahru 2025 landed at &lt;a href=&#34;https://42kl.edu.my/&#34;&gt;42 Iskandar Puteri&lt;/a&gt; on May 17. I helped run &lt;a href=&#34;https://johor.wordcamp.org/2025/&#34;&gt;WordCamp Johor Bahru 2025&lt;/a&gt; as part of the organizing team handling social media, and the lucky draw streak decided to continue.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Batch Process Images to WebP Using Affinity</title>
       <link>/posts/batch-process-images-to-webp-using-affinity/</link>
       <pubDate>Tue, 16 Dec 2025 09:43:22 +0800</pubDate>
       <guid>/posts/batch-process-images-to-webp-using-affinity/</guid>
       <description>&lt;p&gt;I used to queue up a client&amp;rsquo;s asset folder and play whack-a-mole with &lt;a href=&#34;https://squoosh.app/&#34;&gt;Squoosh.app&lt;/a&gt; just to get everything into WebP. Great pixels, awful throughput. I even flirted with Photoshop automation plus a plugin, but the setup felt like building a space program, probably a skill issue on my end, but I wasn&amp;rsquo;t motivated to push through.&lt;/p&gt;&#xA;&lt;p&gt;Canva buying Affinity came with a shiny new release, and tucked inside is a stupidly simple batch workflow. Affinity Photo (the Pixel persona) now does in one pass what took me a whole playlist before.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Anchor Link in Bricks</title>
-      <link>/posts/anchor-link-in-bricks/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/anchor-link-in-bricks/</guid>
-      <description>&lt;p&gt;Creating anchor links in Bricks is straightforward. You just need to set an ID on the target section and link to it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-up-the-target-section&#34;&gt;Set Up the Target Section&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select the section you want to link to&lt;/li&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;Style &amp;gt; CSS &amp;gt; CSS ID&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set an ID (e.g., &lt;code&gt;my-section&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;create-the-link&#34;&gt;Create the Link&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Select your button or text element&lt;/li&gt;&#xA;&lt;li&gt;Set the Link type to &lt;strong&gt;External URL&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;For the URL, enter &lt;code&gt;#my-section&lt;/code&gt; (the hash followed by your ID)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;That&amp;rsquo;s it. The link will now jump to that section.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bricks Checkout Page Fix padding issue</title>
-      <link>/posts/bricks-checkout-page-fix/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/bricks-checkout-page-fix/</guid>
-      <description>&lt;h2 id=&#34;when-to-use-this&#34;&gt;When to use this&lt;/h2&gt;&#xA;&lt;p&gt;When the WooCommerce checkout template sits inside narrow theme padding, the form feels cramped and the summary widget either overlaps or floats too low. This patch keeps everything global—no template overrides, no custom bricks layout.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-1--capture-the-checkout-wrapper-id&#34;&gt;Step 1 – Capture the checkout wrapper ID&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Open the published checkout page in your browser (not the builder preview).&lt;/li&gt;&#xA;&lt;li&gt;Inspect the &lt;code&gt;body&lt;/code&gt; element and note the WordPress-generated class (e.g. &lt;code&gt;post-202&lt;/code&gt; or &lt;code&gt;page-id-87&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;li&gt;That class scopes the checkout-only spacing so other templates stay untouched.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;step-2--drop-the-global-css&#34;&gt;Step 2 – Drop the Global CSS&lt;/h2&gt;&#xA;&lt;p&gt;Add the snippet below to your global stylesheet (&lt;code&gt;Bricks &amp;gt; Settings &amp;gt; Custom Code &amp;gt; CSS&lt;/code&gt;, ACSS Global Styles, or wherever you keep universal CSS). Replace &lt;code&gt;post-###&lt;/code&gt; with the class you copied above.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bricks, ACSS, Frames set up</title>
-      <link>/posts/bricks-acss-frames-setup/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/bricks-acss-frames-setup/</guid>
-      <description>&lt;h2 id=&#34;why-this-stack&#34;&gt;Why this stack&lt;/h2&gt;&#xA;&lt;p&gt;Bricks + Automatic.css (ACSS) + Frames is a fast way to ship Bricks sites with consistent styling and ready-made layouts. This post uses the automatic setup flow for ACSS but manual setup is safer when plugin updates land or if you know what you are doing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bricks Builder installed and activated.&lt;/li&gt;&#xA;&lt;li&gt;Automatic.css 2.1+ (ACSS 4.x is fine).&lt;/li&gt;&#xA;&lt;li&gt;Frames plugin download from your account.&lt;/li&gt;&#xA;&lt;li&gt;Ability to upload SVGs in Bricks (turn on for admins).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;acss-setup-automatic&#34;&gt;ACSS setup (automatic)&lt;/h2&gt;&#xA;&lt;p&gt;This is the quickest way to align Bricks defaults to ACSS. For projects that might receive plugin updates soon, keep the manual steps handy in case the import files change.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Troubleshooting WordPress Plug Ins</title>
@@ -90,7 +83,7 @@
       <link>/posts/bricks-builder/</link>
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0800</pubDate>
       <guid>/posts/bricks-builder/</guid>
-      <description>&lt;h1 id=&#34;archive-templates&#34;&gt;Archive templates&lt;/h1&gt;&#xA;&lt;p&gt;This is a good video I found to create &lt;code&gt;Archive Templates&lt;/code&gt; with WordPress&amp;rsquo;s native &lt;code&gt;Blog/Post Page&lt;/code&gt;, &lt;code&gt;Categories Page&lt;/code&gt; etc.&lt;/p&gt;&#xA;&lt;p&gt;The video tutorial is especially good if you want multiple CPT&amp;rsquo;s archive page to look the same.&lt;/p&gt;&#xA;&lt;p&gt;In my case, I create a Single template that is used for &lt;code&gt;Posts&lt;/code&gt; archive page and &lt;code&gt;Post Category&lt;/code&gt; archive page.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tWl3Oxn-Zs8&amp;amp;t=142s&#34;&gt;https://www.youtube.com/watch?v=tWl3Oxn-Zs8&amp;amp;t=142s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Nothing Yet&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;</description>
+      <description>&lt;h2 id=&#34;archive-templates&#34;&gt;Archive templates&lt;/h2&gt;&#xA;&lt;p&gt;This is a good video I found to create &lt;code&gt;Archive Templates&lt;/code&gt; with WordPress&amp;rsquo;s native &lt;code&gt;Blog/Post Page&lt;/code&gt;, &lt;code&gt;Categories Page&lt;/code&gt; etc.&lt;/p&gt;&#xA;&lt;p&gt;The video tutorial is especially good if you want multiple CPT&amp;rsquo;s archive page to look the same.&lt;/p&gt;&#xA;&lt;p&gt;In my case, I create a Single template that is used for &lt;code&gt;Posts&lt;/code&gt; archive page and &lt;code&gt;Post Category&lt;/code&gt; archive page.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tWl3Oxn-Zs8&amp;amp;t=142s&#34;&gt;https://www.youtube.com/watch?v=tWl3Oxn-Zs8&amp;amp;t=142s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Nothing Yet&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Local Set Up</title>
@@ -149,7 +142,7 @@
       <description>&lt;h2 id=&#34;discovering-the-ultimate-grid-tool-css-grid-generator&#34;&gt;Discovering the Ultimate Grid Tool: CSS Grid Generator&lt;/h2&gt;&#xA;&lt;p&gt;Hey everyone!&lt;/p&gt;&#xA;&lt;p&gt;I can&amp;rsquo;t contain my excitement—I just stumbled upon a gem: the CSS Grid Generator tool from &lt;a href=&#34;https://cssgridgenerator.io/&#34;&gt;cssgridgenerator.io&lt;/a&gt;. 🎉&lt;/p&gt;&#xA;&lt;p&gt;As someone diving deep into grid layouts with Bricks Builder and ACSS, this discovery feels like a revelation. For weeks, I&amp;rsquo;ve been meticulously crafting grid structures, optimizing every pixel, and striving for that perfect layout. You can imagine my delight when I found a tool that simplifies the entire process without compromising the creative freedom I cherish.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2024</title>
+      <title>2024 - Year in review</title>
       <link>/posts/2024/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0800</pubDate>
       <guid>/posts/2024/</guid>

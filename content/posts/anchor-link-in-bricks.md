@@ -6,6 +6,7 @@ lastmod: 2025-12-05
 showTableOfContents: false
 tags: ["bricks"]
 type: "post"
+draft: true
 ---
 
 Creating anchor links in Bricks is straightforward. You just need to set an ID on the target section and link to it.

@@ -6,8 +6,15 @@
     <description>Recent content in Agency on Kamil Sharip</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="/tags/agency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025</title>
+      <link>/posts/2025/</link>
+      <pubDate>Wed, 31 Dec 2025 19:43:57 +0800</pubDate>
+      <guid>/posts/2025/</guid>
+      <description>&lt;p&gt;2025 felt like the louder sequel to &lt;a href=&#34;/posts/2024&#34;&gt;2024&lt;/a&gt;. I spent most of the year inside WordPress halls, iterating on agency systems, and trying to make healthier defaults stick.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-wordpress-year&#34;&gt;The WordPress Year&lt;/h2&gt;&#xA;&lt;p&gt;2025 turned out to be my biggest WordPress community year yet. I kept stacking roles, events, and conversations until the calendar looked like a fully booked content plan.&lt;/p&gt;&#xA;&lt;p&gt;WordCamp Johor Bahru 2025 landed at &lt;a href=&#34;https://42kl.edu.my/&#34;&gt;42 Iskandar Puteri&lt;/a&gt; on May 17. I helped run &lt;a href=&#34;https://johor.wordcamp.org/2025/&#34;&gt;WordCamp Johor Bahru 2025&lt;/a&gt; as part of the organizing team handling social media, and the lucky draw streak decided to continue.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Filter Traffic in GA4</title>
       <link>/posts/filter-traffic-in-ga4/</link>
@@ -16,7 +23,7 @@
       <description>&lt;p&gt;I used WordPress the most, setting up Google Analytics is easy with WordPress, thanks to the Google Site Kit plug-ins,&#xA;or any other plug-ins that can easily integrate with Google Analytics.&lt;/p&gt;&#xA;&lt;p&gt;One of the new goals in 2025 is to revamp my agency&amp;rsquo;s main &lt;a href=&#34;https://berlime.com&#34;&gt;website&lt;/a&gt; with entirely new stacks. Meaning&#xA;it does not run on WordPress like before, just for that sake of exploring more options and learn new things. More on that in another post.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2024</title>
+      <title>2024 - Year in review</title>
       <link>/posts/2024/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0800</pubDate>
       <guid>/posts/2024/</guid>

@@ -9,7 +9,7 @@ tags: ["WordPress"]
 type: "post"
 ---
 
-# Archive templates
+## Archive templates
 
 This is a good video I found to create `Archive Templates` with WordPress's native `Blog/Post Page`, `Categories Page` etc.
 
