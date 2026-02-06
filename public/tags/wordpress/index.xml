@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Clean Up Empty wp_postmeta Rows in WordPress (phpMyAdmin)</title>
+      <link>/posts/cleanup-wp-postmeta-empty-values/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0800</pubDate>
+      <guid>/posts/cleanup-wp-postmeta-empty-values/</guid>
+      <description>&lt;p&gt;WordPress stores post custom fields and plugin data in the &lt;code&gt;wp_postmeta&lt;/code&gt; table. Over time it fills with empty strings, &lt;code&gt;NULL&lt;/code&gt;s, and sometimes literal &lt;code&gt;0&lt;/code&gt; values left by themes and plugins—or failed saves. That bloat slows queries and increases database size. You can clean it up with a few SQL statements in phpMyAdmin.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;This is destructive SQL.&lt;/strong&gt; You &lt;strong&gt;must&lt;/strong&gt; take a full database backup before doing anything below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;back-up-your-database-first&#34;&gt;Back up your database first&lt;/h2&gt;&#xA;&lt;p&gt;Export the entire WordPress database from phpMyAdmin (or your hosting panel’s backup tool). Download the &lt;code&gt;.sql&lt;/code&gt; file and keep it somewhere safe. If you’re not comfortable running raw SQL, get your hosting provider or a developer to do this for you.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Bricks &#43; Brevo integration</title>
       <link>/posts/bricks-brevo-integration/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0800</pubDate>
@@ -56,13 +63,6 @@
       <pubDate>Tue, 25 Feb 2025 00:00:00 +0800</pubDate>
       <guid>/posts/bricks-builder/</guid>
       <description>&lt;h2 id=&#34;archive-templates&#34;&gt;Archive templates&lt;/h2&gt;&#xA;&lt;p&gt;This is a good video I found to create &lt;code&gt;Archive Templates&lt;/code&gt; with WordPress&amp;rsquo;s native &lt;code&gt;Blog/Post Page&lt;/code&gt;, &lt;code&gt;Categories Page&lt;/code&gt; etc.&lt;/p&gt;&#xA;&lt;p&gt;The video tutorial is especially good if you want multiple CPT&amp;rsquo;s archive page to look the same.&lt;/p&gt;&#xA;&lt;p&gt;In my case, I create a Single template that is used for &lt;code&gt;Posts&lt;/code&gt; archive page and &lt;code&gt;Post Category&lt;/code&gt; archive page.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=tWl3Oxn-Zs8&amp;amp;t=142s&#34;&gt;https://www.youtube.com/watch?v=tWl3Oxn-Zs8&amp;amp;t=142s&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Nothing Yet&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>Clean Up Empty wp_postmeta Rows in WordPress (phpMyAdmin)</title>
-      <link>/posts/cleanup-wp-postmeta-empty-values/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/cleanup-wp-postmeta-empty-values/</guid>
-      <description>&lt;p&gt;WordPress stores post custom fields and plugin data in the &lt;code&gt;wp_postmeta&lt;/code&gt; table. Over time it fills with empty strings, &lt;code&gt;NULL&lt;/code&gt;s, and sometimes literal &lt;code&gt;0&lt;/code&gt; values left by themes and plugins—or failed saves. That bloat slows queries and increases database size. You can clean it up with a few SQL statements in phpMyAdmin.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;This is destructive SQL.&lt;/strong&gt; You &lt;strong&gt;must&lt;/strong&gt; take a full database backup before doing anything below.&lt;/p&gt;&#xA;&lt;h2 id=&#34;back-up-your-database-first&#34;&gt;Back up your database first&lt;/h2&gt;&#xA;&lt;p&gt;Export the entire WordPress database from phpMyAdmin (or your hosting panel’s backup tool). Download the &lt;code&gt;.sql&lt;/code&gt; file and keep it somewhere safe. If you’re not comfortable running raw SQL, get your hosting provider or a developer to do this for you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Local Set Up</title>

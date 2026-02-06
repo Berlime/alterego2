@@ -1,7 +1,7 @@
 ---
 title: 'Clean Up Empty wp_postmeta Rows in WordPress (phpMyAdmin)'
 description: "How to safely remove empty and zero-valued post meta via SQL. Back up your database first."
-date: 2025-02-06
+date: 2026-02-06
 # image: ""
 lastmod: 2025-02-06
 showTableOfContents: false
