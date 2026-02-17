@@ -34,7 +34,7 @@ enableEmoji = true
     identifier = 'github'
     url = "https://github.com/Berlime/hugo"
     weight = 4
-    
+
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
 
@@ -42,7 +42,7 @@ enableEmoji = true
     identifier = "coffee"
     url = "https://www.buymeacoffee.com/berlime5"
     weight = 4
-    pre = "<span data-feather='coffee'></span>" 
+    pre = "<span data-feather='coffee'></span>"
 
 [params]
   # URL for the avatar on homepage
@@ -71,13 +71,8 @@ enableEmoji = true
   # You can use this to inject any HTML in the <head> tag.
   # Ideal usecase for this is to import custom js/css or add your analytics snippet
   customHeadHTML = '''
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6H622P192V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-6H622P192V');
-</script>'''
+    <script defer src= "https://umami.berl.ink/script.js" data-website-id="7705d7cf-9b4c-4fc7-a1f5-f38e507ce196"></script>
+    '''
 
 # date format
  dateFormat = "2 January, 2006"
