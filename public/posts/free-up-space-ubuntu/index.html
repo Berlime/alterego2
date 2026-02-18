@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,25 +19,25 @@
 
     
     <title>Free Up Space Ubuntu</title>
-    <meta name="description" content="Ubuntu 24.04">
+    <meta name="description" content="Free disk space on Ubuntu 24.04: clear APT cache, remove old kernels, and keep the system updated, often reclaims hundreds of MB to a couple of GB.">
     <meta name="keywords" content='blog, gokarna, hugo, dev, bricks builder, wordpress, server'>
 
-    <meta property="og:url" content="/posts/free-up-space-ubuntu/">
+    <meta property="og:url" content="//localhost:1313/posts/free-up-space-ubuntu/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Free Up Space Ubuntu">
-    <meta property="og:description" content="Ubuntu 24.04">
-    <meta property="og:image" content="/images/avatar.webp">
-    <meta property="og:image:secure_url" content="/images/avatar.webp">
+    <meta property="og:description" content="Free disk space on Ubuntu 24.04: clear APT cache, remove old kernels, and keep the system updated, often reclaims hundreds of MB to a couple of GB.">
+    <meta property="og:image" content="//localhost:1313/images/avatar.webp">
+    <meta property="og:image:secure_url" content="//localhost:1313/images/avatar.webp">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Free Up Space Ubuntu">
-    <meta name="twitter:description" content="Ubuntu 24.04">
-    <meta property="twitter:domain" content="/posts/free-up-space-ubuntu/">
-    <meta property="twitter:url" content="/posts/free-up-space-ubuntu/">
-    <meta name="twitter:image" content="/images/avatar.webp">
+    <meta name="twitter:description" content="Free disk space on Ubuntu 24.04: clear APT cache, remove old kernels, and keep the system updated, often reclaims hundreds of MB to a couple of GB.">
+    <meta property="twitter:domain" content="//localhost:1313/posts/free-up-space-ubuntu/">
+    <meta property="twitter:url" content="//localhost:1313/posts/free-up-space-ubuntu/">
+    <meta name="twitter:image" content="//localhost:1313/images/avatar.webp">
 
     
-    <link rel="canonical" href="/posts/free-up-space-ubuntu/">
+    <link rel="canonical" href="//localhost:1313/posts/free-up-space-ubuntu/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -69,28 +69,28 @@
 
         
         <div class="avatar">
-            <a href="/">
+            <a href="//localhost:1313/">
                 <img src='/images/avatar.webp' alt="avatar">
             </a>
         </div>
         
 
         <div class="nav-title">
-            <a class="nav-brand" href="/">Kamil Sharip</a>
+            <a class="nav-brand" href="//localhost:1313/">Kamil Sharip</a>
         </div>
 
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="/" aria-label="home" ><span data-feather='home'></span> Home </a>
+                <a href="//localhost:1313/" aria-label="home" ><span data-feather='home'></span> Home </a>
             </div>
             
             <div class="nav-link">
-                <a href="/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
+                <a href="//localhost:1313/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
             </div>
             
             <div class="nav-link">
-                <a href="/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
+                <a href="//localhost:1313/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
             </div>
             
             <div class="nav-link">
@@ -121,15 +121,15 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="/" ><span data-feather='home'></span> Home </a>
+                    <a href="//localhost:1313/" ><span data-feather='home'></span> Home </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="/posts/" ><span data-feather='book'></span> Posts </a>
+                    <a href="//localhost:1313/posts/" ><span data-feather='book'></span> Posts </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="/tags/" ><span data-feather='tag'></span> Tags </a>
+                    <a href="//localhost:1313/tags/" ><span data-feather='tag'></span> Tags </a>
                 </li>
                 
                 <li class="nav-item">
@@ -170,7 +170,7 @@
 	
 
 	
-          <small role="doc-subtitle">Ubuntu 24.04</small>
+          <small role="doc-subtitle">Free disk space on Ubuntu 24.04: clear APT cache, remove old kernels, and keep the system updated, often reclaims hundreds of MB to a couple of GB.</small>
 	
 
 	
@@ -180,45 +180,62 @@
               17 December, 2024
 
               
+                  | Updated 19 February, 2026
+              
           </p>
 	
 
         <ul class="post-tags">
           
            
-             <li class="post-tag"><a href="/tags/server">server</a></li>
+             <li class="post-tag"><a href="//localhost:1313/tags/server">server</a></li>
            
          
            
-             <li class="post-tag"><a href="/tags/dev">dev</a></li>
+             <li class="post-tag"><a href="//localhost:1313/tags/dev">dev</a></li>
            
          
         </ul>
     </div>
 
     <div class="post-content">
-        <h2 id="1-clear-the-apt-cache">1. Clear the APT Cache</h2>
-<p>Find out how large is the apt package cache:</p>
+        <p>Running low on disk on Ubuntu 24.04? This is my quick “get space back fast” checklist: APT cache, old kernels, then a clean update/upgrade cycle. On a typical box this can free ~500MB–2GB, depending on how long it’s been since you cleaned up.</p>
+<p>Before and after, check your free space:</p>
+<pre><code>df -h
+</code></pre>
+<p><strong>Quick reference (copy/paste)</strong></p>
+<pre><code>du -sh /var/cache/apt/archives
+sudo apt-get clean
+sudo apt-get autoremove --purge
+sudo apt update &amp;&amp; sudo apt upgrade
+</code></pre>
+<h2 id="1-clear-the-apt-cache">1. Clear the APT Cache</h2>
+<p>Every <code>apt install</code>/upgrade can leave cached <code>.deb</code> files behind. That cache often grows quietly over time and is one of the easiest wins to reclaim space from.</p>
+<p>Find out how large the APT package cache is:</p>
 <pre><code>du -sh /var/cache/apt/archives
 </code></pre>
 <p>Clear the cache:</p>
 <pre><code>sudo apt-get clean
 </code></pre>
 <h2 id="2-remove-old-kernels">2. Remove Old Kernels</h2>
-<p>Not sure how it works, really but here we go,</p>
-<p>Proceed with caution:</p>
+<p>After kernel updates, older kernel packages can stick around so you can boot a previous version if needed. <code>autoremove --purge</code> removes unused packages (including old kernels) that are no longer required.</p>
+<p>Proceed with caution (especially if you’ve pinned kernels or you’re in the middle of troubleshooting boot/driver issues):</p>
 <pre><code>sudo apt-get autoremove --purge
 </code></pre>
 <h2 id="3-last-stay-up-to-date">3. Last, stay up to date</h2>
-<p>Do this regularly</p>
-<pre><code>sudo apt update &amp;&amp; upgrade
+<p>Do this regularly. Keeping packages current reduces stale dependencies and keeps your system in a healthier state.</p>
+<pre><code>sudo apt update &amp;&amp; sudo apt upgrade
 </code></pre>
-<p>You can read the full article where I found the above commands <a href="https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu">here</a>.</p>
+<p>Check your free space again:</p>
+<pre><code>df -h
+</code></pre>
+<p>More tips (and the original source I grabbed these from): <a href="https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu">5 ways to free up space on Ubuntu</a>.</p>
 <blockquote>
 <ul>
 <li><em>Post Changelogs</em>
 <ul>
-<li><em>17th Aug 2024 - Publish Date</em></li>
+<li><em>17th Dec 2024 - Publish Date</em></li>
+<li><em>19th Feb 2026 - Add context + quick reference, fix upgrade command</em></li>
 </ul>
 </li>
 </ul></blockquote>
@@ -322,6 +339,9 @@
         
 
         
+            
+            
+        
 
         
         
@@ -331,7 +351,7 @@
     
 
     
-        <span>&copy; 2024 The Marauders</span>
+        <span>&copy; 2024-2026 The Marauders</span>
     
 
     <span>
