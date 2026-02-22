@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web-Design on Kamil Sharip</title>
-    <link>/tags/web-design/</link>
+    <link>//localhost:1313/tags/web-design/</link>
     <description>Recent content in Web-Design on Kamil Sharip</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS Grid</title>
-      <link>/posts/css-grid/</link>
+      <link>//localhost:1313/posts/css-grid/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/css-grid/</guid>
+      <guid>//localhost:1313/posts/css-grid/</guid>
       <description>&lt;h2 id=&#34;discovering-the-ultimate-grid-tool-css-grid-generator&#34;&gt;Discovering the Ultimate Grid Tool: CSS Grid Generator&lt;/h2&gt;&#xA;&lt;p&gt;Hey everyone!&lt;/p&gt;&#xA;&lt;p&gt;I can&amp;rsquo;t contain my excitement—I just stumbled upon a gem: the CSS Grid Generator tool from &lt;a href=&#34;https://cssgridgenerator.io/&#34;&gt;cssgridgenerator.io&lt;/a&gt;. 🎉&lt;/p&gt;&#xA;&lt;p&gt;As someone diving deep into grid layouts with Bricks Builder and ACSS, this discovery feels like a revelation. For weeks, I&amp;rsquo;ve been meticulously crafting grid structures, optimizing every pixel, and striving for that perfect layout. You can imagine my delight when I found a tool that simplifies the entire process without compromising the creative freedom I cherish.&lt;/p&gt;</description>
     </item>
   </channel>

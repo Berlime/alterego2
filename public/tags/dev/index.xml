@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev on Kamil Sharip</title>
-    <link>/tags/dev/</link>
+    <link>//localhost:1313/tags/dev/</link>
     <description>Recent content in Dev on Kamil Sharip</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Host My Main Site in Netlify and a Sub-Directory Using WordPress on a Different Server</title>
-      <link>/posts/netlify-wordpress-sub-directory/</link>
+      <link>//localhost:1313/posts/netlify-wordpress-sub-directory/</link>
       <pubDate>Thu, 19 Feb 2026 00:00:00 +0800</pubDate>
-      <guid>/posts/netlify-wordpress-sub-directory/</guid>
-      <description>&lt;p&gt;My main site, &lt;code&gt;berlime.com&lt;/code&gt;, lives on Netlify. I added a separate WordPress instance in a sub-directory (&lt;code&gt;/guides&lt;/code&gt;) on a different server, so the main site and the guides section run on different instance.&lt;/p&gt;&#xA;&lt;p&gt;So now my stack looks like this:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Netlify&lt;/strong&gt; for hosting and proxying&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Astro&lt;/strong&gt; for the main site build&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;WordPress&lt;/strong&gt; running on a different server inside a sub-directorym &lt;code&gt;https://berlime.com/guides&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;WP CLI&lt;/strong&gt; to fix database URLs properly&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-goal&#34;&gt;The goal&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;https://berlime.com/&lt;/code&gt; to be served by Netlify&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;https://berlime.com/guides/&lt;/code&gt; to load WordPress, but WordPress lives on another server (&lt;code&gt;https://wp.berlime.com&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;&#xA;&lt;p&gt;Netlify serves the static site like normal.&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/netlify-wordpress-sub-directory/</guid>
+      <description>&lt;p&gt;My main site, &lt;code&gt;berlime.com&lt;/code&gt;, lives on Netlify. I added a separate WordPress instance in a sub-directory (&lt;code&gt;/guides&lt;/code&gt;) on a different server, so the main site and the guides section run on different instance.&lt;/p&gt;&#xA;&lt;p&gt;So now my stack looks like this:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Netlify&lt;/strong&gt; for hosting and proxying&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Astro&lt;/strong&gt; for the main site build&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;WordPress&lt;/strong&gt; running on a different server inside a sub-directory &lt;code&gt;https://berlime.com/guides&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;WP CLI&lt;/strong&gt; to fix database URLs properly&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-goal&#34;&gt;The goal&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;https://berlime.com/&lt;/code&gt; to be served by Netlify&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;https://berlime.com/guides/&lt;/code&gt; to load WordPress, but WordPress lives on another server (&lt;code&gt;https://wp.berlime.com&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;&#xA;&lt;p&gt;Netlify serves the static site like normal.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rename Git Branch</title>
-      <link>/posts/rename-git-branch/</link>
+      <link>//localhost:1313/posts/rename-git-branch/</link>
       <pubDate>Fri, 12 Sep 2025 16:57:01 +0800</pubDate>
-      <guid>/posts/rename-git-branch/</guid>
+      <guid>//localhost:1313/posts/rename-git-branch/</guid>
       <description>&lt;p&gt;To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the remote==. &lt;/p&gt;&#xA;&lt;p&gt;Rename a local-only branch&lt;/p&gt;&#xA;&lt;p&gt;If your branch has not been pushed to the remote repository yet, the process is straightforward. &lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Switch to the branch you want to rename using &lt;code&gt;git checkout&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;sh&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git checkout &amp;lt;old-name&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Use code with caution.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Rename the local branch using the &lt;code&gt;git branch -m&lt;/code&gt; command.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clone a Repo</title>
-      <link>/posts/clone-a-repo/</link>
+      <link>//localhost:1313/posts/clone-a-repo/</link>
       <pubDate>Fri, 12 Sep 2025 16:39:28 +0800</pubDate>
-      <guid>/posts/clone-a-repo/</guid>
+      <guid>//localhost:1313/posts/clone-a-repo/</guid>
       <description>&lt;h2 id=&#34;my-set-up-for-cloning-themes&#34;&gt;My set up for cloning themes.&lt;/h2&gt;&#xA;&lt;p&gt;I first fork a repo into my own GitHub account, then I clone that forked into my local environment.&lt;/p&gt;&#xA;&lt;p&gt;I then create these branches:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Main - I don&amp;rsquo;t change any code in this main branch, the reason being if there is any updates from the repo owner, I can easily bring in the updates.&lt;/li&gt;&#xA;&lt;li&gt;Live - This branch will be the branch that is final&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Some cases, i created another branch for special development by adding a suffix of &lt;code&gt;-hostinger&lt;/code&gt; in this case, it is a label on what hosting/server I use. Particularly for Hostinger, this branch only have the public/dist folder.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Development - This is where I make changes. After I have completed and tested it, this will merge onto the &lt;code&gt;Live&lt;/code&gt; repo.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Switch Node Version</title>
-      <link>/posts/switch-node-version/</link>
+      <link>//localhost:1313/posts/switch-node-version/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/switch-node-version/</guid>
+      <guid>//localhost:1313/posts/switch-node-version/</guid>
       <description>&lt;p&gt;Encountered Keystatic errors to display in Dev Mode. On Node version 22.&#xA;Will switch to the previous version and see if it resolves the issue.&lt;/p&gt;&#xA;&lt;p&gt;Changing your Node.js version is quite straightforward. Here are a couple of methods you can use:&lt;/p&gt;&#xA;&lt;h3 id=&#34;using-nvm-node-version-manager&#34;&gt;Using NVM (Node Version Manager)&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Install NVM&lt;/strong&gt;: If you haven&amp;rsquo;t already, install NVM by running the following command in your terminal:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;List Available Versions&lt;/strong&gt;: Check the available Node.js versions:&lt;/p&gt;</description>
     </item>
     <item>
       <title>SQL Command</title>
-      <link>/posts/sql-command/</link>
+      <link>//localhost:1313/posts/sql-command/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/sql-command/</guid>
+      <guid>//localhost:1313/posts/sql-command/</guid>
       <description>&lt;h2 id=&#34;elementor-field&#34;&gt;Elementor field&lt;/h2&gt;&#xA;&lt;p&gt;Particularly with the &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag.&#xA;In this case, I have stopped subscribing to Elementor Pro which made my slider template gone, including the content.&lt;/p&gt;&#xA;&lt;p&gt;Elementor does not allow you to view the content in the admin area without renewing the license.&#xA;However, it seems that the content is still available in the database, and below is to comment to find contents you insert with the Elementor elements.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;`&lt;/span&gt;wp_posts&lt;span style=&#34;color:#f92672&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;WHERE&lt;/span&gt; post_content &lt;span style=&#34;color:#66d9ef&#34;&gt;LIKE&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%&amp;lt;!-- wp:paragraph --&amp;gt;%&amp;#39;&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;Replace &lt;code&gt;&#39;wp_posts&#39;&lt;/code&gt; to whatever database you want to find from.&lt;/li&gt;&#xA;&lt;li&gt;Replace &lt;code&gt;post_content&lt;/code&gt; to filter through the columns in the table.&lt;/li&gt;&#xA;&lt;li&gt;Replace &lt;code&gt;&#39;%&amp;lt;!-- wp:paragraph --&amp;gt;%&#39;&lt;/code&gt; to find the content, be sure that it starts and ends with &lt;code&gt;%&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://nitropack.io/blog/post/wordpress-database-cleanup-guide&#34;&gt;https://nitropack.io/blog/post/wordpress-database-cleanup-guide&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Filter Traffic in GA4</title>
-      <link>/posts/filter-traffic-in-ga4/</link>
+      <link>//localhost:1313/posts/filter-traffic-in-ga4/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/filter-traffic-in-ga4/</guid>
+      <guid>//localhost:1313/posts/filter-traffic-in-ga4/</guid>
       <description>&lt;p&gt;I used WordPress the most, setting up Google Analytics is easy with WordPress, thanks to the Google Site Kit plug-ins,&#xA;or any other plug-ins that can easily integrate with Google Analytics.&lt;/p&gt;&#xA;&lt;p&gt;One of the new goals in 2025 is to revamp my agency&amp;rsquo;s main &lt;a href=&#34;https://berlime.com&#34;&gt;website&lt;/a&gt; with entirely new stacks. Meaning&#xA;it does not run on WordPress like before, just for that sake of exploring more options and learn new things. More on that in another post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CSS Grid</title>
-      <link>/posts/css-grid/</link>
+      <link>//localhost:1313/posts/css-grid/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/css-grid/</guid>
+      <guid>//localhost:1313/posts/css-grid/</guid>
       <description>&lt;h2 id=&#34;discovering-the-ultimate-grid-tool-css-grid-generator&#34;&gt;Discovering the Ultimate Grid Tool: CSS Grid Generator&lt;/h2&gt;&#xA;&lt;p&gt;Hey everyone!&lt;/p&gt;&#xA;&lt;p&gt;I can&amp;rsquo;t contain my excitement—I just stumbled upon a gem: the CSS Grid Generator tool from &lt;a href=&#34;https://cssgridgenerator.io/&#34;&gt;cssgridgenerator.io&lt;/a&gt;. 🎉&lt;/p&gt;&#xA;&lt;p&gt;As someone diving deep into grid layouts with Bricks Builder and ACSS, this discovery feels like a revelation. For weeks, I&amp;rsquo;ve been meticulously crafting grid structures, optimizing every pixel, and striving for that perfect layout. You can imagine my delight when I found a tool that simplifies the entire process without compromising the creative freedom I cherish.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Regex</title>
-      <link>/posts/regex/</link>
+      <link>//localhost:1313/posts/regex/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/regex/</guid>
-      <description>&lt;p&gt;Previously, I posted about &lt;a href=&#34;/WCPA&#34;&gt;Woo Commerce Products Add-Ons&lt;/a&gt; on using a formula to determine the value of a wood radius that needs to be cut.&lt;/p&gt;&#xA;&lt;p&gt;Today, while developing a client&amp;rsquo;s site, I realize that phone number fields requires some special characters like &amp;lsquo;()&amp;rsquo; and &amp;ldquo;+&amp;rdquo; and of course spaces.&lt;/p&gt;&#xA;&lt;p&gt;I use CoPilot to create for me that Regex, and my prompt was:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Give me an example of a regex pattern that includes symbols&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To create a regex pattern that allows alphanumeric characters, specific symbols like @, #, $, %, and &amp;amp;, as well as spaces, you can use the following pattern:&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/regex/</guid>
+      <description>&lt;p&gt;Previously, I posted about &lt;a href=&#34;//localhost:1313/WCPA&#34;&gt;Woo Commerce Products Add-Ons&lt;/a&gt; on using a formula to determine the value of a wood radius that needs to be cut.&lt;/p&gt;&#xA;&lt;p&gt;Today, while developing a client&amp;rsquo;s site, I realize that phone number fields requires some special characters like &amp;lsquo;()&amp;rsquo; and &amp;ldquo;+&amp;rdquo; and of course spaces.&lt;/p&gt;&#xA;&lt;p&gt;I use CoPilot to create for me that Regex, and my prompt was:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Give me an example of a regex pattern that includes symbols&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To create a regex pattern that allows alphanumeric characters, specific symbols like @, #, $, %, and &amp;amp;, as well as spaces, you can use the following pattern:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Woo Commerce Icons</title>
-      <link>/posts/woo-commerce-icons/</link>
+      <link>//localhost:1313/posts/woo-commerce-icons/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>/posts/woo-commerce-icons/</guid>
+      <guid>//localhost:1313/posts/woo-commerce-icons/</guid>
       <description>&lt;h2 id=&#34;use-case&#34;&gt;Use case&lt;/h2&gt;&#xA;&lt;p&gt;Client requested a custom order status, for context, there are a lot of ways to do this.&#xA;I recommend getting plug-ins from Yith which obviously adds up to their commitment.&lt;/p&gt;&#xA;&lt;p&gt;I wasn&amp;rsquo;t sure if they are okay with the add ons, so I just went ahead and create a low fidelity order status and send customer note when the order the status changes.&lt;/p&gt;&#xA;&lt;p&gt;I will share the code some other time but for now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Reference When Publishing a Blog</title>
-      <link>/posts/my-reference-when-publishing-a-blog/</link>
+      <link>//localhost:1313/posts/my-reference-when-publishing-a-blog/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/my-reference-when-publishing-a-blog/</guid>
+      <guid>//localhost:1313/posts/my-reference-when-publishing-a-blog/</guid>
       <description>&lt;h2 id=&#34;create-new-post-via-terminal&#34;&gt;Create New Post via Terminal&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Make sure you are at &lt;code&gt;/your_site&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content/posts/my-first-post.md&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or simply edit your current blogpost at &lt;code&gt;content/post/your-post.md&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Save the file and go to terminal, cd to &lt;code&gt;/your_site&lt;/code&gt; and run the command &lt;code&gt;hugo&lt;/code&gt; to regenerate public files&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Now let git check the changed file using this in &lt;code&gt;/your_site&lt;/code&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git status&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;it should display something like this&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Changes to be committed:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;git rm --cached &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to unstage&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        new file:   .gitmodules&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        new file:   themes/gokarna&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Untracked files:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;use &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;git add &amp;lt;file&amp;gt;...&amp;#34;&lt;/span&gt; to include in what will be committed&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        .hugo_build.lock&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        archetypes/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        content/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        hugo.toml&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        pub&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;At &lt;code&gt;/public&lt;/code&gt;, add the files, commit (make sure at the selected branch) then push&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rounded Corners</title>
-      <link>/posts/rounded-corners/</link>
+      <link>//localhost:1313/posts/rounded-corners/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/rounded-corners/</guid>
+      <guid>//localhost:1313/posts/rounded-corners/</guid>
       <description>&lt;h2 id=&#34;wcpa-rounded-corners-for-custom-wood-orders&#34;&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;&#xA;&lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.&#xA;The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;start-from-the-4-sided-measurements&#34;&gt;Start from the 4 sided measurements&lt;/h2&gt;&#xA;&lt;p&gt;Identify the mid-point variable where,&lt;/p&gt;</description>
     </item>
     <item>
       <title>Free Up Space Ubuntu</title>
-      <link>/posts/free-up-space-ubuntu/</link>
+      <link>//localhost:1313/posts/free-up-space-ubuntu/</link>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/free-up-space-ubuntu/</guid>
+      <guid>//localhost:1313/posts/free-up-space-ubuntu/</guid>
       <description>&lt;p&gt;Running low on disk on Ubuntu 24.04? This is my quick “get space back fast” checklist: APT cache, old kernels, then a clean update/upgrade cycle. On a typical box this can free ~500MB–2GB, depending on how long it’s been since you cleaned up.&lt;/p&gt;&#xA;&lt;p&gt;Before and after, check your free space:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;df -h&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quick reference (copy/paste)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;du -sh /var/cache/apt/archives&#xA;sudo apt-get clean&#xA;sudo apt-get autoremove --purge&#xA;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;1-clear-the-apt-cache&#34;&gt;1. Clear the APT Cache&lt;/h2&gt;&#xA;&lt;p&gt;Every &lt;code&gt;apt install&lt;/code&gt;/upgrade can leave cached &lt;code&gt;.deb&lt;/code&gt; files behind. That cache often grows quietly over time and is one of the easiest wins to reclaim space from.&lt;/p&gt;</description>
     </item>
     <item>
       <title>LTeX- Spell Checker</title>
-      <link>/posts/ltex-spell-checker/</link>
+      <link>//localhost:1313/posts/ltex-spell-checker/</link>
       <pubDate>Mon, 16 Dec 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/ltex-spell-checker/</guid>
+      <guid>//localhost:1313/posts/ltex-spell-checker/</guid>
       <description>&lt;h3 id=&#34;ltex-spell-checker-for-visual-studio-code&#34;&gt;LTeX Spell Checker for Visual Studio Code&lt;/h3&gt;&#xA;&lt;p&gt;The &lt;strong&gt;LTeX Spell Checker&lt;/strong&gt; is a powerful extension for Visual Studio Code that integrates with &lt;strong&gt;LanguageTool&lt;/strong&gt; to provide advanced grammar, style, and spell checking. It&amp;rsquo;s particularly useful for writing in markup languages and ensures that your documents are not only syntactically correct but also grammatically polished.&lt;/p&gt;&#xA;&lt;h4 id=&#34;key-features&#34;&gt;Key Features&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Offline Checking&lt;/strong&gt;: LTeX operates offline, meaning it doesn&amp;rsquo;t upload your documents to the internet, which is crucial for maintaining privacy and security.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multilingual Support&lt;/strong&gt;: Supports a wide range of languages including but not limited to English, French, German, Dutch, Chinese, and Russian. This is especially beneficial if you write in multiple languages or need to ensure correct grammar in different linguistic contexts.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Highlighting Issues&lt;/strong&gt;: It highlights&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;Post Changelogs&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;27th Dec 2024 - Updated Hugo Version&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;16th Dec 2024 - Publish Date&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>/posts/github/</link>
+      <link>//localhost:1313/posts/github/</link>
       <pubDate>Tue, 29 Oct 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/github/</guid>
+      <guid>//localhost:1313/posts/github/</guid>
       <description>&lt;h2 id=&#34;my-first-encounter-with-github&#34;&gt;My first encounter with GitHub&lt;/h2&gt;&#xA;&lt;p&gt;All I knew about GitHub was some sort of place where you dump codes and make it available to the public. But still, I have no idea what is the purpose of it, at all. Until Tasnim, enlightened me what it really was.&#xA;See, of course I&amp;rsquo;ve watched a few YouTube videos of what GitHub is, I kind of get the idea but do not know how it works, what is it for, etcetera.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SEO Partnership</title>
-      <link>/posts/seo-partnership/</link>
+      <link>//localhost:1313/posts/seo-partnership/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/seo-partnership/</guid>
+      <guid>//localhost:1313/posts/seo-partnership/</guid>
       <description>&lt;h2 id=&#34;new-seo-service&#34;&gt;New SEO Service&lt;/h2&gt;&#xA;&lt;p&gt;Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency&amp;rsquo;s core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skill set.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I use Hugo for this blog</title>
-      <link>/posts/hugo/</link>
+      <link>//localhost:1313/posts/hugo/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0800</pubDate>
-      <guid>/posts/hugo/</guid>
+      <guid>//localhost:1313/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-is-a-static-site-generator&#34;&gt;Hugo is a static site generator&lt;/h2&gt;&#xA;&lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the &amp;lsquo;Holy Grail&amp;rsquo; of web development. &lt;em&gt;buzzz!!&lt;/em&gt; Nope. I was totally wrong.&lt;/p&gt;&#xA;&lt;p&gt;Tasnim, actually first started using &lt;a href=&#34;https://gethugo.io&#34;&gt;Hugo&lt;/a&gt; for his own personal blog. He thought me a lot about how VS Code works, this is the point where I discovered the term IDE, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,7 +2,7 @@
 title: "How I Host My Main Site in Netlify and a Sub-Directory Using WordPress on a Different Server"
 date: 2026-02-19
 description: "How I host berlime.com on Netlify (Hugo) while serving WordPress from a different server under /guides, plus the gotchas that will bite you."
-# image: ""
+image: 'static/images/avatar.webp'
 lastmod: 2026-02-19
 showTableOfContents: true
 tags: ["dev", "WordPress", "agency",]
@@ -15,7 +15,7 @@ So now my stack looks like this:
 
 - **Netlify** for hosting and proxying
 - **Astro** for the main site build
-- **WordPress** running on a different server inside a sub-directorym `https://berlime.com/guides`
+- **WordPress** running on a different server inside a sub-directory `https://berlime.com/guides`
 - **WP CLI** to fix database URLs properly
 
 ## The goal
