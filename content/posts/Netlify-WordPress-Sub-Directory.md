@@ -2,7 +2,7 @@
 title: "How I Host My Main Site in Netlify and a Sub-Directory Using WordPress on a Different Server"
 date: 2026-02-19
 description: "How I host berlime.com on Netlify (Hugo) while serving WordPress from a different server under /guides, plus the gotchas that will bite you."
-image: 'static/images/avatar.webp'
+image: "/images/avatar.webp"
 lastmod: 2026-02-19
 showTableOfContents: true
 tags: ["dev", "WordPress", "agency",]
