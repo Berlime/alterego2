@@ -1,226 +1,123 @@
-<!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-        :root {
-            --accent-color: #FF4D4D;
-            --font-size: 17.5px;
-        }
-    </style>
-
-    
-    
-    
-    
-    
-        
-    
-    
-    
-    
-
-    
-    <title>Regex</title>
-    <meta name="description" content="First Encounter With Regex">
-    <meta name="keywords" content='blog, gokarna, hugo, dev, bricks builder, wordpress, Dev, WordPress'>
-
-    <meta property="og:url" content="//localhost:1313/posts/regex/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Regex">
-    <meta property="og:description" content="First Encounter With Regex">
-    <meta property="og:image" content="//localhost:1313/images/avatar/kamil.avif">
-    <meta property="og:image:secure_url" content="//localhost:1313/images/avatar/kamil.avif">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Regex">
-    <meta name="twitter:description" content="First Encounter With Regex">
-    <meta property="twitter:domain" content="//localhost:1313/posts/regex/">
-    <meta property="twitter:url" content="//localhost:1313/posts/regex/">
-    <meta name="twitter:image" content="//localhost:1313/images/avatar/kamil.avif">
-
-    
-    <link rel="canonical" href="//localhost:1313/posts/regex/">
-
-    
-    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
-
-    
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
-
-    
-    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
-
-    
-    
-      
-      <link rel="stylesheet" href="/css/custom.min.css">
-    
-
-    
-    <script src="/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js" integrity="sha256-/b&#43;6HgdKy35Ku/TJTrGau3cCSJyWiaJ&#43;5eJKK9SB5Lc="></script>
-
-    
-    
-        <script defer src= "https://umami.berl.ink/script.js" data-website-id="7705d7cf-9b4c-4fc7-a1f5-f38e507ce196"></script>
-    
-    
+<!doctype html><html lang=en><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>:root{--accent-color:#FF4D4D;--font-size:17.5px}</style>
+<title>Regex</title>
+<meta name=description content="First Encounter With Regex">
+<meta name=keywords content='blog,gokarna,hugo,dev,bricks builder,wordpress,Dev,WordPress'>
+<meta property="og:url" content="//localhost:1313/posts/regex/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Regex">
+<meta property="og:description" content="First Encounter With Regex">
+<meta property="og:image" content="//localhost:1313/images/avatar/kamil.avif">
+<meta property="og:image:secure_url" content="//localhost:1313/images/avatar/kamil.avif">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:title content="Regex">
+<meta name=twitter:description content="First Encounter With Regex">
+<meta property="twitter:domain" content="//localhost:1313/posts/regex/">
+<meta property="twitter:url" content="//localhost:1313/posts/regex/">
+<meta name=twitter:image content="//localhost:1313/images/avatar/kamil.avif">
+<link rel=canonical href=//localhost:1313/posts/regex/>
+<link rel=stylesheet type=text/css href=/css/normalize.min.css media=print>
+<link rel=stylesheet type=text/css href=/css/main.min.css>
+<link id=dark-theme rel=stylesheet href=/css/dark.min.css>
+<link rel=stylesheet href=/css/custom.min.css>
+<script src=/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js integrity="sha256-/b+6HgdKy35Ku/TJTrGau3cCSJyWiaJ+5eJKK9SB5Lc="></script>
+<script defer src=https://umami.berl.ink/script.js data-website-id=7705d7cf-9b4c-4fc7-a1f5-f38e507ce196></script>
 </head>
 <body>
-        <script>
-            
-            setThemeByUserPref();
-        </script><header class="header">
-    <nav class="header-nav">
-
-        
-        <div class="avatar">
-            <a href="//localhost:1313/">
-                <img src='/images/avatar/kamil.avif' alt="avatar">
-            </a>
-        </div>
-        
-
-        <div class="nav-title">
-            <a class="nav-brand" href="//localhost:1313/">Kamil Sharip</a>
-        </div>
-
-        <div class="nav-links">
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/" aria-label="home" ><span data-feather='home'></span> Home </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://www.buymeacoffee.com/berlime5" aria-label="coffee" ><span data-feather='coffee'></span>  </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://github.com/Berlime/hugo" aria-label="github" ><span data-feather='github'></span>  </a>
-            </div>
-            
-
-            <span class="nav-icons-divider"></span>
-            <div class="nav-link dark-theme-toggle">
-                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                <a aria-hidden="true" role="switch">
-                    <span class="theme-toggle-icon" data-feather="moon"></span>
-                </a>
-            </div>
-
-            <div class="nav-link" id="hamburger-menu-toggle">
-                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
-                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
-                    <span data-feather="menu"></span>
-                </a>
-            </div>
-
-            
-            <ul class="nav-hamburger-list visibility-hidden">
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/" ><span data-feather='home'></span> Home </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/posts/" ><span data-feather='book'></span> Posts </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/tags/" ><span data-feather='tag'></span> Tags </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://www.buymeacoffee.com/berlime5" ><span data-feather='coffee'></span>  </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://github.com/Berlime/hugo" ><span data-feather='github'></span>  </a>
-                </li>
-                
-                <li class="nav-item dark-theme-toggle">
-                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                    <a role="switch">
-                        <span class="theme-toggle-icon" data-feather="moon"></span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
+<script>setThemeByUserPref()</script><header class=header>
+<nav class=header-nav>
+<div class=avatar>
+<a href=//localhost:1313/>
+<img src=/images/avatar/kamil.avif alt=avatar>
+</a>
+</div>
+<div class=nav-title>
+<a class=nav-brand href=//localhost:1313/>Kamil Sharip</a>
+</div>
+<div class=nav-links>
+<div class=nav-link>
+<a href=//localhost:1313/ aria-label=home><span data-feather=home></span> Home </a>
+</div>
+<div class=nav-link>
+<a href=//localhost:1313/posts/ aria-label=posts><span data-feather=book></span> Posts </a>
+</div>
+<div class=nav-link>
+<a href=//localhost:1313/tags/ aria-label=tags><span data-feather=tag></span> Tags </a>
+</div>
+<div class=nav-link>
+<a href=https://www.buymeacoffee.com/berlime5 aria-label=coffee><span data-feather=coffee></span> </a>
+</div>
+<div class=nav-link>
+<a href=https://github.com/Berlime/hugo aria-label=github><span data-feather=github></span> </a>
+</div>
+<span class=nav-icons-divider></span>
+<div class="nav-link dark-theme-toggle">
+<span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a aria-hidden=true role=switch>
+<span class=theme-toggle-icon data-feather=moon></span>
+</a>
+</div>
+<div class=nav-link id=hamburger-menu-toggle>
+<span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+<a aria-checked=false aria-labelledby=hamburger-menu-toggle id=hamburger-menu-toggle-target role=switch>
+<span data-feather=menu></span>
+</a>
+</div>
+<ul class="nav-hamburger-list visibility-hidden">
+<li class=nav-item>
+<a href=//localhost:1313/><span data-feather=home></span> Home </a>
+</li>
+<li class=nav-item>
+<a href=//localhost:1313/posts/><span data-feather=book></span> Posts </a>
+</li>
+<li class=nav-item>
+<a href=//localhost:1313/tags/><span data-feather=tag></span> Tags </a>
+</li>
+<li class=nav-item>
+<a href=https://www.buymeacoffee.com/berlime5><span data-feather=coffee></span> </a>
+</li>
+<li class=nav-item>
+<a href=https://github.com/Berlime/hugo><span data-feather=github></span> </a>
+</li>
+<li class="nav-item dark-theme-toggle">
+<span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a role=switch>
+<span class=theme-toggle-icon data-feather=moon></span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
 </header>
-<main id="content">
-    <div class="post container">
-    <div class="post-header-section">
-        <h1>Regex</h1>
-
-        
-        
-        
-
-        
-
-        
-	
-	
-	
-	
-        
-
-	
-
-	
-
-	
-          <small role="doc-subtitle">First Encounter With Regex</small>
-	
-
-	
-          <p class="post-date">
-              
-
-              7 January, 2025
-
-              
-          </p>
-	
-
-        <ul class="post-tags">
-          
-           
-             <li class="post-tag"><a href="//localhost:1313/tags/dev">Dev</a></li>
-           
-         
-           
-             <li class="post-tag"><a href="//localhost:1313/tags/wordpress">WordPress</a></li>
-           
-         
-        </ul>
-    </div>
-
-    <div class="post-content">
-        <p>Previously, I posted about <a href="/WCPA">Woo Commerce Products Add-Ons</a> on using a formula to determine the value of a wood radius that needs to be cut.</p>
+<main id=content>
+<div class="post container">
+<div class=post-header-section>
+<h1>Regex</h1>
+<small role=doc-subtitle>First Encounter With Regex</small>
+<p class=post-date>
+7 January, 2025
+</p>
+<ul class=post-tags>
+<li class=post-tag><a href=//localhost:1313/tags/dev>Dev</a></li>
+<li class=post-tag><a href=//localhost:1313/tags/wordpress>WordPress</a></li>
+</ul>
+</div>
+<div class=post-content>
+<p>Previously, I posted about <a href=/WCPA>Woo Commerce Products Add-Ons</a> on using a formula to determine the value of a wood radius that needs to be cut.</p>
 <p>Today, while developing a client&rsquo;s site, I realize that phone number fields requires some special characters like &lsquo;()&rsquo; and &ldquo;+&rdquo; and of course spaces.</p>
 <p>I use CoPilot to create for me that Regex, and my prompt was:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Give me an example of a regex pattern that includes symbols
-</span></span></code></pre></div><p>To create a regex pattern that allows alphanumeric characters, specific symbols like @, #, $, %, and &amp;, as well as spaces, you can use the following pattern:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>^<span style="color:#f92672">[</span>a-zA-Z0-9@#$%&amp;<span style="color:#ae81ff">\s</span><span style="color:#f92672">]</span>+$
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-markdown data-lang=markdown><span style=display:flex><span>Give me an example of a regex pattern that includes symbols
+</span></span></code></pre></div><p>To create a regex pattern that allows alphanumeric characters, specific symbols like @, #, $, %, and &, as well as spaces, you can use the following pattern:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>^<span style=color:#f92672>[</span>a-zA-Z0-9@#$%&amp;<span style=color:#ae81ff>\s</span><span style=color:#f92672>]</span>+$
 </span></span></code></pre></div><p>Here&rsquo;s the breakdown of the pattern:</p>
 <ul>
 <li>
 <p><code>^</code> asserts the position at the start of the string.</p>
 </li>
 <li>
-<p><code>[a-zA-Z0-9@#$%&amp;\s]</code> matches any letter (both uppercase and lowercase), digit (0-9), the specified symbols (<code>@</code>, <code>#</code>, <code>$</code>, <code>%</code>, <code>&amp;</code>), or a whitespace character (<code>\s</code>).</p>
+<p><code>[a-zA-Z0-9@#$%&\s]</code> matches any letter (both uppercase and lowercase), digit (0-9), the specified symbols (<code>@</code>, <code>#</code>, <code>$</code>, <code>%</code>, <code>&</code>), or a whitespace character (<code>\s</code>).</p>
 </li>
 <li>
 <p><code>+</code> ensures that the pattern occurs one or more times.</p>
@@ -238,109 +135,41 @@
 </ul>
 </li>
 </ul></blockquote>
-
-        
-    </div>
-
-    <div class="prev-next">
-        
-            
-                
-<div class="prev-post">
-    <p>
-        <a href="/posts/woo-commerce-icons/">
-            &#8592;
-            Previous:
-            Woo Commerce Icons
-        </a>
-    </p>
-    <p class="prev-post-date">
-        6 January, 2025
-    </p>
 </div>
-
-
-
-<div class="next-post">
-    <p>
-        <a href="/posts/2024/">
-            Next:
-            2024 - Year in review
-            &#8594;
-        </a>
-    </p>
-        <p class="next-post-date">
-            7 January, 2025
-        </p>
+<div class=prev-next>
+<div class=prev-post>
+<p>
+<a href=/posts/woo-commerce-icons/>
+&#8592;
+Previous:
+Woo Commerce Icons
+</a>
+</p>
+<p class=prev-post-date>
+6 January, 2025
+</p>
 </div>
-
-
-            
-        
-    </div>
-
-    
-    
-        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
-    
-    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
-</svg>
-<script>
-    let backToTopButton = document.getElementById("btt-button");
-
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    }
-
-    function scrollToTop() {
-        window.scrollTo(0, 0);
-    }
-</script>
-
-    
-    
+<div class=next-post>
+<p>
+<a href=/posts/2024/>
+Next:
+2024 - Year in review
+&#8594;
+</a>
+</p>
+<p class=next-post-date>
+7 January, 2025
+</p>
 </div>
-
-
-
-    
-
-        </main><footer class="footer">
-    
-    
-
-    
-
-    
-
-        
-            
-        
-
-        
-
-        
-        
-
-        
-
-    
-
-    
-        <span>&copy; 2025 The Marauders</span>
-    
-
-    <span>
-        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
-    </span>
+</div>
+<svg id="btt-button" class="arrow-logo" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6.0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9.0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9.0L7 329.7c-9.4-9.4-9.4-24.6.0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg>
+<script>let backToTopButton=document.getElementById("btt-button");window.onscroll=function(){scrollFunction()};function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?backToTopButton.style.display="block":backToTopButton.style.display="none"}function scrollToTop(){window.scrollTo(0,0)}</script>
+</div>
+</main><footer class=footer>
+<span>&copy; 2025 The Marauders</span>
+<span>
+Made with &#10084;&#65039; using <a target=_blank href=https://github.com/gokarna-theme/gokarna-hugo>Gokarna</a>
+</span>
 </footer>
 </body>
 </html>

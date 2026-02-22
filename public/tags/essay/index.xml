@@ -1,19 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Essay on Kamil Sharip</title>
-    <link>//localhost:1313/tags/essay/</link>
-    <description>Recent content in Essay on Kamil Sharip</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 23 May 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/essay/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Void</title>
-      <link>//localhost:1313/posts/the-void/</link>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/the-void/</guid>
-      <description>&lt;h2 id=&#34;the-void&#34;&gt;The Void&lt;/h2&gt;&#xA;&lt;p&gt;A raw thought from a friend of mine. Here&amp;rsquo;s my take on it.&lt;/p&gt;&#xA;&lt;p&gt;Rather, I always percieve &lt;code&gt;The Void&lt;/code&gt; as a moment or a period in life where I don&amp;rsquo;t know what to do. I find myself in this state quite often. Especially now, after a solid 1 year of working on my &amp;ldquo;web-development&amp;rdquo; business.&lt;/p&gt;&#xA;&lt;p&gt;Things went very fast, little did I know, it amplified the growth of the business. But so what?&#xA;No matter how much achievements I have; I always see myself doing something to fill the void.&#xA;So the void is somehow; everything. Are we built to always fill in the void? Why all these matters?&lt;/p&gt;</description>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Essay on Kamil Sharip</title>
+<link>//localhost:1313/tags/essay/</link>
+<description>Recent content in Essay on Kamil Sharip</description>
+<generator>Hugo</generator>
+<language>en-us</language>
+<lastBuildDate>Fri, 23 May 2025 00:00:00 +0800</lastBuildDate>
+<atom:link href="//localhost:1313/tags/essay/index.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>The Void</title>
+<link>//localhost:1313/posts/the-void/</link>
+<pubDate>Fri, 23 May 2025 00:00:00 +0800</pubDate>
+<guid>//localhost:1313/posts/the-void/</guid>
+<description>&lt;h2 id="the-void"&gt;The Void&lt;/h2&gt;
+&lt;p&gt;A raw thought from a friend of mine. Here&amp;rsquo;s my take on it.&lt;/p&gt;
+&lt;p&gt;Rather, I always percieve &lt;code&gt;The Void&lt;/code&gt; as a moment or a period in life where I don&amp;rsquo;t know what to do. I find myself in this state quite often. Especially now, after a solid 1 year of working on my &amp;ldquo;web-development&amp;rdquo; business.&lt;/p&gt;
+&lt;p&gt;Things went very fast, little did I know, it amplified the growth of the business. But so what?
+No matter how much achievements I have; I always see myself doing something to fill the void.
+So the void is somehow; everything. Are we built to always fill in the void? Why all these matters?&lt;/p&gt;</description>
+</item>
+</channel>
 </rss>

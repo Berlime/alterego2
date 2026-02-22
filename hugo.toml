@@ -99,3 +99,14 @@ enableEmoji = true
 [markup.highlight]
   codeFences = true
   style = "monokai"
+
+[minify]
+# optional: control whether final published output is minified
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepWhitespace = true
+
+[minify.tdewolff.xml]
+keepWhitespace = true
+

@@ -1,229 +1,126 @@
-<!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-        :root {
-            --accent-color: #FF4D4D;
-            --font-size: 17.5px;
-        }
-    </style>
-
-    
-    
-    
-    
-    
-        
-    
-    
-    
-    
-
-    
-    <title>Rename Git Branch</title>
-    <meta name="description" content="To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the …">
-    <meta name="keywords" content='blog, gokarna, hugo, dev, bricks builder, wordpress, github'>
-
-    <meta property="og:url" content="//localhost:1313/posts/rename-git-branch/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Rename Git Branch">
-    <meta property="og:description" content="To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the …">
-    <meta property="og:image" content="//localhost:1313/images/avatar/kamil.avif">
-    <meta property="og:image:secure_url" content="//localhost:1313/images/avatar/kamil.avif">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Rename Git Branch">
-    <meta name="twitter:description" content="To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the …">
-    <meta property="twitter:domain" content="//localhost:1313/posts/rename-git-branch/">
-    <meta property="twitter:url" content="//localhost:1313/posts/rename-git-branch/">
-    <meta name="twitter:image" content="//localhost:1313/images/avatar/kamil.avif">
-
-    
-    <link rel="canonical" href="//localhost:1313/posts/rename-git-branch/">
-
-    
-    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
-
-    
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
-
-    
-    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
-
-    
-    
-      
-      <link rel="stylesheet" href="/css/custom.min.css">
-    
-
-    
-    <script src="/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js" integrity="sha256-/b&#43;6HgdKy35Ku/TJTrGau3cCSJyWiaJ&#43;5eJKK9SB5Lc="></script>
-
-    
-    
-        <script defer src= "https://umami.berl.ink/script.js" data-website-id="7705d7cf-9b4c-4fc7-a1f5-f38e507ce196"></script>
-    
-    
+<!doctype html><html lang=en><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>:root{--accent-color:#FF4D4D;--font-size:17.5px}</style>
+<title>Rename Git Branch</title>
+<meta name=description content="To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the …">
+<meta name=keywords content='blog,gokarna,hugo,dev,bricks builder,wordpress,github'>
+<meta property="og:url" content="//localhost:1313/posts/rename-git-branch/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rename Git Branch">
+<meta property="og:description" content="To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the …">
+<meta property="og:image" content="//localhost:1313/images/avatar/kamil.avif">
+<meta property="og:image:secure_url" content="//localhost:1313/images/avatar/kamil.avif">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:title content="Rename Git Branch">
+<meta name=twitter:description content="To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the …">
+<meta property="twitter:domain" content="//localhost:1313/posts/rename-git-branch/">
+<meta property="twitter:url" content="//localhost:1313/posts/rename-git-branch/">
+<meta name=twitter:image content="//localhost:1313/images/avatar/kamil.avif">
+<link rel=canonical href=//localhost:1313/posts/rename-git-branch/>
+<link rel=stylesheet type=text/css href=/css/normalize.min.css media=print>
+<link rel=stylesheet type=text/css href=/css/main.min.css>
+<link id=dark-theme rel=stylesheet href=/css/dark.min.css>
+<link rel=stylesheet href=/css/custom.min.css>
+<script src=/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js integrity="sha256-/b+6HgdKy35Ku/TJTrGau3cCSJyWiaJ+5eJKK9SB5Lc="></script>
+<script defer src=https://umami.berl.ink/script.js data-website-id=7705d7cf-9b4c-4fc7-a1f5-f38e507ce196></script>
 </head>
 <body>
-        <script>
-            
-            setThemeByUserPref();
-        </script><header class="header">
-    <nav class="header-nav">
-
-        
-        <div class="avatar">
-            <a href="//localhost:1313/">
-                <img src='/images/avatar/kamil.avif' alt="avatar">
-            </a>
-        </div>
-        
-
-        <div class="nav-title">
-            <a class="nav-brand" href="//localhost:1313/">Kamil Sharip</a>
-        </div>
-
-        <div class="nav-links">
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/" aria-label="home" ><span data-feather='home'></span> Home </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://www.buymeacoffee.com/berlime5" aria-label="coffee" ><span data-feather='coffee'></span>  </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://github.com/Berlime/hugo" aria-label="github" ><span data-feather='github'></span>  </a>
-            </div>
-            
-
-            <span class="nav-icons-divider"></span>
-            <div class="nav-link dark-theme-toggle">
-                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                <a aria-hidden="true" role="switch">
-                    <span class="theme-toggle-icon" data-feather="moon"></span>
-                </a>
-            </div>
-
-            <div class="nav-link" id="hamburger-menu-toggle">
-                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
-                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
-                    <span data-feather="menu"></span>
-                </a>
-            </div>
-
-            
-            <ul class="nav-hamburger-list visibility-hidden">
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/" ><span data-feather='home'></span> Home </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/posts/" ><span data-feather='book'></span> Posts </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/tags/" ><span data-feather='tag'></span> Tags </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://www.buymeacoffee.com/berlime5" ><span data-feather='coffee'></span>  </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://github.com/Berlime/hugo" ><span data-feather='github'></span>  </a>
-                </li>
-                
-                <li class="nav-item dark-theme-toggle">
-                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                    <a role="switch">
-                        <span class="theme-toggle-icon" data-feather="moon"></span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
+<script>setThemeByUserPref()</script><header class=header>
+<nav class=header-nav>
+<div class=avatar>
+<a href=//localhost:1313/>
+<img src=/images/avatar/kamil.avif alt=avatar>
+</a>
+</div>
+<div class=nav-title>
+<a class=nav-brand href=//localhost:1313/>Kamil Sharip</a>
+</div>
+<div class=nav-links>
+<div class=nav-link>
+<a href=//localhost:1313/ aria-label=home><span data-feather=home></span> Home </a>
+</div>
+<div class=nav-link>
+<a href=//localhost:1313/posts/ aria-label=posts><span data-feather=book></span> Posts </a>
+</div>
+<div class=nav-link>
+<a href=//localhost:1313/tags/ aria-label=tags><span data-feather=tag></span> Tags </a>
+</div>
+<div class=nav-link>
+<a href=https://www.buymeacoffee.com/berlime5 aria-label=coffee><span data-feather=coffee></span> </a>
+</div>
+<div class=nav-link>
+<a href=https://github.com/Berlime/hugo aria-label=github><span data-feather=github></span> </a>
+</div>
+<span class=nav-icons-divider></span>
+<div class="nav-link dark-theme-toggle">
+<span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a aria-hidden=true role=switch>
+<span class=theme-toggle-icon data-feather=moon></span>
+</a>
+</div>
+<div class=nav-link id=hamburger-menu-toggle>
+<span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+<a aria-checked=false aria-labelledby=hamburger-menu-toggle id=hamburger-menu-toggle-target role=switch>
+<span data-feather=menu></span>
+</a>
+</div>
+<ul class="nav-hamburger-list visibility-hidden">
+<li class=nav-item>
+<a href=//localhost:1313/><span data-feather=home></span> Home </a>
+</li>
+<li class=nav-item>
+<a href=//localhost:1313/posts/><span data-feather=book></span> Posts </a>
+</li>
+<li class=nav-item>
+<a href=//localhost:1313/tags/><span data-feather=tag></span> Tags </a>
+</li>
+<li class=nav-item>
+<a href=https://www.buymeacoffee.com/berlime5><span data-feather=coffee></span> </a>
+</li>
+<li class=nav-item>
+<a href=https://github.com/Berlime/hugo><span data-feather=github></span> </a>
+</li>
+<li class="nav-item dark-theme-toggle">
+<span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a role=switch>
+<span class=theme-toggle-icon data-feather=moon></span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
 </header>
-<main id="content">
-    <div class="post container">
-    <div class="post-header-section">
-        <h1>Rename Git Branch</h1>
-
-        
-        
-        
-
-        
-
-        
-	
-	
-	
-	
-        
-
-	
-
-	
-
-	
-          <small role="doc-subtitle"></small>
-	
-
-	
-          <p class="post-date">
-              
-
-              12 September, 2025
-
-              
-          </p>
-	
-
-        <ul class="post-tags">
-          
-           
-             <li class="post-tag"><a href="//localhost:1313/tags/github">github</a></li>
-           
-         
-           
-             <li class="post-tag"><a href="//localhost:1313/tags/dev">dev</a></li>
-           
-         
-        </ul>
-    </div>
-
-    <div class="post-content">
-        <p>To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the remote==. </p>
+<main id=content>
+<div class="post container">
+<div class=post-header-section>
+<h1>Rename Git Branch</h1>
+<small role=doc-subtitle></small>
+<p class=post-date>
+12 September, 2025
+</p>
+<ul class=post-tags>
+<li class=post-tag><a href=//localhost:1313/tags/github>github</a></li>
+<li class=post-tag><a href=//localhost:1313/tags/dev>dev</a></li>
+</ul>
+</div>
+<div class=post-content>
+<p>To rename a Git branch, you must ==update the name locally first, then push the changes to your remote repository, and finally, delete the old branch from the remote==. </p>
 <p>Rename a local-only branch</p>
 <p>If your branch has not been pushed to the remote repository yet, the process is straightforward. </p>
 <ol>
 <li>
 <p>Switch to the branch you want to rename using <code>git checkout</code>.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git checkout &lt;old-name&gt;
+<pre tabindex=0><code>git checkout &lt;old-name&gt;
 </code></pre><p>Use code with caution.</p>
 </li>
 <li>
 <p>Rename the local branch using the <code>git branch -m</code> command.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git branch -m &lt;new-name&gt;
+<pre tabindex=0><code>git branch -m &lt;new-name&gt;
 </code></pre><p>Use code with caution.</p>
-<p><em>Note: If you are not on the branch you want to rename, you can pass both the old and new names to the command: <code>git branch -m &lt;old-name&gt; &lt;new-name&gt;</code>.</em> </p>
+<p><em>Note: If you are not on the branch you want to rename, you can pass both the old and new names to the command: <code>git branch -m &lt;old-name> &lt;new-name></code>.</em> </p>
 </li>
 </ol>
 <p>Rename a branch that has been pushed</p>
@@ -232,7 +129,7 @@
 <li>
 <p>Rename your local branch using the steps above.</p>
 <p>sh</p>
-<pre tabindex="0"><code># Switch to the branch you want to rename
+<pre tabindex=0><code># Switch to the branch you want to rename
 git checkout &lt;old-name&gt;
 
 # Rename the local branch
@@ -242,13 +139,13 @@ git branch -m &lt;new-name&gt;
 <li>
 <p>Push the new branch to the remote repository and set it to track the new remote branch.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git push -u origin &lt;new-name&gt;
+<pre tabindex=0><code>git push -u origin &lt;new-name&gt;
 </code></pre><p>Use code with caution.</p>
 </li>
 <li>
 <p>Delete the old branch from the remote repository.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git push origin --delete &lt;old-name&gt;
+<pre tabindex=0><code>git push origin --delete &lt;old-name&gt;
 </code></pre><p>Use code with caution.</p>
 <p> </p>
 </li>
@@ -259,137 +156,68 @@ git branch -m &lt;new-name&gt;
 <li>
 <p>Go to their local repository and fetch all changes from the remote.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git fetch origin
+<pre tabindex=0><code>git fetch origin
 </code></pre><p>Use code with caution.</p>
 </li>
 <li>
 <p>Switch to the <code>main</code> branch.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git checkout main
+<pre tabindex=0><code>git checkout main
 </code></pre><p>Use code with caution.</p>
 </li>
 <li>
 <p>Delete their local reference to the old branch.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git branch -d &lt;old-name&gt;
+<pre tabindex=0><code>git branch -d &lt;old-name&gt;
 </code></pre><p>Use code with caution.</p>
 </li>
 <li>
 <p>Set up the new remote branch to track a new local branch.</p>
 <p>sh</p>
-<pre tabindex="0"><code>git checkout --track origin/&lt;new-name&gt;
+<pre tabindex=0><code>git checkout --track origin/&lt;new-name&gt;
 </code></pre><p>Use code with caution.</p>
 </li>
 </ol>
-
-        
-    </div>
-
-    <div class="prev-next">
-        
-            
-                
-<div class="prev-post">
-    <p>
-        <a href="/posts/clone-a-repo/">
-            &#8592;
-            Previous:
-            Clone a Repo
-        </a>
-    </p>
-    <p class="prev-post-date">
-        12 September, 2025
-    </p>
 </div>
-
-
-
-<div class="next-post">
-    <p>
-        <a href="/posts/create-reveal-effect-using-aos-in-wordpress/">
-            Next:
-            Create Reveal Effect Using AOS in WordPress
-            &#8594;
-        </a>
-    </p>
-        <p class="next-post-date">
-            28 October, 2025
-        </p>
+<div class=prev-next>
+<div class=prev-post>
+<p>
+<a href=/posts/clone-a-repo/>
+&#8592;
+Previous:
+Clone a Repo
+</a>
+</p>
+<p class=prev-post-date>
+12 September, 2025
+</p>
 </div>
-
-
-            
-        
-    </div>
-
-    
-    
-        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
-    
-    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
-</svg>
-<script>
-    let backToTopButton = document.getElementById("btt-button");
-
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    }
-
-    function scrollToTop() {
-        window.scrollTo(0, 0);
-    }
-</script>
-
-    
-    
+<div class=next-post>
+<p>
+<a href=/posts/create-reveal-effect-using-aos-in-wordpress/>
+Next:
+Create Reveal Effect Using AOS in WordPress
+&#8594;
+</a>
+</p>
+<p class=next-post-date>
+28 October, 2025
+</p>
 </div>
-
-<aside class="post-toc">
-    <nav id="toc">
-        <nav id="TableOfContents"></nav>
-    </nav>
+</div>
+<svg id="btt-button" class="arrow-logo" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6.0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9.0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9.0L7 329.7c-9.4-9.4-9.4-24.6.0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg>
+<script>let backToTopButton=document.getElementById("btt-button");window.onscroll=function(){scrollFunction()};function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?backToTopButton.style.display="block":backToTopButton.style.display="none"}function scrollToTop(){window.scrollTo(0,0)}</script>
+</div>
+<aside class=post-toc>
+<nav id=toc>
+<nav id=TableOfContents></nav>
+</nav>
 </aside>
-
-
-
-    
-
-        </main><footer class="footer">
-    
-    
-
-    
-
-    
-
-        
-            
-        
-
-        
-
-        
-        
-
-        
-
-    
-
-    
-        <span>&copy; 2025 The Marauders</span>
-    
-
-    <span>
-        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
-    </span>
+</main><footer class=footer>
+<span>&copy; 2025 The Marauders</span>
+<span>
+Made with &#10084;&#65039; using <a target=_blank href=https://github.com/gokarna-theme/gokarna-hugo>Gokarna</a>
+</span>
 </footer>
 </body>
 </html>

@@ -1,260 +1,160 @@
-<!DOCTYPE html>
-<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-        :root {
-            --accent-color: #FF4D4D;
-            --font-size: 17.5px;
-        }
-    </style>
-
-    
-    
-    
-    
-    
-        
-    
-    
-    
-    
-
-    
-    <title>Create Reveal Effect Using AOS in WordPress</title>
-    <meta name="description" content="Step 1: Install and Setup AOS Library Method 1: Using CDN (Recommended) Add the following code to your theme&rsquo;s functions.php file or use a code snippet …">
-    <meta name="keywords" content='blog, gokarna, hugo, dev, bricks builder, wordpress, WordPress'>
-
-    <meta property="og:url" content="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Create Reveal Effect Using AOS in WordPress">
-    <meta property="og:description" content="Step 1: Install and Setup AOS Library Method 1: Using CDN (Recommended) Add the following code to your theme&rsquo;s functions.php file or use a code snippet …">
-    <meta property="og:image" content="//localhost:1313/images/avatar/kamil.avif">
-    <meta property="og:image:secure_url" content="//localhost:1313/images/avatar/kamil.avif">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Create Reveal Effect Using AOS in WordPress">
-    <meta name="twitter:description" content="Step 1: Install and Setup AOS Library Method 1: Using CDN (Recommended) Add the following code to your theme&rsquo;s functions.php file or use a code snippet …">
-    <meta property="twitter:domain" content="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
-    <meta property="twitter:url" content="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
-    <meta name="twitter:image" content="//localhost:1313/images/avatar/kamil.avif">
-
-    
-    <link rel="canonical" href="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
-
-    
-    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
-
-    
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
-
-    
-    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
-
-    
-    
-      
-      <link rel="stylesheet" href="/css/custom.min.css">
-    
-
-    
-    <script src="/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js" integrity="sha256-/b&#43;6HgdKy35Ku/TJTrGau3cCSJyWiaJ&#43;5eJKK9SB5Lc="></script>
-
-    
-    
-        <script defer src= "https://umami.berl.ink/script.js" data-website-id="7705d7cf-9b4c-4fc7-a1f5-f38e507ce196"></script>
-    
-    
+<!doctype html><html lang=en><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<style>:root{--accent-color:#FF4D4D;--font-size:17.5px}</style>
+<title>Create Reveal Effect Using AOS in WordPress</title>
+<meta name=description content="Step 1: Install and Setup AOS Library Method 1: Using CDN (Recommended) Add the following code to your theme&rsquo;s functions.php file or use a code snippet …">
+<meta name=keywords content='blog,gokarna,hugo,dev,bricks builder,wordpress,WordPress'>
+<meta property="og:url" content="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Create Reveal Effect Using AOS in WordPress">
+<meta property="og:description" content="Step 1: Install and Setup AOS Library Method 1: Using CDN (Recommended) Add the following code to your theme&rsquo;s functions.php file or use a code snippet …">
+<meta property="og:image" content="//localhost:1313/images/avatar/kamil.avif">
+<meta property="og:image:secure_url" content="//localhost:1313/images/avatar/kamil.avif">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:title content="Create Reveal Effect Using AOS in WordPress">
+<meta name=twitter:description content="Step 1: Install and Setup AOS Library Method 1: Using CDN (Recommended) Add the following code to your theme&rsquo;s functions.php file or use a code snippet …">
+<meta property="twitter:domain" content="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
+<meta property="twitter:url" content="//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/">
+<meta name=twitter:image content="//localhost:1313/images/avatar/kamil.avif">
+<link rel=canonical href=//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/>
+<link rel=stylesheet type=text/css href=/css/normalize.min.css media=print>
+<link rel=stylesheet type=text/css href=/css/main.min.css>
+<link id=dark-theme rel=stylesheet href=/css/dark.min.css>
+<link rel=stylesheet href=/css/custom.min.css>
+<script src=/js/bundle.min.fdbfba1e074acb7e4abbf4c94eb19abb7702489c9689a27ee5e24a2bd481e4b7.js integrity="sha256-/b+6HgdKy35Ku/TJTrGau3cCSJyWiaJ+5eJKK9SB5Lc="></script>
+<script defer src=https://umami.berl.ink/script.js data-website-id=7705d7cf-9b4c-4fc7-a1f5-f38e507ce196></script>
 </head>
 <body>
-        <script>
-            
-            setThemeByUserPref();
-        </script><header class="header">
-    <nav class="header-nav">
-
-        
-        <div class="avatar">
-            <a href="//localhost:1313/">
-                <img src='/images/avatar/kamil.avif' alt="avatar">
-            </a>
-        </div>
-        
-
-        <div class="nav-title">
-            <a class="nav-brand" href="//localhost:1313/">Kamil Sharip</a>
-        </div>
-
-        <div class="nav-links">
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/" aria-label="home" ><span data-feather='home'></span> Home </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/posts/" aria-label="posts" ><span data-feather='book'></span> Posts </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="//localhost:1313/tags/" aria-label="tags" ><span data-feather='tag'></span> Tags </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://www.buymeacoffee.com/berlime5" aria-label="coffee" ><span data-feather='coffee'></span>  </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://github.com/Berlime/hugo" aria-label="github" ><span data-feather='github'></span>  </a>
-            </div>
-            
-
-            <span class="nav-icons-divider"></span>
-            <div class="nav-link dark-theme-toggle">
-                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                <a aria-hidden="true" role="switch">
-                    <span class="theme-toggle-icon" data-feather="moon"></span>
-                </a>
-            </div>
-
-            <div class="nav-link" id="hamburger-menu-toggle">
-                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
-                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
-                    <span data-feather="menu"></span>
-                </a>
-            </div>
-
-            
-            <ul class="nav-hamburger-list visibility-hidden">
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/" ><span data-feather='home'></span> Home </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/posts/" ><span data-feather='book'></span> Posts </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="//localhost:1313/tags/" ><span data-feather='tag'></span> Tags </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://www.buymeacoffee.com/berlime5" ><span data-feather='coffee'></span>  </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://github.com/Berlime/hugo" ><span data-feather='github'></span>  </a>
-                </li>
-                
-                <li class="nav-item dark-theme-toggle">
-                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
-                    <a role="switch">
-                        <span class="theme-toggle-icon" data-feather="moon"></span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </nav>
+<script>setThemeByUserPref()</script><header class=header>
+<nav class=header-nav>
+<div class=avatar>
+<a href=//localhost:1313/>
+<img src=/images/avatar/kamil.avif alt=avatar>
+</a>
+</div>
+<div class=nav-title>
+<a class=nav-brand href=//localhost:1313/>Kamil Sharip</a>
+</div>
+<div class=nav-links>
+<div class=nav-link>
+<a href=//localhost:1313/ aria-label=home><span data-feather=home></span> Home </a>
+</div>
+<div class=nav-link>
+<a href=//localhost:1313/posts/ aria-label=posts><span data-feather=book></span> Posts </a>
+</div>
+<div class=nav-link>
+<a href=//localhost:1313/tags/ aria-label=tags><span data-feather=tag></span> Tags </a>
+</div>
+<div class=nav-link>
+<a href=https://www.buymeacoffee.com/berlime5 aria-label=coffee><span data-feather=coffee></span> </a>
+</div>
+<div class=nav-link>
+<a href=https://github.com/Berlime/hugo aria-label=github><span data-feather=github></span> </a>
+</div>
+<span class=nav-icons-divider></span>
+<div class="nav-link dark-theme-toggle">
+<span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a aria-hidden=true role=switch>
+<span class=theme-toggle-icon data-feather=moon></span>
+</a>
+</div>
+<div class=nav-link id=hamburger-menu-toggle>
+<span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+<a aria-checked=false aria-labelledby=hamburger-menu-toggle id=hamburger-menu-toggle-target role=switch>
+<span data-feather=menu></span>
+</a>
+</div>
+<ul class="nav-hamburger-list visibility-hidden">
+<li class=nav-item>
+<a href=//localhost:1313/><span data-feather=home></span> Home </a>
+</li>
+<li class=nav-item>
+<a href=//localhost:1313/posts/><span data-feather=book></span> Posts </a>
+</li>
+<li class=nav-item>
+<a href=//localhost:1313/tags/><span data-feather=tag></span> Tags </a>
+</li>
+<li class=nav-item>
+<a href=https://www.buymeacoffee.com/berlime5><span data-feather=coffee></span> </a>
+</li>
+<li class=nav-item>
+<a href=https://github.com/Berlime/hugo><span data-feather=github></span> </a>
+</li>
+<li class="nav-item dark-theme-toggle">
+<span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a role=switch>
+<span class=theme-toggle-icon data-feather=moon></span>
+</a>
+</li>
+</ul>
+</div>
+</nav>
 </header>
-<main id="content">
-    <div class="post container">
-    <div class="post-header-section">
-        <h1>Create Reveal Effect Using AOS in WordPress</h1>
-
-        
-        
-        
-
-        
-
-        
-	
-	
-	
-	
-        
-
-	
-
-	
-
-	
-          <small role="doc-subtitle"></small>
-	
-
-	
-          <p class="post-date">
-              
-
-              28 October, 2025
-
-              
-          </p>
-	
-
-        <ul class="post-tags">
-          
-           
-             <li class="post-tag"><a href="//localhost:1313/tags/wordpress">WordPress</a></li>
-           
-         
-        </ul>
-    </div>
-
-    <div class="post-content">
-        <h2 id="step-1-install-and-setup-aos-library">Step 1: Install and Setup AOS Library</h2>
-<h3 id="method-1-using-cdn-recommended">Method 1: Using CDN (Recommended)</h3>
+<main id=content>
+<div class="post container">
+<div class=post-header-section>
+<h1>Create Reveal Effect Using AOS in WordPress</h1>
+<small role=doc-subtitle></small>
+<p class=post-date>
+28 October, 2025
+</p>
+<ul class=post-tags>
+<li class=post-tag><a href=//localhost:1313/tags/wordpress>WordPress</a></li>
+</ul>
+</div>
+<div class=post-content>
+<h2 id=step-1-install-and-setup-aos-library>Step 1: Install and Setup AOS Library</h2>
+<h3 id=method-1-using-cdn-recommended>Method 1: Using CDN (Recommended)</h3>
 <p>Add the following code to your theme&rsquo;s <code>functions.php</code> file or use a code snippet plugin:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">add_aos_library</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// AOS CSS
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">wp_enqueue_style</span>(<span style="color:#e6db74">&#39;aos-css&#39;</span>, <span style="color:#e6db74">&#39;https://unpkg.com/aos@2.3.1/dist/aos.css&#39;</span>);
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// AOS JS
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">wp_enqueue_script</span>(<span style="color:#e6db74">&#39;aos-js&#39;</span>, <span style="color:#e6db74">&#39;https://unpkg.com/aos@2.3.1/dist/aos.js&#39;</span>, <span style="color:#66d9ef">array</span>(), <span style="color:#e6db74">&#39;2.3.1&#39;</span>, <span style="color:#66d9ef">true</span>);
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Initialize AOS
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#a6e22e">wp_add_inline_script</span>(<span style="color:#e6db74">&#39;aos-js&#39;</span>, <span style="color:#e6db74">&#39;AOS.init({
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        duration: 1000,
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        once: true,
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        offset: 100
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    });&#39;</span>);
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">add_action</span>(<span style="color:#e6db74">&#39;wp_enqueue_scripts&#39;</span>, <span style="color:#e6db74">&#39;add_aos_library&#39;</span>);
-</span></span></code></pre></div><h3 id="method-2-using-bricks-builder-headerfooter-scripts">Method 2: Using Bricks Builder Header/Footer Scripts</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-php data-lang=php><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>add_aos_library</span>() {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// AOS CSS
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#a6e22e>wp_enqueue_style</span>(<span style=color:#e6db74>&#39;aos-css&#39;</span>, <span style=color:#e6db74>&#39;https://unpkg.com/aos@2.3.1/dist/aos.css&#39;</span>);
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// AOS JS
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#a6e22e>wp_enqueue_script</span>(<span style=color:#e6db74>&#39;aos-js&#39;</span>, <span style=color:#e6db74>&#39;https://unpkg.com/aos@2.3.1/dist/aos.js&#39;</span>, <span style=color:#66d9ef>array</span>(), <span style=color:#e6db74>&#39;2.3.1&#39;</span>, <span style=color:#66d9ef>true</span>);
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Initialize AOS
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#a6e22e>wp_add_inline_script</span>(<span style=color:#e6db74>&#39;aos-js&#39;</span>, <span style=color:#e6db74>&#39;AOS.init({
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>        duration: 1000,
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>        once: true,
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>        offset: 100
+</span></span></span><span style=display:flex><span><span style=color:#e6db74>    });&#39;</span>);
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span><span style=color:#a6e22e>add_action</span>(<span style=color:#e6db74>&#39;wp_enqueue_scripts&#39;</span>, <span style=color:#e6db74>&#39;add_aos_library&#39;</span>);
+</span></span></code></pre></div><h3 id=method-2-using-bricks-builder-headerfooter-scripts>Method 2: Using Bricks Builder Header/Footer Scripts</h3>
 <ol>
-<li>Go to <strong>Bricks &gt; Settings &gt; Custom Code</strong></li>
+<li>Go to <strong>Bricks > Settings > Custom Code</strong></li>
 <li>Add to <strong>Header Scripts</strong>:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://unpkg.com/aos@2.3.1/dist/aos.css&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span>&gt;
-</span></span></code></pre></div><ol start="3">
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>link</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;https://unpkg.com/aos@2.3.1/dist/aos.css&#34;</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;stylesheet&#34;</span>&gt;
+</span></span></code></pre></div><ol start=3>
 <li>Add to <strong>Footer Scripts</strong>:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://unpkg.com/aos@2.3.1/dist/aos.js&#34;</span>&gt;&lt;/<span style="color:#f92672">script</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span>&gt;
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">AOS</span>.<span style="color:#a6e22e">init</span>({
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">once</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">offset</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">100</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ease-in-out&#39;</span>
-</span></span><span style="display:flex;"><span>  });
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
-</span></span></code></pre></div><h2 id="step-2-configure-aos-settings">Step 2: Configure AOS Settings</h2>
-<h3 id="basic-aos-configuration-options">Basic AOS Configuration Options:</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">AOS</span>.<span style="color:#a6e22e">init</span>({
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>,        <span style="color:#75715e">// Animation duration (ms)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">delay</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0</span>,             <span style="color:#75715e">// Delay before animation starts (ms)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">once</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,           <span style="color:#75715e">// Animation happens only once
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">mirror</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,        <span style="color:#75715e">// Elements animate out while scrolling past them
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">offset</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">100</span>,          <span style="color:#75715e">// Offset (in px) from original trigger point
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">easing</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;ease-in-out&#39;</span> <span style="color:#75715e">// Easing function
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>});
-</span></span></code></pre></div><h2 id="step-3-apply-aos-attributes-in-bricks-builder">Step 3: Apply AOS Attributes in Bricks Builder</h2>
-<h3 id="using-custom-attributes">Using Custom Attributes</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>script</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;https://unpkg.com/aos@2.3.1/dist/aos.js&#34;</span>&gt;&lt;/<span style=color:#f92672>script</span>&gt;
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>script</span>&gt;
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>AOS</span>.<span style=color:#a6e22e>init</span>({
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>duration</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1000</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>once</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>offset</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>100</span>,
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>easing</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;ease-in-out&#39;</span>
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>script</span>&gt;
+</span></span></code></pre></div><h2 id=step-2-configure-aos-settings>Step 2: Configure AOS Settings</h2>
+<h3 id=basic-aos-configuration-options>Basic AOS Configuration Options:</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>AOS</span>.<span style=color:#a6e22e>init</span>({
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>duration</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1000</span>,        <span style=color:#75715e>// Animation duration (ms)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#a6e22e>delay</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>0</span>,             <span style=color:#75715e>// Delay before animation starts (ms)
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#a6e22e>once</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>,           <span style=color:#75715e>// Animation happens only once
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#a6e22e>mirror</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>false</span>,        <span style=color:#75715e>// Elements animate out while scrolling past them
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#a6e22e>offset</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>100</span>,          <span style=color:#75715e>// Offset (in px) from original trigger point
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#a6e22e>easing</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;ease-in-out&#39;</span> <span style=color:#75715e>// Easing function
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>});
+</span></span></code></pre></div><h2 id=step-3-apply-aos-attributes-in-bricks-builder>Step 3: Apply AOS Attributes in Bricks Builder</h2>
+<h3 id=using-custom-attributes>Using Custom Attributes</h3>
 <ol>
 <li>Select any element in Bricks Builder</li>
-<li>Go to <strong>Advanced &gt; Attributes</strong></li>
+<li>Go to <strong>Advanced > Attributes</strong></li>
 <li>Add custom attributes:
 <ul>
 <li><strong>Name</strong>: <code>data-aos</code></li>
@@ -262,15 +162,15 @@
 </ul>
 </li>
 </ol>
-<h3 id="optional-additional-attributes">Optional Additional Attributes:</h3>
+<h3 id=optional-additional-attributes>Optional Additional Attributes:</h3>
 <ul>
 <li><strong>data-aos-duration</strong>: <code>500</code> (custom duration)</li>
 <li><strong>data-aos-delay</strong>: <code>200</code> (custom delay)</li>
 <li><strong>data-aos-offset</strong>: <code>120</code> (custom offset)</li>
 <li><strong>data-aos-easing</strong>: <code>ease-in-sine</code> (custom easing)</li>
 </ul>
-<h2 id="step-4-available-aos-animations">Step 4: Available AOS Animations</h2>
-<h3 id="fade-animations">Fade Animations</h3>
+<h2 id=step-4-available-aos-animations>Step 4: Available AOS Animations</h2>
+<h3 id=fade-animations>Fade Animations</h3>
 <ul>
 <li><code>fade-up</code></li>
 <li><code>fade-down</code></li>
@@ -281,21 +181,21 @@
 <li><code>fade-down-left</code></li>
 <li><code>fade-down-right</code></li>
 </ul>
-<h3 id="flip-animations">Flip Animations</h3>
+<h3 id=flip-animations>Flip Animations</h3>
 <ul>
 <li><code>flip-up</code></li>
 <li><code>flip-down</code></li>
 <li><code>flip-left</code></li>
 <li><code>flip-right</code></li>
 </ul>
-<h3 id="slide-animations">Slide Animations</h3>
+<h3 id=slide-animations>Slide Animations</h3>
 <ul>
 <li><code>slide-up</code></li>
 <li><code>slide-down</code></li>
 <li><code>slide-left</code></li>
 <li><code>slide-right</code></li>
 </ul>
-<h3 id="zoom-animations">Zoom Animations</h3>
+<h3 id=zoom-animations>Zoom Animations</h3>
 <ul>
 <li><code>zoom-in</code></li>
 <li><code>zoom-in-up</code></li>
@@ -308,35 +208,35 @@
 <li><code>zoom-out-left</code></li>
 <li><code>zoom-out-right</code></li>
 </ul>
-<h2 id="step-5-practical-examples">Step 5: Practical Examples</h2>
-<h3 id="example-1-hero-section-with-staggered-animations">Example 1: Hero Section with Staggered Animations</h3>
-<pre tabindex="0"><code>Headline: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;0&#34;
+<h2 id=step-5-practical-examples>Step 5: Practical Examples</h2>
+<h3 id=example-1-hero-section-with-staggered-animations>Example 1: Hero Section with Staggered Animations</h3>
+<pre tabindex=0><code>Headline: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;0&#34;
 Subtitle: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;200&#34;
 Button: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;400&#34;
-</code></pre><h3 id="example-2-card-grid-with-sequential-reveals">Example 2: Card Grid with Sequential Reveals</h3>
-<pre tabindex="0"><code>Card 1: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;0&#34;
+</code></pre><h3 id=example-2-card-grid-with-sequential-reveals>Example 2: Card Grid with Sequential Reveals</h3>
+<pre tabindex=0><code>Card 1: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;0&#34;
 Card 2: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;100&#34;
 Card 3: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;200&#34;
 Card 4: data-aos=&#34;fade-up&#34; data-aos-delay=&#34;300&#34;
-</code></pre><h3 id="example-3-image-gallery-with-zoom-effects">Example 3: Image Gallery with Zoom Effects</h3>
-<pre tabindex="0"><code>Image 1: data-aos=&#34;zoom-in&#34; data-aos-duration=&#34;800&#34;
+</code></pre><h3 id=example-3-image-gallery-with-zoom-effects>Example 3: Image Gallery with Zoom Effects</h3>
+<pre tabindex=0><code>Image 1: data-aos=&#34;zoom-in&#34; data-aos-duration=&#34;800&#34;
 Image 2: data-aos=&#34;zoom-in&#34; data-aos-duration=&#34;800&#34; data-aos-delay=&#34;100&#34;
 Image 3: data-aos=&#34;zoom-in&#34; data-aos-duration=&#34;800&#34; data-aos-delay=&#34;200&#34;
-</code></pre><h2 id="step-6-best-practices">Step 6: Best Practices</h2>
-<h3 id="performance-optimization">Performance Optimization</h3>
+</code></pre><h2 id=step-6-best-practices>Step 6: Best Practices</h2>
+<h3 id=performance-optimization>Performance Optimization</h3>
 <ul>
 <li>Use <code>once: true</code> to prevent repeated animations</li>
 <li>Limit the number of animated elements per page</li>
 <li>Use appropriate offsets to trigger animations at the right time</li>
 </ul>
-<h3 id="design-tips">Design Tips</h3>
+<h3 id=design-tips>Design Tips</h3>
 <ul>
 <li>Keep animations subtle and purposeful</li>
 <li>Use consistent easing and duration across similar elements</li>
 <li>Consider your audience and device performance</li>
 <li>Test on mobile devices for smooth performance</li>
 </ul>
-<h3 id="common-element-combinations">Common Element Combinations</h3>
+<h3 id=common-element-combinations>Common Element Combinations</h3>
 <ul>
 <li><strong>Headlines</strong>: <code>fade-up</code> with 0ms delay</li>
 <li><strong>Paragraphs</strong>: <code>fade-up</code> with 200ms delay</li>
@@ -344,214 +244,145 @@ Image 3: data-aos=&#34;zoom-in&#34; data-aos-duration=&#34;800&#34; data-aos-del
 <li><strong>Cards/Boxes</strong>: <code>fade-up</code> with staggered delays</li>
 <li><strong>Buttons</strong>: <code>fade-up</code> with slight delay after text</li>
 </ul>
-<h2 id="step-7-advanced-customization">Step 7: Advanced Customization</h2>
-<h3 id="custom-css-for-enhanced-effects">Custom CSS for Enhanced Effects</h3>
+<h2 id=step-7-advanced-customization>Step 7: Advanced Customization</h2>
+<h3 id=custom-css-for-enhanced-effects>Custom CSS for Enhanced Effects</h3>
 <p>Add this to your theme&rsquo;s style.css or Bricks custom CSS:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* Custom AOS modifications */</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span><span style="color:#f92672">data-aos</span><span style="color:#f92672">]</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">transition-property</span>: <span style="color:#66d9ef">transform</span>, <span style="color:#66d9ef">opacity</span>;
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">/* Custom reveal effect */</span>
-</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">custom-reveal</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">overflow</span>: <span style="color:#66d9ef">hidden</span>;
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">custom-reveal</span> <span style="color:#f92672">[</span><span style="color:#f92672">data-aos</span><span style="color:#f92672">]</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">transform</span>: translateY(<span style="color:#ae81ff">50</span><span style="color:#66d9ef">px</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">custom-reveal</span> <span style="color:#f92672">[</span><span style="color:#f92672">data-aos</span><span style="color:#f92672">]</span>.<span style="color:#a6e22e">aos-animate</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">transform</span>: translateY(<span style="color:#ae81ff">0</span>);
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">opacity</span>: <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h3 id="refresh-aos-after-dynamic-content">Refresh AOS After Dynamic Content</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-css data-lang=css><span style=display:flex><span><span style=color:#75715e>/* Custom AOS modifications */</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>[</span><span style=color:#f92672>data-aos</span><span style=color:#f92672>]</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>transition-property</span>: <span style=color:#66d9ef>transform</span>, <span style=color:#66d9ef>opacity</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Custom reveal effect */</span>
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>custom-reveal</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>overflow</span>: <span style=color:#66d9ef>hidden</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>custom-reveal</span> <span style=color:#f92672>[</span><span style=color:#f92672>data-aos</span><span style=color:#f92672>]</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>transform</span>: translateY(<span style=color:#ae81ff>50</span><span style=color:#66d9ef>px</span>);
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>opacity</span>: <span style=color:#ae81ff>0</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>custom-reveal</span> <span style=color:#f92672>[</span><span style=color:#f92672>data-aos</span><span style=color:#f92672>]</span>.<span style=color:#a6e22e>aos-animate</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>transform</span>: translateY(<span style=color:#ae81ff>0</span>);
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>opacity</span>: <span style=color:#ae81ff>1</span>;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h3 id=refresh-aos-after-dynamic-content>Refresh AOS After Dynamic Content</h3>
 <p>If you&rsquo;re loading content dynamically, refresh AOS:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">AOS</span>.<span style="color:#a6e22e">refresh</span>();
-</span></span></code></pre></div><h2 id="step-8-troubleshooting">Step 8: Troubleshooting</h2>
-<h3 id="common-issues">Common Issues:</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>AOS</span>.<span style=color:#a6e22e>refresh</span>();
+</span></span></code></pre></div><h2 id=step-8-troubleshooting>Step 8: Troubleshooting</h2>
+<h3 id=common-issues>Common Issues:</h3>
 <ol>
 <li><strong>Animations not working</strong>: Check if AOS library is loaded properly</li>
 <li><strong>Animations too fast/slow</strong>: Adjust duration values</li>
 <li><strong>Animations triggering too early/late</strong>: Modify offset values</li>
 <li><strong>Mobile performance issues</strong>: Reduce number of animations or disable on mobile</li>
 </ol>
-<h3 id="debug-mode">Debug Mode:</h3>
+<h3 id=debug-mode>Debug Mode:</h3>
 <p>Add this to temporarily see AOS triggers:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">AOS</span>.<span style="color:#a6e22e">init</span>({
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">duration</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1000</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">once</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">offset</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">100</span>,
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">disable</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>, <span style="color:#75715e">// Set to &#39;mobile&#39; to disable on mobile
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  <span style="color:#a6e22e">startEvent</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;DOMContentLoaded&#39;</span>
-</span></span><span style="display:flex;"><span>});
-</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>AOS</span>.<span style=color:#a6e22e>init</span>({
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>duration</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>1000</span>,
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>once</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>true</span>,
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>offset</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>100</span>,
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>disable</span><span style=color:#f92672>:</span> <span style=color:#66d9ef>false</span>, <span style=color:#75715e>// Set to &#39;mobile&#39; to disable on mobile
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>  <span style=color:#a6e22e>startEvent</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;DOMContentLoaded&#39;</span>
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=conclusion>Conclusion</h2>
 <p>AOS provides an easy way to add professional reveal effects to your Bricks Builder site. Start with simple fade-up animations and gradually experiment with more complex combinations. Always test on different devices and screen sizes to ensure optimal user experience.</p>
-
-        
-    </div>
-
-    <div class="prev-next">
-        
-            
-                
-<div class="prev-post">
-    <p>
-        <a href="/posts/rename-git-branch/">
-            &#8592;
-            Previous:
-            Rename Git Branch
-        </a>
-    </p>
-    <p class="prev-post-date">
-        12 September, 2025
-    </p>
 </div>
-
-
-
-<div class="next-post">
-    <p>
-        <a href="/posts/troubleshooting-wordpress-plug-ins/">
-            Next:
-            Troubleshooting WordPress Plug Ins
-            &#8594;
-        </a>
-    </p>
-        <p class="next-post-date">
-            28 October, 2025
-        </p>
+<div class=prev-next>
+<div class=prev-post>
+<p>
+<a href=/posts/rename-git-branch/>
+&#8592;
+Previous:
+Rename Git Branch
+</a>
+</p>
+<p class=prev-post-date>
+12 September, 2025
+</p>
 </div>
-
-
-            
-        
-    </div>
-
-    
-    
-        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
-    
-    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
-</svg>
-<script>
-    let backToTopButton = document.getElementById("btt-button");
-
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    }
-
-    function scrollToTop() {
-        window.scrollTo(0, 0);
-    }
-</script>
-
-    
-    
+<div class=next-post>
+<p>
+<a href=/posts/troubleshooting-wordpress-plug-ins/>
+Next:
+Troubleshooting WordPress Plug Ins
+&#8594;
+</a>
+</p>
+<p class=next-post-date>
+28 October, 2025
+</p>
 </div>
-
-<aside class="post-toc">
-    <nav id="toc">
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#step-1-install-and-setup-aos-library">Step 1: Install and Setup AOS Library</a>
-      <ul>
-        <li><a href="#method-1-using-cdn-recommended">Method 1: Using CDN (Recommended)</a></li>
-        <li><a href="#method-2-using-bricks-builder-headerfooter-scripts">Method 2: Using Bricks Builder Header/Footer Scripts</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-2-configure-aos-settings">Step 2: Configure AOS Settings</a>
-      <ul>
-        <li><a href="#basic-aos-configuration-options">Basic AOS Configuration Options:</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-3-apply-aos-attributes-in-bricks-builder">Step 3: Apply AOS Attributes in Bricks Builder</a>
-      <ul>
-        <li><a href="#using-custom-attributes">Using Custom Attributes</a></li>
-        <li><a href="#optional-additional-attributes">Optional Additional Attributes:</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-4-available-aos-animations">Step 4: Available AOS Animations</a>
-      <ul>
-        <li><a href="#fade-animations">Fade Animations</a></li>
-        <li><a href="#flip-animations">Flip Animations</a></li>
-        <li><a href="#slide-animations">Slide Animations</a></li>
-        <li><a href="#zoom-animations">Zoom Animations</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-5-practical-examples">Step 5: Practical Examples</a>
-      <ul>
-        <li><a href="#example-1-hero-section-with-staggered-animations">Example 1: Hero Section with Staggered Animations</a></li>
-        <li><a href="#example-2-card-grid-with-sequential-reveals">Example 2: Card Grid with Sequential Reveals</a></li>
-        <li><a href="#example-3-image-gallery-with-zoom-effects">Example 3: Image Gallery with Zoom Effects</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-6-best-practices">Step 6: Best Practices</a>
-      <ul>
-        <li><a href="#performance-optimization">Performance Optimization</a></li>
-        <li><a href="#design-tips">Design Tips</a></li>
-        <li><a href="#common-element-combinations">Common Element Combinations</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-7-advanced-customization">Step 7: Advanced Customization</a>
-      <ul>
-        <li><a href="#custom-css-for-enhanced-effects">Custom CSS for Enhanced Effects</a></li>
-        <li><a href="#refresh-aos-after-dynamic-content">Refresh AOS After Dynamic Content</a></li>
-      </ul>
-    </li>
-    <li><a href="#step-8-troubleshooting">Step 8: Troubleshooting</a>
-      <ul>
-        <li><a href="#common-issues">Common Issues:</a></li>
-        <li><a href="#debug-mode">Debug Mode:</a></li>
-      </ul>
-    </li>
-    <li><a href="#conclusion">Conclusion</a></li>
-  </ul>
+</div>
+<svg id="btt-button" class="arrow-logo" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top"><path d="M177 159.7l136 136c9.4 9.4 9.4 24.6.0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9.0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9.0L7 329.7c-9.4-9.4-9.4-24.6.0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/></svg>
+<script>let backToTopButton=document.getElementById("btt-button");window.onscroll=function(){scrollFunction()};function scrollFunction(){document.body.scrollTop>20||document.documentElement.scrollTop>20?backToTopButton.style.display="block":backToTopButton.style.display="none"}function scrollToTop(){window.scrollTo(0,0)}</script>
+</div>
+<aside class=post-toc>
+<nav id=toc>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#step-1-install-and-setup-aos-library>Step 1: Install and Setup AOS Library</a>
+<ul>
+<li><a href=#method-1-using-cdn-recommended>Method 1: Using CDN (Recommended)</a></li>
+<li><a href=#method-2-using-bricks-builder-headerfooter-scripts>Method 2: Using Bricks Builder Header/Footer Scripts</a></li>
+</ul>
+</li>
+<li><a href=#step-2-configure-aos-settings>Step 2: Configure AOS Settings</a>
+<ul>
+<li><a href=#basic-aos-configuration-options>Basic AOS Configuration Options:</a></li>
+</ul>
+</li>
+<li><a href=#step-3-apply-aos-attributes-in-bricks-builder>Step 3: Apply AOS Attributes in Bricks Builder</a>
+<ul>
+<li><a href=#using-custom-attributes>Using Custom Attributes</a></li>
+<li><a href=#optional-additional-attributes>Optional Additional Attributes:</a></li>
+</ul>
+</li>
+<li><a href=#step-4-available-aos-animations>Step 4: Available AOS Animations</a>
+<ul>
+<li><a href=#fade-animations>Fade Animations</a></li>
+<li><a href=#flip-animations>Flip Animations</a></li>
+<li><a href=#slide-animations>Slide Animations</a></li>
+<li><a href=#zoom-animations>Zoom Animations</a></li>
+</ul>
+</li>
+<li><a href=#step-5-practical-examples>Step 5: Practical Examples</a>
+<ul>
+<li><a href=#example-1-hero-section-with-staggered-animations>Example 1: Hero Section with Staggered Animations</a></li>
+<li><a href=#example-2-card-grid-with-sequential-reveals>Example 2: Card Grid with Sequential Reveals</a></li>
+<li><a href=#example-3-image-gallery-with-zoom-effects>Example 3: Image Gallery with Zoom Effects</a></li>
+</ul>
+</li>
+<li><a href=#step-6-best-practices>Step 6: Best Practices</a>
+<ul>
+<li><a href=#performance-optimization>Performance Optimization</a></li>
+<li><a href=#design-tips>Design Tips</a></li>
+<li><a href=#common-element-combinations>Common Element Combinations</a></li>
+</ul>
+</li>
+<li><a href=#step-7-advanced-customization>Step 7: Advanced Customization</a>
+<ul>
+<li><a href=#custom-css-for-enhanced-effects>Custom CSS for Enhanced Effects</a></li>
+<li><a href=#refresh-aos-after-dynamic-content>Refresh AOS After Dynamic Content</a></li>
+</ul>
+</li>
+<li><a href=#step-8-troubleshooting>Step 8: Troubleshooting</a>
+<ul>
+<li><a href=#common-issues>Common Issues:</a></li>
+<li><a href=#debug-mode>Debug Mode:</a></li>
+</ul>
+</li>
+<li><a href=#conclusion>Conclusion</a></li>
+</ul>
 </nav>
-    </nav>
+</nav>
 </aside>
-
-
-
-    
-
-        </main><footer class="footer">
-    
-    
-
-    
-
-    
-
-        
-            
-        
-
-        
-
-        
-        
-
-        
-
-    
-
-    
-        <span>&copy; 2025 The Marauders</span>
-    
-
-    <span>
-        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
-    </span>
+</main><footer class=footer>
+<span>&copy; 2025 The Marauders</span>
+<span>
+Made with &#10084;&#65039; using <a target=_blank href=https://github.com/gokarna-theme/gokarna-hugo>Gokarna</a>
+</span>
 </footer>
 </body>
 </html>

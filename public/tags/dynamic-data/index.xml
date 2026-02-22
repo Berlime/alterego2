@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dynamic Data on Kamil Sharip</title>
-    <link>//localhost:1313/tags/dynamic-data/</link>
-    <description>Recent content in Dynamic Data on Kamil Sharip</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/dynamic-data/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>JetEngine</title>
-      <link>//localhost:1313/posts/jet-engine/</link>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/jet-engine/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is my notes when using JetEngine with Bricks. I reference to this a lot to fit into my context and at least for my thought processes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;repeater-fields&#34;&gt;Repeater Fields&lt;/h2&gt;&#xA;&lt;p&gt;Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized &lt;code&gt;name id&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Then include in the Single Post Template, use JetEngine widget.&lt;/p&gt;&#xA;&lt;p&gt;You can also use native Bricks template system, which does not require JE&amp;rsquo;s Listings/Components.&#xA;To populate in Bricks, set the query to &lt;code&gt;JE Repeater&lt;/code&gt; it will populate available repeater for the particular Brick&amp;rsquo;s &lt;code&gt;single&lt;/code&gt; template in the &lt;code&gt;Template Setting&lt;/code&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Dynamic Data on Kamil Sharip</title>
+<link>//localhost:1313/tags/dynamic-data/</link>
+<description>Recent content in Dynamic Data on Kamil Sharip</description>
+<generator>Hugo</generator>
+<language>en-us</language>
+<lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0800</lastBuildDate>
+<atom:link href="//localhost:1313/tags/dynamic-data/index.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>JetEngine</title>
+<link>//localhost:1313/posts/jet-engine/</link>
+<pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
+<guid>//localhost:1313/posts/jet-engine/</guid>
+<description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is my notes when using JetEngine with Bricks. I reference to this a lot to fit into my context and at least for my thought processes.&lt;/p&gt;
+&lt;h2 id="repeater-fields"&gt;Repeater Fields&lt;/h2&gt;
+&lt;p&gt;Use Listings/Components by JetEngine to accommodate repeater field loop sin the front end, be sure that the name is the same with the italicized &lt;code&gt;name id&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then include in the Single Post Template, use JetEngine widget.&lt;/p&gt;
+&lt;p&gt;You can also use native Bricks template system, which does not require JE&amp;rsquo;s Listings/Components.
+To populate in Bricks, set the query to &lt;code&gt;JE Repeater&lt;/code&gt; it will populate available repeater for the particular Brick&amp;rsquo;s &lt;code&gt;single&lt;/code&gt; template in the &lt;code&gt;Template Setting&lt;/code&gt;.&lt;/p&gt;</description>
+</item>
+</channel>
 </rss>
