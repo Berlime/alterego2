@@ -1,136 +1,136 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Tags on Kamil Sharip</title>
-<link>//localhost:1313/tags/</link>
+<link>/tags/</link>
 <description>Recent content in Tags on Kamil Sharip</description>
 <generator>Hugo</generator>
 <language>en-us</language>
 <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0800</lastBuildDate>
-<atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>Agency</title>
-<link>//localhost:1313/tags/agency/</link>
+<link>/tags/agency/</link>
 <pubDate>Thu, 19 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/agency/</guid>
+<guid>/tags/agency/</guid>
 <description/>
 </item>
 <item>
 <title>Dev</title>
-<link>//localhost:1313/tags/dev/</link>
+<link>/tags/dev/</link>
 <pubDate>Thu, 19 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/dev/</guid>
+<guid>/tags/dev/</guid>
 <description/>
 </item>
 <item>
 <title>Wordpress</title>
-<link>//localhost:1313/tags/wordpress/</link>
+<link>/tags/wordpress/</link>
 <pubDate>Thu, 19 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/wordpress/</guid>
+<guid>/tags/wordpress/</guid>
 <description/>
 </item>
 <item>
 <title>Database</title>
-<link>//localhost:1313/tags/database/</link>
+<link>/tags/database/</link>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/database/</guid>
+<guid>/tags/database/</guid>
 <description/>
 </item>
 <item>
 <title>Maintenance</title>
-<link>//localhost:1313/tags/maintenance/</link>
+<link>/tags/maintenance/</link>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/maintenance/</guid>
+<guid>/tags/maintenance/</guid>
 <description/>
 </item>
 <item>
 <title>Brevo</title>
-<link>//localhost:1313/tags/brevo/</link>
+<link>/tags/brevo/</link>
 <pubDate>Tue, 03 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/brevo/</guid>
+<guid>/tags/brevo/</guid>
 <description/>
 </item>
 <item>
 <title>Bricks</title>
-<link>//localhost:1313/tags/bricks/</link>
+<link>/tags/bricks/</link>
 <pubDate>Tue, 03 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/bricks/</guid>
+<guid>/tags/bricks/</guid>
 <description/>
 </item>
 <item>
 <title>Lifestyle</title>
-<link>//localhost:1313/tags/lifestyle/</link>
+<link>/tags/lifestyle/</link>
 <pubDate>Wed, 31 Dec 2025 19:43:57 +0800</pubDate>
-<guid>//localhost:1313/tags/lifestyle/</guid>
+<guid>/tags/lifestyle/</guid>
 <description/>
 </item>
 <item>
 <title>Github</title>
-<link>//localhost:1313/tags/github/</link>
+<link>/tags/github/</link>
 <pubDate>Fri, 12 Sep 2025 16:57:01 +0800</pubDate>
-<guid>//localhost:1313/tags/github/</guid>
+<guid>/tags/github/</guid>
 <description/>
 </item>
 <item>
 <title>Ai Prompts</title>
-<link>//localhost:1313/tags/ai-prompts/</link>
+<link>/tags/ai-prompts/</link>
 <pubDate>Sat, 31 May 2025 16:42:07 +0800</pubDate>
-<guid>//localhost:1313/tags/ai-prompts/</guid>
+<guid>/tags/ai-prompts/</guid>
 <description/>
 </item>
 <item>
 <title>Essay</title>
-<link>//localhost:1313/tags/essay/</link>
+<link>/tags/essay/</link>
 <pubDate>Fri, 23 May 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/essay/</guid>
+<guid>/tags/essay/</guid>
 <description/>
 </item>
 <item>
 <title>Dynamic Data</title>
-<link>//localhost:1313/tags/dynamic-data/</link>
+<link>/tags/dynamic-data/</link>
 <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/dynamic-data/</guid>
+<guid>/tags/dynamic-data/</guid>
 <description/>
 </item>
 <item>
 <title>Web-Design</title>
-<link>//localhost:1313/tags/web-design/</link>
+<link>/tags/web-design/</link>
 <pubDate>Thu, 09 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/web-design/</guid>
+<guid>/tags/web-design/</guid>
 <description/>
 </item>
 <item>
 <title>Blog</title>
-<link>//localhost:1313/tags/blog/</link>
+<link>/tags/blog/</link>
 <pubDate>Tue, 07 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/blog/</guid>
+<guid>/tags/blog/</guid>
 <description/>
 </item>
 <item>
 <title>Static</title>
-<link>//localhost:1313/tags/static/</link>
+<link>/tags/static/</link>
 <pubDate>Fri, 27 Dec 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/static/</guid>
+<guid>/tags/static/</guid>
 <description/>
 </item>
 <item>
 <title>Server</title>
-<link>//localhost:1313/tags/server/</link>
+<link>/tags/server/</link>
 <pubDate>Tue, 17 Dec 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/server/</guid>
+<guid>/tags/server/</guid>
 <description/>
 </item>
 <item>
 <title>Backtracked</title>
-<link>//localhost:1313/tags/backtracked/</link>
+<link>/tags/backtracked/</link>
 <pubDate>Mon, 16 Dec 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/backtracked/</guid>
+<guid>/tags/backtracked/</guid>
 <description/>
 </item>
 <item>
 <title>Software</title>
-<link>//localhost:1313/tags/software/</link>
+<link>/tags/software/</link>
 <pubDate>Wed, 24 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/tags/software/</guid>
+<guid>/tags/software/</guid>
 <description/>
 </item>
 </channel>

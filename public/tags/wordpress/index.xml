@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Wordpress on Kamil Sharip</title>
-<link>//localhost:1313/tags/wordpress/</link>
+<link>/tags/wordpress/</link>
 <description>Recent content in Wordpress on Kamil Sharip</description>
 <generator>Hugo</generator>
 <language>en-us</language>
 <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0800</lastBuildDate>
-<atom:link href="//localhost:1313/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>How I Host My Main Site in Netlify and a Sub-Directory Using WordPress on a Different Server</title>
-<link>//localhost:1313/posts/netlify-wordpress-sub-directory/</link>
+<link>/posts/netlify-wordpress-sub-directory/</link>
 <pubDate>Thu, 19 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/netlify-wordpress-sub-directory/</guid>
+<guid>/posts/netlify-wordpress-sub-directory/</guid>
 <description>&lt;p&gt;My main site, &lt;code&gt;berlime.com&lt;/code&gt;, lives on Netlify. I added a separate WordPress instance in a sub-directory (&lt;code&gt;/guides&lt;/code&gt;) on a different server, so the main site and the guides section run on different instance.&lt;/p&gt;
 &lt;p&gt;So now my stack looks like this:&lt;/p&gt;
 &lt;ul&gt;
@@ -30,9 +30,9 @@
 </item>
 <item>
 <title>Clean Up Empty wp_postmeta Rows in WordPress (phpMyAdmin)</title>
-<link>//localhost:1313/posts/cleanup-wp-postmeta-empty-values/</link>
+<link>/posts/cleanup-wp-postmeta-empty-values/</link>
 <pubDate>Fri, 06 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/cleanup-wp-postmeta-empty-values/</guid>
+<guid>/posts/cleanup-wp-postmeta-empty-values/</guid>
 <description>&lt;h2 id="back-up-database-before-performing-this-action"&gt;Back Up Database before performing this action.&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Log-in into phpMyadmin.&lt;/li&gt;
@@ -68,9 +68,9 @@
 </item>
 <item>
 <title>Bricks + Brevo integration</title>
-<link>//localhost:1313/posts/bricks-brevo-integration/</link>
+<link>/posts/bricks-brevo-integration/</link>
 <pubDate>Tue, 03 Feb 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/bricks-brevo-integration/</guid>
+<guid>/posts/bricks-brevo-integration/</guid>
 <description>&lt;p&gt;This post walks through sending Bricks Builder form submissions to Brevo (Sendinblue) so new contacts land in a list. The code below uses the current Bricks hook and Brevo API; the &lt;a href="https://youtu.be/i6pAc0U4j9M?si=vTPw865cKUjsLyu2"&gt;video tutorial&lt;/a&gt; uses older code. For the same approach with more context (registration required), see the author’s article: &lt;a href="https://mangwp.com/how-to-create-subscription-list-using-brevo-api-and-bricks-builder-form-element/"&gt;How to create subscription list using Brevo API and Bricks Builder form element&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
 &lt;ul&gt;
@@ -108,37 +108,37 @@
 </item>
 <item>
 <title>Bricks Hotfixes</title>
-<link>//localhost:1313/posts/bricks-hotfixes/</link>
+<link>/posts/bricks-hotfixes/</link>
 <pubDate>Mon, 05 Jan 2026 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/bricks-hotfixes/</guid>
-<description>&lt;p&gt;I wanted a single spot for the Bricks fixes I reach for most often, so I merged my setup, checkout padding, anchor link, and checkbox tweaks into this quick notebook. If you are curious about how I prep posts like this, peek at &lt;a href="//localhost:1313/posts/my-reference-when-publishing-a-blog"&gt;My reference when publishing a blog&lt;/a&gt;.&lt;/p&gt;
+<guid>/posts/bricks-hotfixes/</guid>
+<description>&lt;p&gt;I wanted a single spot for the Bricks fixes I reach for most often, so I merged my setup, checkout padding, anchor link, and checkbox tweaks into this quick notebook. If you are curious about how I prep posts like this, peek at &lt;a href="/posts/my-reference-when-publishing-a-blog"&gt;My reference when publishing a blog&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="1-bricks-acss-frames-setup"&gt;1. Bricks, ACSS, Frames Setup&lt;/h2&gt;
 &lt;h3 id="why-this-stack"&gt;Why this stack&lt;/h3&gt;
 &lt;p&gt;Bricks + Automatic.css (ACSS) + Frames is still my fastest path to a styled build. The automatic setup flow is fine when I am in a hurry, but I always keep the manual steps ready in case the import files change.&lt;/p&gt;</description>
 </item>
 <item>
 <title>2025</title>
-<link>//localhost:1313/posts/2025/</link>
+<link>/posts/2025/</link>
 <pubDate>Wed, 31 Dec 2025 19:43:57 +0800</pubDate>
-<guid>//localhost:1313/posts/2025/</guid>
-<description>&lt;p&gt;2025 felt like the louder sequel to &lt;a href="//localhost:1313/posts/2024"&gt;2024&lt;/a&gt;. I spent most of the year inside WordPress halls, iterating on agency systems, and trying to make healthier defaults stick.&lt;/p&gt;
+<guid>/posts/2025/</guid>
+<description>&lt;p&gt;2025 felt like the louder sequel to &lt;a href="/posts/2024"&gt;2024&lt;/a&gt;. I spent most of the year inside WordPress halls, iterating on agency systems, and trying to make healthier defaults stick.&lt;/p&gt;
 &lt;h2 id="the-wordpress-year"&gt;The WordPress Year&lt;/h2&gt;
 &lt;p&gt;2025 turned out to be my biggest WordPress community year yet. I kept stacking roles, events, and conversations until the calendar looked like a fully booked content plan.&lt;/p&gt;
 &lt;p&gt;WordCamp Johor Bahru 2025 landed at &lt;a href="https://42kl.edu.my/"&gt;42 Iskandar Puteri&lt;/a&gt; on May 17. I helped run &lt;a href="https://johor.wordcamp.org/2025/"&gt;WordCamp Johor Bahru 2025&lt;/a&gt; as part of the organizing team handling social media, and the lucky draw streak decided to continue.&lt;/p&gt;</description>
 </item>
 <item>
 <title>Batch Process Images to WebP Using Affinity</title>
-<link>//localhost:1313/posts/batch-process-images-to-webp-using-affinity/</link>
+<link>/posts/batch-process-images-to-webp-using-affinity/</link>
 <pubDate>Tue, 16 Dec 2025 09:43:22 +0800</pubDate>
-<guid>//localhost:1313/posts/batch-process-images-to-webp-using-affinity/</guid>
+<guid>/posts/batch-process-images-to-webp-using-affinity/</guid>
 <description>&lt;p&gt;I used to queue up a client&amp;rsquo;s asset folder and play whack-a-mole with &lt;a href="https://squoosh.app/"&gt;Squoosh.app&lt;/a&gt; just to get everything into WebP. Great pixels, awful throughput. I even flirted with Photoshop automation plus a plugin, but the setup felt like building a space program, probably a skill issue on my end, but I wasn&amp;rsquo;t motivated to push through.&lt;/p&gt;
 &lt;p&gt;Canva buying Affinity came with a shiny new release, and tucked inside is a stupidly simple batch workflow. Affinity Photo (the Pixel persona) now does in one pass what took me a whole playlist before.&lt;/p&gt;</description>
 </item>
 <item>
 <title>Create Reveal Effect Using AOS in WordPress</title>
-<link>//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/</link>
+<link>/posts/create-reveal-effect-using-aos-in-wordpress/</link>
 <pubDate>Tue, 28 Oct 2025 07:44:55 +0800</pubDate>
-<guid>//localhost:1313/posts/create-reveal-effect-using-aos-in-wordpress/</guid>
+<guid>/posts/create-reveal-effect-using-aos-in-wordpress/</guid>
 <description>&lt;h2 id="step-1-install-and-setup-aos-library"&gt;Step 1: Install and Setup AOS Library&lt;/h2&gt;
 &lt;h3 id="method-1-using-cdn-recommended"&gt;Method 1: Using CDN (Recommended)&lt;/h3&gt;
 &lt;p&gt;Add the following code to your theme&amp;rsquo;s &lt;code&gt;functions.php&lt;/code&gt; file or use a code snippet plugin:&lt;/p&gt;
@@ -285,9 +285,9 @@ Image 3: data-aos=&amp;#34;zoom-in&amp;#34; data-aos-duration=&amp;#34;800&amp;#
 </item>
 <item>
 <title>Custom Fonts</title>
-<link>//localhost:1313/posts/custom-fonts/</link>
+<link>/posts/custom-fonts/</link>
 <pubDate>Fri, 14 Mar 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/custom-fonts/</guid>
+<guid>/posts/custom-fonts/</guid>
 <description>&lt;p&gt;I found a video by &lt;a href="https://www.youtube.com/@mr.matt.eastwood"&gt;Matty Eastwood&lt;/a&gt; on how to upload &lt;code&gt;Custom Fonts&lt;/code&gt; with Bricks Builder.&lt;/p&gt;
 &lt;p&gt;If you uploaded custom fonts before with Bricks Builder, I am sure you understand the hassle to upload the fonts.
 But Matty showed us an easier way to upload custom fonts with a few different ways of how to do it.&lt;/p&gt;
@@ -298,9 +298,9 @@ But Matty showed us an easier way to upload custom fonts with a few different wa
 </item>
 <item>
 <title>Bricks Builder</title>
-<link>//localhost:1313/posts/bricks-builder/</link>
+<link>/posts/bricks-builder/</link>
 <pubDate>Tue, 25 Feb 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/bricks-builder/</guid>
+<guid>/posts/bricks-builder/</guid>
 <description>&lt;h2 id="archive-templates"&gt;Archive templates&lt;/h2&gt;
 &lt;p&gt;This is a good video I found to create &lt;code&gt;Archive Templates&lt;/code&gt; with WordPress&amp;rsquo;s native &lt;code&gt;Blog/Post Page&lt;/code&gt;, &lt;code&gt;Categories Page&lt;/code&gt; etc.&lt;/p&gt;
 &lt;p&gt;The video tutorial is especially good if you want multiple CPT&amp;rsquo;s archive page to look the same.&lt;/p&gt;
@@ -317,9 +317,9 @@ But Matty showed us an easier way to upload custom fonts with a few different wa
 </item>
 <item>
 <title>Local Set Up</title>
-<link>//localhost:1313/posts/local-set-up/</link>
+<link>/posts/local-set-up/</link>
 <pubDate>Tue, 04 Feb 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/local-set-up/</guid>
+<guid>/posts/local-set-up/</guid>
 <description>&lt;p&gt;Local WordPress development environments like Local by WP Engine are typically slower than live hosting for several reasons:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -330,9 +330,9 @@ But Matty showed us an easier way to upload custom fonts with a few different wa
 </item>
 <item>
 <title>AAM Access Policy</title>
-<link>//localhost:1313/posts/aam-access-policy/</link>
+<link>/posts/aam-access-policy/</link>
 <pubDate>Tue, 28 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/aam-access-policy/</guid>
+<guid>/posts/aam-access-policy/</guid>
 <description>&lt;h2 id="accss-frames-jetengine-bricks"&gt;ACCSS, Frames, JetEngine, Bricks&lt;/h2&gt;
  &lt;details style="border: 1px solid #ccc; padding: 1rem; border-radius: 5px; background-color: #292C30;"&gt;
  &lt;summary style="cursor: pointer; color: #ccc; font-weight: bold;"&gt;Click to expand&lt;/summary&gt;
@@ -476,9 +476,9 @@ But Matty showed us an easier way to upload custom fonts with a few different wa
 </item>
 <item>
 <title>ACSS</title>
-<link>//localhost:1313/posts/acss/</link>
+<link>/posts/acss/</link>
 <pubDate>Tue, 21 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/acss/</guid>
+<guid>/posts/acss/</guid>
 <description>&lt;h2 id="autogrid"&gt;Autogrid&lt;/h2&gt;
 &lt;h3 id="variable-method"&gt;Variable Method&lt;/h3&gt;
 &lt;p&gt;Downside - Uses default aggressive value, unable to pixel perfect control.&lt;/p&gt;
@@ -497,9 +497,9 @@ But Matty showed us an easier way to upload custom fonts with a few different wa
 </item>
 <item>
 <title>SQL Command</title>
-<link>//localhost:1313/posts/sql-command/</link>
+<link>/posts/sql-command/</link>
 <pubDate>Tue, 14 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/sql-command/</guid>
+<guid>/posts/sql-command/</guid>
 <description>&lt;h2 id="elementor-field"&gt;Elementor field&lt;/h2&gt;
 &lt;p&gt;Particularly with the &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag.
 In this case, I have stopped subscribing to Elementor Pro which made my slider template gone, including the content.&lt;/p&gt;
@@ -515,9 +515,9 @@ However, it seems that the content is still available in the database, and below
 </item>
 <item>
 <title>JetEngine</title>
-<link>//localhost:1313/posts/jet-engine/</link>
+<link>/posts/jet-engine/</link>
 <pubDate>Fri, 10 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/jet-engine/</guid>
+<guid>/posts/jet-engine/</guid>
 <description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is my notes when using JetEngine with Bricks. I reference to this a lot to fit into my context and at least for my thought processes.&lt;/p&gt;
 &lt;h2 id="repeater-fields"&gt;Repeater Fields&lt;/h2&gt;
@@ -528,10 +528,10 @@ To populate in Bricks, set the query to &lt;code&gt;JE Repeater&lt;/code&gt; it 
 </item>
 <item>
 <title>Regex</title>
-<link>//localhost:1313/posts/regex/</link>
+<link>/posts/regex/</link>
 <pubDate>Tue, 07 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/regex/</guid>
-<description>&lt;p&gt;Previously, I posted about &lt;a href="//localhost:1313/WCPA"&gt;Woo Commerce Products Add-Ons&lt;/a&gt; on using a formula to determine the value of a wood radius that needs to be cut.&lt;/p&gt;
+<guid>/posts/regex/</guid>
+<description>&lt;p&gt;Previously, I posted about &lt;a href="/WCPA"&gt;Woo Commerce Products Add-Ons&lt;/a&gt; on using a formula to determine the value of a wood radius that needs to be cut.&lt;/p&gt;
 &lt;p&gt;Today, while developing a client&amp;rsquo;s site, I realize that phone number fields requires some special characters like &amp;lsquo;()&amp;rsquo; and &amp;ldquo;+&amp;rdquo; and of course spaces.&lt;/p&gt;
 &lt;p&gt;I use CoPilot to create for me that Regex, and my prompt was:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Give me an example of a regex pattern that includes symbols
@@ -539,9 +539,9 @@ To populate in Bricks, set the query to &lt;code&gt;JE Repeater&lt;/code&gt; it 
 </item>
 <item>
 <title>Woo Commerce Icons</title>
-<link>//localhost:1313/posts/woo-commerce-icons/</link>
+<link>/posts/woo-commerce-icons/</link>
 <pubDate>Mon, 06 Jan 2025 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/woo-commerce-icons/</guid>
+<guid>/posts/woo-commerce-icons/</guid>
 <description>&lt;h2 id="use-case"&gt;Use case&lt;/h2&gt;
 &lt;p&gt;Client requested a custom order status, for context, there are a lot of ways to do this.
 I recommend getting plug-ins from Yith which obviously adds up to their commitment.&lt;/p&gt;
@@ -550,9 +550,9 @@ I recommend getting plug-ins from Yith which obviously adds up to their commitme
 </item>
 <item>
 <title>Rounded Corners</title>
-<link>//localhost:1313/posts/rounded-corners/</link>
+<link>/posts/rounded-corners/</link>
 <pubDate>Wed, 18 Dec 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/rounded-corners/</guid>
+<guid>/posts/rounded-corners/</guid>
 <description>&lt;h2 id="wcpa-rounded-corners-for-custom-wood-orders"&gt;WCPA Rounded corners for custom wood orders&lt;/h2&gt;
 &lt;p&gt;First, we need to determine the minmax of the cuts for each corner. This cuts must be relative to the width and the length.
 The goal is to allow users to customize order not just by adding rounded corners on the required sides, but also, allows granular measurement for irregular shapes, and routing.&lt;/p&gt;
@@ -561,9 +561,9 @@ The goal is to allow users to customize order not just by adding rounded corners
 </item>
 <item>
 <title>WCPA</title>
-<link>//localhost:1313/posts/wcpa/</link>
+<link>/posts/wcpa/</link>
 <pubDate>Tue, 17 Dec 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/wcpa/</guid>
+<guid>/posts/wcpa/</guid>
 <description>&lt;h2 id="planning"&gt;Planning&lt;/h2&gt;
 &lt;p&gt;We will now strategize and plan how to execute the WCPA fields based on each product and it&amp;rsquo;s variations.&lt;/p&gt;
 &lt;p&gt;Below is what we need to accomplish&lt;/p&gt;
@@ -578,26 +578,26 @@ The goal is to allow users to customize order not just by adding rounded corners
 </item>
 <item>
 <title>SEO Partnership</title>
-<link>//localhost:1313/posts/seo-partnership/</link>
+<link>/posts/seo-partnership/</link>
 <pubDate>Thu, 22 Aug 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/seo-partnership/</guid>
+<guid>/posts/seo-partnership/</guid>
 <description>&lt;h2 id="new-seo-service"&gt;New SEO Service&lt;/h2&gt;
 &lt;p&gt;Today marks the journey of introducing a new suite of services to my agency. Before we dive in, let me tell you a story about why offering SEO services may not be as easy as spinning up a new product line. You see, running an agency has its own challenges, especially with limited resources in terms of manpower and financial capabilities. My agency&amp;rsquo;s core product offers a web development service. This service alone involves thousands of technicalities that require a certain level of skill set.&lt;/p&gt;</description>
 </item>
 <item>
 <title>NurusySyabab</title>
-<link>//localhost:1313/posts/nurusysyabab/</link>
+<link>/posts/nurusysyabab/</link>
 <pubDate>Sun, 21 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/nurusysyabab/</guid>
+<guid>/posts/nurusysyabab/</guid>
 <description>&lt;h2 id="a-different-approach"&gt;A different approach&lt;/h2&gt;
 &lt;p&gt;I have been using Elementor builder for a WordPress project. No doubt it is a great tool for me to start or in fact, anyone! This is the builder that I used when I first discovered WordPress. (The right way LOL) - &lt;em&gt;will definitely blog about this.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I quickly discovered that there are bunches of options you can include the tech-stack for your WordPress journey. Thanks to the nature of a technology, which tends to change/updates really fast. The theme that I used released a native &amp;lsquo;Full-Site Editing&amp;rsquo; experience.&lt;/p&gt;</description>
 </item>
 <item>
 <title>WP Meet Up</title>
-<link>//localhost:1313/posts/wp-meet-up/</link>
+<link>/posts/wp-meet-up/</link>
 <pubDate>Fri, 19 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/wp-meet-up/</guid>
+<guid>/posts/wp-meet-up/</guid>
 <description>&lt;p&gt;Hello there! Before we start on the topic. This is the first backtracked post. It was a draft I while developing this new Hugo site.
 Let me bring you back in time. The post date you see above is the event or the moment happened. The real date that I post a backtracked blog is under &amp;ldquo;Published Date&amp;rdquo; (See example below)&lt;/p&gt;
 &lt;blockquote&gt;

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Static on Kamil Sharip</title>
-<link>//localhost:1313/tags/static/</link>
+<link>/tags/static/</link>
 <description>Recent content in Static on Kamil Sharip</description>
 <generator>Hugo</generator>
 <language>en-us</language>
 <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0800</lastBuildDate>
-<atom:link href="//localhost:1313/tags/static/index.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="/tags/static/index.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>My Reference When Publishing a Blog</title>
-<link>//localhost:1313/posts/my-reference-when-publishing-a-blog/</link>
+<link>/posts/my-reference-when-publishing-a-blog/</link>
 <pubDate>Fri, 27 Dec 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/my-reference-when-publishing-a-blog/</guid>
+<guid>/posts/my-reference-when-publishing-a-blog/</guid>
 <description>&lt;h2 id="create-new-post-via-terminal"&gt;Create New Post via Terminal&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -45,18 +45,18 @@
 </item>
 <item>
 <title>Alter Ego 2 - First Post</title>
-<link>//localhost:1313/posts/alter-ego-2/</link>
+<link>/posts/alter-ego-2/</link>
 <pubDate>Fri, 08 Mar 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/alter-ego-2/</guid>
+<guid>/posts/alter-ego-2/</guid>
 <description>&lt;p&gt;When I was 16, I launched my blog site with blogpost.com (now blogger.com).&lt;/p&gt;
 &lt;p&gt;You say why I blog? Well, my parents did not manage to get a hold of a computer yet during that period. So what I did was, wrote a journal but wouldn’t call it a journal.&lt;/p&gt;
 &lt;p&gt;You see, the way I did it was to write in a ‘magazine’ look and format where there will be so-called “ads” for the stuff I find interesting. There are 3 versions of this which will remain offline for keepsake and nostalgic moments.&lt;/p&gt;</description>
 </item>
 <item>
 <title>I use Hugo for this blog</title>
-<link>//localhost:1313/posts/hugo/</link>
+<link>/posts/hugo/</link>
 <pubDate>Tue, 30 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/hugo/</guid>
+<guid>/posts/hugo/</guid>
 <description>&lt;h2 id="hugo-is-a-static-site-generator"&gt;Hugo is a static site generator&lt;/h2&gt;
 &lt;p&gt;Introduced by my good friend of mind back in Secondary school. I straight away fell in love in static sites. I have been dabbling into WordPress thinking that it is the &amp;lsquo;Holy Grail&amp;rsquo; of web development. &lt;em&gt;buzzz!!&lt;/em&gt; Nope. I was totally wrong.&lt;/p&gt;
 &lt;p&gt;Tasnim, actually first started using &lt;a href="https://gethugo.io"&gt;Hugo&lt;/a&gt; for his own personal blog. He thought me a lot about how VS Code works, this is the point where I discovered the term IDE, he is darn good at explaining complex things into simple terms. Which struck me like a lightning.&lt;/p&gt;</description>
