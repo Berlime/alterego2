@@ -52,6 +52,12 @@
         </ul>
     </div>
 
+    {{ if .Params.image }}
+    <figure class="post-featured-image">
+        <img src="{{ .Params.image | absURL }}" alt="{{ .Title | plainify | default "Post image" }}">
+    </figure>
+    {{ end }}
+
     <div class="post-content">
         {{ .Content }}
         {{ if .Site.Config.Services.Disqus.Shortname }}
