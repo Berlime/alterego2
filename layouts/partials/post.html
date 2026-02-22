@@ -2,9 +2,19 @@
     <div class="post-header-section">
         <h1>{{ or (.Params.H1 | markdownify) (.Title | markdownify) }}</h1>
 
+        {{ $imgSrc := "" }}
         {{ if .Params.image }}
+            {{ if hasPrefix .Params.image "/" }}
+                {{ $imgSrc = printf "/%s" (strings.TrimPrefix "/" .Params.image) }}
+            {{ else }}
+                {{ with .Resources.GetMatch .Params.image }}
+                    {{ $imgSrc = .RelPermalink }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ if $imgSrc }}
         <figure class="post-featured-image">
-            <img src="/{{ strings.TrimPrefix "/" .Params.image }}" alt="{{ .Title | plainify | default "Post image" }}">
+            <img src="{{ $imgSrc }}" alt="{{ .Title | plainify | default "Post image" }}">
         </figure>
         {{ end }}
 
@@ -51,12 +61,6 @@
          {{ end }}
         </ul>
     </div>
-
-    {{ if .Params.image }}
-    <figure class="post-featured-image">
-        <img src="{{ .Params.image | absURL }}" alt="{{ .Title | plainify | default "Post image" }}">
-    </figure>
-    {{ end }}
 
     <div class="post-content">
         {{ .Content }}
