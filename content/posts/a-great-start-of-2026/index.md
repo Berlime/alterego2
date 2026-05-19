@@ -84,9 +84,4 @@ Q2 is about actually using the new wiki pages on real projects, and picking the 
 If any of this helped, or you want to compare notes on Campus Connect or agency wiki stuff, drop me a note at kamil@berlime.com, I am around.
 
 > - *Post Changelogs*
->   - *19th May 2026 - Inari training: three batches, trainer angle*
->   - *19th May 2026 - Inari Amertron monday.com training section*
->   - *19th May 2026 - Images and WCMY 2025 sponsor section*
->   - *19th May 2026 - Agency sections: storytelling pass*
->   - *19th May 2026 - Tone pass: less salesy on agency sections*
 >   - *19th May 2026 - Publish Date*
