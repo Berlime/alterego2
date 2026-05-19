@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Lifestyle on Kamil Sharip</title>
-<link>//localhost:1313/tags/lifestyle/</link>
+<link>/tags/lifestyle/</link>
 <description>Recent content in Lifestyle on Kamil Sharip</description>
 <generator>Hugo</generator>
 <language>en-us</language>
 <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0800</lastBuildDate>
-<atom:link href="//localhost:1313/tags/lifestyle/index.xml" rel="self" type="application/rss+xml"/>
+<atom:link href="/tags/lifestyle/index.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>2025</title>
-<link>//localhost:1313/posts/2025/</link>
+<link>/posts/2025/</link>
 <pubDate>Wed, 31 Dec 2025 19:43:57 +0800</pubDate>
-<guid>//localhost:1313/posts/2025/</guid>
-<description>&lt;p&gt;2025 felt like the louder sequel to &lt;a href="//localhost:1313/posts/2024"&gt;2024&lt;/a&gt;. I spent most of the year inside WordPress halls, iterating on agency systems, and trying to make healthier defaults stick.&lt;/p&gt;
+<guid>/posts/2025/</guid>
+<description>&lt;p&gt;2025 felt like the louder sequel to &lt;a href="/posts/2024"&gt;2024&lt;/a&gt;. I spent most of the year inside WordPress halls, iterating on agency systems, and trying to make healthier defaults stick.&lt;/p&gt;
 &lt;h2 id="the-wordpress-year"&gt;The WordPress Year&lt;/h2&gt;
 &lt;p&gt;2025 turned out to be my biggest WordPress community year yet. I kept stacking roles, events, and conversations until the calendar looked like a fully booked content plan.&lt;/p&gt;
 &lt;p&gt;WordCamp Johor Bahru 2025 landed at &lt;a href="https://42kl.edu.my/"&gt;42 Iskandar Puteri&lt;/a&gt; on May 17. I helped run &lt;a href="https://johor.wordcamp.org/2025/"&gt;WordCamp Johor Bahru 2025&lt;/a&gt; as part of the organizing team handling social media, and the lucky draw streak decided to continue.&lt;/p&gt;</description>
 </item>
 <item>
 <title>White Loaf</title>
-<link>//localhost:1313/posts/white-loaf/</link>
+<link>/posts/white-loaf/</link>
 <pubDate>Sat, 07 Sep 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/white-loaf/</guid>
+<guid>/posts/white-loaf/</guid>
 <description>&lt;h2 id="sour-dough"&gt;Sour Dough&lt;/h2&gt;
 &lt;p&gt;My wife recently is interested to make her own sourdough, thanks to B.E.N (You can refer to the post I talk about B.E.N, a grocery store. Click &lt;a href="https://alterego.berlime.com/posts/ben/"&gt;Here&lt;/a&gt;) Sourdough have a lot of variety, types, shape, taste &amp;amp; purpose.&lt;/p&gt;
 &lt;p&gt;I recommend Goat Cheese Sandwich to go with. It is a classic sandwich that consists of a slice of sour dough, a thick slice of goat cheese, drizzle with olive oil and season it with some salt and black pepper. Toast it for about 5 minutes, and for the extra touch, blow torch the top surface to have some smoked/charred taste. Or if you somehow have a &lt;a href="https://www.webstaurantstore.com/guide/969/what-is-a-salamander-oven.html"&gt;salamander&lt;/a&gt;, a cooking equipment.&lt;/p&gt;</description>
 </item>
 <item>
 <title>B.E.N!</title>
-<link>//localhost:1313/posts/ben/</link>
+<link>/posts/ben/</link>
 <pubDate>Fri, 26 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/ben/</guid>
+<guid>/posts/ben/</guid>
 <description>&lt;p&gt;I live in Johor Bahru, Malaysia. Specifically, Western part of Johor. Near Legoland Malaysia.
 In my area, there aren&amp;rsquo;t many groceries store around, there about 6 supermarkets nearby (at least 10-30 mins). Further than that, I do not consider it nearby.&lt;/p&gt;
 &lt;p&gt;6 supermarkets may sound a lot for some. But not to me because most of them sell the same things. Say for an example, I could not find any natural sea salt in most of the supermarket.&lt;/p&gt;</description>
 </item>
 <item>
 <title>WP Meet Up</title>
-<link>//localhost:1313/posts/wp-meet-up/</link>
+<link>/posts/wp-meet-up/</link>
 <pubDate>Fri, 19 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/wp-meet-up/</guid>
+<guid>/posts/wp-meet-up/</guid>
 <description>&lt;p&gt;Hello there! Before we start on the topic. This is the first backtracked post. It was a draft I while developing this new Hugo site.
 Let me bring you back in time. The post date you see above is the event or the moment happened. The real date that I post a backtracked blog is under &amp;ldquo;Published Date&amp;rdquo; (See example below)&lt;/p&gt;
 &lt;blockquote&gt;
@@ -55,9 +55,9 @@ Let me bring you back in time. The post date you see above is the event or the m
 </item>
 <item>
 <title>Room Updates</title>
-<link>//localhost:1313/posts/room-updates/</link>
+<link>/posts/room-updates/</link>
 <pubDate>Fri, 05 Jan 2024 00:00:00 +0800</pubDate>
-<guid>//localhost:1313/posts/room-updates/</guid>
+<guid>/posts/room-updates/</guid>
 <description>&lt;p&gt;Ever since my late mom bought the house I currently live in, it is still in the original, unadorned state. My late mom did not opt for any renovations or even fancy decorations and pieces of furniture.&lt;/p&gt;
 &lt;p&gt;The only thing that my mom did was the kitchen cabinet and countertop which was not included when we got this house.&lt;/p&gt;
 &lt;p&gt;Oh yeah, we got it first-hand, brand-new back in around 2014.&lt;/p&gt;</description>
